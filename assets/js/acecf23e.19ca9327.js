@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktheiiienrique_github_io=self.webpackChunktheiiienrique_github_io||[]).push([[1903],{1912:i=>{i.exports=JSON.parse('{"blogBasePath":"/theiiienrique.github.io/blog","blogTitle":"Blog"}')}}]);
