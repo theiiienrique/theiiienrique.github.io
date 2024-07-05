@@ -4,32 +4,30 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'High-quality documentation',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Skilled in creating high-quality documentation for software products.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Proficient with technical writing tools',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Proficient with technical writing tools such as Markdown, Docusaurus,
+        Git, and docs-as-code workflows.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'API documentation',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Experienced in writing API documentation.
       </>
     ),
   },
