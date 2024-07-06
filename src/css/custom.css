@@ -58,15 +58,15 @@ hr {
 .main-wrapper main {
   padding: 1em;
   h1 {
-    font-size: 2em !important;
+    --ifm-h1-font-size: 2em !important;
   }
   h2 {
-    font-size: 1.5em !important;
+    --ifm-h2-font-size: 1.5em !important;
   }
   h3 {
-    font-size: 1.25em !important;
+    --ifm-h3-font-size: 1.25em !important;
   }
   h4 {
-    font-size: 1em !important;
+    --ifm-h4-font-size: 1em !important;
   }
 }
