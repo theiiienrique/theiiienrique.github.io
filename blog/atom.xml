@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://theiiienrique.github.io/blog</id>
-    <title>My Site Blog</title>
+    <title>Enrique Martinez III Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://theiiienrique.github.io/blog"/>
-    <subtitle>My Site Blog</subtitle>
-    <icon>https://theiiienrique.github.io/img/favicon.ico</icon>
+    <subtitle>Enrique Martinez III Blog</subtitle>
+    <icon>https://theiiienrique.github.io/https://github.com/theiiienrique.png</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>https://theiiienrique.github.io/blog/welcome</id>
