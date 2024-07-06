@@ -86,3 +86,6 @@ article {
     font-size: 1em;
   }
 }
+hr {
+  opacity: 0;
+}
