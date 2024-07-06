@@ -1,12 +1,16 @@
 ---
-title: About
+title: About me
 description: About me
 hide_table_of_contents: true
 ---
 
-# About
+# About me
 
 Hello! I’m Enrique, a dedicated technical writer seeking opportunities to write and enhance project documentation. Be it internships, entry-level positions, or freelance projects, I’m eager to contribute my skills to real-world endeavors and gain valuable hands-on experience. Let’s create impactful documentation that stands out.
+
+## Tools and technology
+
+Agile, CLI, Confluence, Docs as Code, Git, GitHub, Google Developer Documentation Style Guide, Jira, Linux, Markdown, Notion, Obsidian, Slack, Snagit, static site generators like Docusaurus, Hugo, and Jekyll, VS Code
 
 ## Experience
 
@@ -19,3 +23,4 @@ Hello! I’m Enrique, a dedicated technical writer seeking opportunities to writ
 **Master of Arts in Literary Editing and Publishing**, University of Southern California
 
 **Bachelor of Arts in Narrative Studies**, University of Southern California
+
