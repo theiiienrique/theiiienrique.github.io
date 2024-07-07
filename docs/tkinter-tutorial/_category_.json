@@ -1,0 +1,8 @@
+{
+    "label": "Tkinter",
+    "position": 4,
+    "link": {
+      "type": "generated-index",
+      "description": "Learn how to use Tkinter to create a simple CRUD application."
+  }
+}
