@@ -38,8 +38,6 @@
 .mdx-wrapper .main-wrapper {
   max-width: 800px;
   margin: auto;
-  display: flex;
-  justify-content: center;
 }
 hr {
   opacity: 0;
