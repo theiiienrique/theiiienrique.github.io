@@ -11,6 +11,7 @@ const config = {
   title: 'Enrique Martinez III',
   tagline: 'Technical Writer',
   favicon: 'https://github.com/theiiienrique.png',
+  staticDirectories: ['public', 'static'],
 
   // Set the production url of your site here
   url: 'https://theiiienrique.github.io',
