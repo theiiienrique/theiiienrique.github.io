@@ -1,0 +1,8 @@
+vale:
+  label: "vale"
+  permalink: "/vale"
+  description: "Docs related to Vale"
+how-to:
+  label: "how-to"
+  permalink: "/how-to"
+  description: "How-to guides"
