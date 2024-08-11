@@ -76,3 +76,20 @@ hr {
 body, h1, h2, h3, h4, h5, h6 {
   font-family: 'Mulish', sans-serif;
 }
+.MuiStepIcon-text {
+  fill: #1b1b1d !important;
+}
+circle {
+  color: #b7c2d6;
+}
+.language-shell .token-line {
+  position: relative;
+  padding-left: 1.25em;
+}
+
+.language-shell .token-line::before {
+  content: "$";
+  position: absolute;
+  left: 0;
+  color: #6a737d; /* You can adjust this color to match your theme */
+}
