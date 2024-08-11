@@ -1,6 +1,9 @@
 ---
 sidebar_position: 2
 description: Learn how to add Vale to your repository.
+tags:
+  - vale
+  - how-to
 ---
 
 import Tabs from '@theme/Tabs';
