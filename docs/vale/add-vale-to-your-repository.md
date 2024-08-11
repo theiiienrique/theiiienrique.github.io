@@ -25,6 +25,8 @@ Before proceeding, ensure you have the following:
 
 ## Install Vale
 
+Complete the following steps to install Vale:
+
 <Stepper>
 
 <Step>
@@ -94,7 +96,7 @@ nano .vale.ini
 
 Navigate to the [Vale Config Generator](https://vale.sh/generator) to generate your Vale configuration file.
 
-![Vale Config Generator](/img/vale/config-generator.png)
+![Vale Config Generator page](/img/vale/config-generator.png)_Vale Config Generator page_
 
 </Step>
 
@@ -175,6 +177,8 @@ styles/
 </Stepper>
 
 ## Install the Vale VS Code extension
+
+Complete the following steps to install the Vale VS Code extension:
 
 <Stepper>
 

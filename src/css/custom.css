@@ -93,3 +93,20 @@ circle {
   left: 0;
   color: #6a737d; /* You can adjust this color to match your theme */
 }
+
+.markdown img + em {
+  display: block;
+  font-size: 0.85em;
+  text-align: center;
+  margin-top: 0.25rem;
+}
+
+.markdown img {
+  border: 1px solid #dadde1;
+  border-radius: 0.5rem;
+}
+
+.markdown a:not(.hash-link) {
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
