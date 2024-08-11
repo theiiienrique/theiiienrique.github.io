@@ -58,6 +58,9 @@ hr {
 .main-wrapper main {
   padding: 1em;
 }
+.title_node_modules-\@docusaurus-theme-classic-lib-theme-DocCategoryGeneratedIndexPage-styles-module {
+  --ifm-h1-font-size: 2em !important;
+}
 .markdown h1:first-child {
   --ifm-h1-font-size: 2em !important
 }
