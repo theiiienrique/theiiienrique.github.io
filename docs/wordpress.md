@@ -56,7 +56,7 @@ Select the thumbnail of the file you uploaded to modify it.
 Edit the **Alternative text** field.
 
 :::tip ALT TEXT
-Refer to this [[guide](https://developers.google.com/style/images#alt-text)] to learn how to write helpful alt text for images.
+Refer to this [guide](https://developers.google.com/style/images#alt-text) to learn how to write helpful alt text for images.
 :::
 
 </Step>
