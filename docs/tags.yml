@@ -6,3 +6,7 @@ how-to:
   label: "how-to"
   permalink: "/how-to"
   description: "How-to guides"
+wordpress:
+  label: "wordpress"
+  permalink: "/wordpress"
+  description: "WordPress"
