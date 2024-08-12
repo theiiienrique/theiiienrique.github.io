@@ -149,8 +149,8 @@ Hover over your selected template and click **New draft**.
 
 Complete the following steps to edit the post you created:
 
-### For art and media
-
+<Tabs>
+<TabItem value="art-and-media" label="For art and media" default>
 <Stepper>
 
 <Step>
@@ -214,9 +214,8 @@ Insert the contributor's bio, making sure to write their name in bold, in the **
 </Step>
 
 </Stepper>
-
-### For prose and poetry
-
+</TabItem>
+<TabItem value="prose-and-poetry" label="For prose and poetry" default>
 <Stepper>
 
 <Step>
@@ -244,6 +243,12 @@ Insert the contributor's bio, making sure to write their name in bold, in the th
 </Step>
 
 </Stepper>
+</TabItem>
+</Tabs>
+
+
+
+
 
 ## Edit post metadata and publish
 
