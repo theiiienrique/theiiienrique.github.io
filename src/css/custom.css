@@ -47,12 +47,9 @@
   background-color: #1b1b1d;
   border-color: #1b1b1d;
 }
-.mdx-wrapper .main-wrapper {
+.mdx-wrapper .container {
   max-width: 800px;
   margin: auto;
-}
-hr {
-  opacity: 0;
 }
 .hero__title {
   font-size: 2.5em;
