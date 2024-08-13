@@ -1,41 +1,11 @@
-# Website
+# theiiienrique.github.io
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Welcome to my personal website! This site is a portfolio to showcase my work, projects, and interests in technical writing, software development, and more.
 
-### Installation
+## About the site
 
-```
-$ yarn
-```
+This website is built using [Docusaurus](https://docusaurus.io/), a modern static site generator designed to help developers create documentation websites quickly and efficiently. The site is hosted on GitHub Pages.
 
-### Local Development
+---
 
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Thanks for visiting my site! I hope you find something of interest.
