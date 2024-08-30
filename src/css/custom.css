@@ -152,7 +152,11 @@ circle {
 }
 
 article > ul > li {
-  margin-bottom: 1rem;
+  margin-bottom: 10px;
+}
+
+article > ul {
+  margin-bottom: 30px;
 }
 
 [data-theme='light'] article .anchor {
