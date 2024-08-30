@@ -29,7 +29,7 @@
   --ifm-color-primary-lightest: #ffffff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
-[data-theme='light'] .button {
+/* [data-theme='light'] .button {
   background-color: #ffffff;
   border-color: #ffffff;
   color: #3b4252;
@@ -46,7 +46,7 @@
 [data-theme='dark'] .button:hover {
   background-color: #1b1b1d;
   border-color: #1b1b1d;
-}
+} */
 .mdx-wrapper .container {
   /* max-width: 800px;
   margin: auto; */
@@ -54,16 +54,25 @@
 .hero__title {
   font-size: 2.5em;
 }
+.hero--primary {
+  --ifm-hero-background-color: none;
+  --ifm-hero-text-color: none;
+  height: 35vh;
+  padding: 0 !important;
+}
+#__docusaurus_skipToContent_fallback > main > section {
+  padding: 0px 0px 5em;
+}
 @media screen and (max-width: 996px) {
   .hero__title {
     font-size: 2em;
   }
   .hero {
-    padding: 3rem 0 !important;
+    padding: 0 !important;
   }
 }
 .main-wrapper main {
-  /* padding: 1em; */
+  padding: 0 1.5rem;
 }
 .title_node_modules-\@docusaurus-theme-classic-lib-theme-DocCategoryGeneratedIndexPage-styles-module, .title_kItE {
   --ifm-h1-font-size: 2em !important;
@@ -114,8 +123,8 @@ circle {
 }
 
 .markdown a:not(.hash-link) {
-    text-decoration: none;
-    border-bottom: 1px dotted;
+    text-decoration: underline;
+    /* border-bottom: 1px dotted; */
 }
 
 .tech-grid {
@@ -128,16 +137,50 @@ circle {
 
 .tech-grid img {
   width: 100%; /* Ensure images take up the full width of the grid cell */
-  height: 150px; /* Maintain aspect ratio */
+  height: 100px; /* Maintain aspect ratio */
   object-fit: contain;
   background-color: #fff;
   border-radius: 8px;
   /* border: 1px solid #dde2ec; */
-  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 20%);
+  box-shadow: 0 1px 5px 0 rgb(0 0 0 / 10%);
   padding: 10px;
   transition: transform 0.2s ease-in-out;
 }
 
 .tech-grid img:hover {
   transform: scale(1.025); /* Slight scaling effect on hover */
+}
+
+article > ul > li {
+  margin-bottom: 1rem;
+}
+
+[data-theme='light'] article .anchor {
+  border-bottom: 1px solid #dde2ec;
+  padding-bottom: 0.5rem;
+}
+
+[data-theme='dark'] article .anchor {
+  border-bottom: 1px solid #444950;
+  padding-bottom: 0.5rem;
+}
+
+[data-theme='light'] article > header > h1 {
+  border-bottom: 1px solid #dde2ec;
+  padding-bottom: 0.5rem;
+}
+
+[data-theme='dark'] article > header > h1 {
+  border-bottom: 1px solid #444950;
+  padding-bottom: 0.5rem;
+}
+
+[data-theme='light'] .theme-doc-markdown > header > h1 {
+  border-bottom: 1px solid #dde2ec;
+  padding-bottom: 0.5rem;
+}
+
+[data-theme='dark'] .theme-doc-markdown > header > h1 {
+  border-bottom: 1px solid #444950;
+  padding-bottom: 0.5rem;
 }
