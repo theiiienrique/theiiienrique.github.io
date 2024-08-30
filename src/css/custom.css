@@ -123,8 +123,8 @@ circle {
 }
 
 .markdown a:not(.hash-link) {
-    text-decoration: none;
-    border-bottom: 1px dotted;
+    text-decoration: underline;
+    /* border-bottom: 1px dotted; */
 }
 
 .tech-grid {
