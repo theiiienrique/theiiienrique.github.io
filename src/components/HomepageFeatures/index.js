@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'High-quality documentation',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/undraw_programming.svg').default,
     description: (
       <>
         Skilled in creating high-quality documentation for software products.
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Proficient with technical writing tools',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/undraw_version_control.svg').default,
     description: (
       <>
         Proficient with technical writing tools such as Markdown, Docusaurus,
@@ -24,7 +24,7 @@ const FeatureList = [
   },
   {
     title: 'API documentation',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/undraw_launch_day.svg').default,
     description: (
       <>
         Experienced in writing API documentation.
