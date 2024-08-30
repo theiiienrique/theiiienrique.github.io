@@ -48,8 +48,9 @@
   border-color: #1b1b1d;
 } */
 .mdx-wrapper .container {
-  /* max-width: 800px;
-  margin: auto; */
+  max-width: 800px;
+  margin: auto;
+  padding: 0 2em;
 }
 .hero__title {
   font-size: 2.5em;
@@ -75,19 +76,19 @@
   padding: 0 1em;
 }
 .title_node_modules-\@docusaurus-theme-classic-lib-theme-DocCategoryGeneratedIndexPage-styles-module, .title_kItE {
-  --ifm-h1-font-size: 2em !important;
+  --ifm-h1-font-size: 2rem !important;
 }
 .markdown h1:first-child {
-  --ifm-h1-font-size: 2em !important
+  --ifm-h1-font-size: 2rem !important
 }
 .markdown > h2 {
-  --ifm-h2-font-size: 1.5em !important;
+  --ifm-h2-font-size: 1.5rem !important;
 }
 .markdown > h3 {
-  --ifm-h3-font-size: 1.25em !important;
+  --ifm-h3-font-size: 1.25rem !important;
 }
 .markdown > h4 {
-  --ifm-h4-font-size: 1em !important;
+  --ifm-h4-font-size: 1rem !important;
 }
 body, h1, h2, h3, h4, h5, h6 {
   font-family: 'Mulish', sans-serif;

@@ -1,7 +1,7 @@
 ---
 title: About me
 description: About me
-# hide_table_of_contents: true
+hide_table_of_contents: true
 ---
 
 # About
@@ -14,13 +14,13 @@ Hello! I’m Enrique, a dedicated technical writer seeking opportunities to writ
 
 CSS, Confluence, Docs as Code, Git, GitHub, Google developer documentation style guide, HTML, Jira, Linux, Markdown, Postman, Slack, Snagit, static site generators like Docusaurus, VuePress, Hugo, and Jekyll, Visual Studio Code
 
-<div className="tech-grid">
+<!-- <div className="tech-grid">
   <img src="/img/github.svg" alt="GitHub" title="GitHub" />
   <img src="/img/markdown.svg" alt="Markdown" title="Markdown" />
   <img src="/img/docusaurus.svg" alt="Docusaurus" title="Docusaurus" />
   <img src="/img//html.svg" alt="HTML" title="HTML" />
   <img src="/img/css.svg" alt="CSS" title="CSS" />
-</div>
+</div> -->
 
 <br/>
 
