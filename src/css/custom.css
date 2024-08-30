@@ -72,7 +72,7 @@
   }
 }
 .main-wrapper main {
-  padding: 0;
+  padding: 0 1.5rem;
 }
 .title_node_modules-\@docusaurus-theme-classic-lib-theme-DocCategoryGeneratedIndexPage-styles-module, .title_kItE {
   --ifm-h1-font-size: 2em !important;
@@ -137,16 +137,50 @@ circle {
 
 .tech-grid img {
   width: 100%; /* Ensure images take up the full width of the grid cell */
-  height: 150px; /* Maintain aspect ratio */
+  height: 100px; /* Maintain aspect ratio */
   object-fit: contain;
   background-color: #fff;
   border-radius: 8px;
   /* border: 1px solid #dde2ec; */
-  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 20%);
+  box-shadow: 0 1px 5px 0 rgb(0 0 0 / 10%);
   padding: 10px;
   transition: transform 0.2s ease-in-out;
 }
 
 .tech-grid img:hover {
   transform: scale(1.025); /* Slight scaling effect on hover */
+}
+
+article > ul > li {
+  margin-bottom: 1rem;
+}
+
+[data-theme='light'] article .anchor {
+  border-bottom: 1px solid #dde2ec;
+  padding-bottom: 0.5rem;
+}
+
+[data-theme='dark'] article .anchor {
+  border-bottom: 1px solid #444950;
+  padding-bottom: 0.5rem;
+}
+
+[data-theme='light'] article > header > h1 {
+  border-bottom: 1px solid #dde2ec;
+  padding-bottom: 0.5rem;
+}
+
+[data-theme='dark'] article > header > h1 {
+  border-bottom: 1px solid #444950;
+  padding-bottom: 0.5rem;
+}
+
+[data-theme='light'] .theme-doc-markdown > header > h1 {
+  border-bottom: 1px solid #dde2ec;
+  padding-bottom: 0.5rem;
+}
+
+[data-theme='dark'] .theme-doc-markdown > header > h1 {
+  border-bottom: 1px solid #444950;
+  padding-bottom: 0.5rem;
 }
