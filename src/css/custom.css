@@ -29,7 +29,7 @@
   --ifm-color-primary-lightest: #ffffff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
-[data-theme='light'] .button {
+/* [data-theme='light'] .button {
   background-color: #ffffff;
   border-color: #ffffff;
   color: #3b4252;
@@ -46,7 +46,7 @@
 [data-theme='dark'] .button:hover {
   background-color: #1b1b1d;
   border-color: #1b1b1d;
-}
+} */
 .mdx-wrapper .container {
   /* max-width: 800px;
   margin: auto; */
@@ -54,12 +54,21 @@
 .hero__title {
   font-size: 2.5em;
 }
+.hero--primary {
+  --ifm-hero-background-color: none;
+  --ifm-hero-text-color: none;
+  height: 40vh;
+  padding: 0 !important;
+}
+#__docusaurus_skipToContent_fallback > main > section {
+  padding: 0px 0px 5em;
+}
 @media screen and (max-width: 996px) {
   .hero__title {
     font-size: 2em;
   }
   .hero {
-    padding: 3rem 0 !important;
+    padding: 0 !important;
   }
 }
 .main-wrapper main {
