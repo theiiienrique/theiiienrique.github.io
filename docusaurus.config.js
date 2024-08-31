@@ -44,20 +44,16 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           showLastUpdateTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: './src/css/custom.css',
+        },
+        gtag: {
+          trackingID: 'G-2WFMMZTEFB',
+          anonymizeIP: true,
         },
       }),
     ],
@@ -66,19 +62,16 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      colorMode: {
+        respectPrefersColorScheme: true,
+      },
       navbar: {
         title: 'Enrique Martinez III',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'https://github.com/theiiienrique.png',
-        },
         items: [
           {to: '/about', label: 'About', position: 'left'},
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'docsSidebar',
             position: 'left',
             label: 'Docs',
           },
@@ -86,57 +79,25 @@ const config = {
             href: 'https://www.linkedin.com/in/theiiienrique/',
             label: 'LinkedIn',
             position: 'right',
+            className: 'header-linkedin-link',
+            'aria-label': 'LinkedIn profile',
           },
           {
             href: 'https://github.com/theiiienrique',
             label: 'GitHub',
             position: 'right',
+            className: 'header-github-link',
+            'aria-label': 'GitHub profile',
           },
         ],
       },
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: true,
+        },
+      },
       footer: {
-        style: 'light',
-        // links: [
-        //   {
-        //     title: 'Docs',
-        //     items: [
-        //       {
-        //         label: 'Tutorial',
-        //         to: '/docs/intro',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: 'Community',
-        //     items: [
-        //       {
-        //         label: 'Stack Overflow',
-        //         href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-        //       },
-        //       {
-        //         label: 'Discord',
-        //         href: 'https://discordapp.com/invite/docusaurus',
-        //       },
-        //       {
-        //         label: 'Twitter',
-        //         href: 'https://twitter.com/docusaurus',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: 'More',
-        //     items: [
-        //       {
-        //         label: 'Blog',
-        //         to: '/blog',
-        //       },
-        //       {
-        //         label: 'GitHub',
-        //         href: 'https://github.com/facebook/docusaurus',
-        //       },
-        //     ],
-        //   },
-        // ],
         copyright: `Copyright © ${new Date().getFullYear()} Enrique Martinez III. Built with <a href='https://docusaurus.io/' target='_blank'>Docusaurus</a>.`,
       },
       prism: {
