@@ -1,6 +1,6 @@
 ---
-title: About me
-description: About me
+title: About
+description: About
 hide_table_of_contents: true
 ---
 
@@ -14,21 +14,9 @@ Hello! I’m Enrique, a dedicated technical writer seeking opportunities to writ
 
 CSS, Confluence, Docs as Code, Git, GitHub, Google developer documentation style guide, HTML, Jira, Linux, Markdown, Postman, Slack, Snagit, static site generators like Docusaurus, VuePress, Hugo, and Jekyll, Visual Studio Code
 
-<!-- <div className="tech-grid">
-  <img src="/img/github.svg" alt="GitHub" title="GitHub" />
-  <img src="/img/markdown.svg" alt="Markdown" title="Markdown" />
-  <img src="/img/docusaurus.svg" alt="Docusaurus" title="Docusaurus" />
-  <img src="/img//html.svg" alt="HTML" title="HTML" />
-  <img src="/img/css.svg" alt="CSS" title="CSS" />
-</div> -->
-
 <br/>
 
 ## Experience
-
-<!-- <div style={{display: 'flex'}}><p style={{flex: 1}}>**Technical Writing Intern**, Workato</p> <p style={{marginLeft: '2em'}}>April 2024–present</p></div> -->
-
-<!-- <div style={{display: 'flex'}}><p style={{flex: 1}}>**Volunteer Technical Writer**, The Good Docs Project</p> <p style={{marginLeft: '2em'}}>July 2023–April 2024</p></div> -->
 
 **Technical Writing Intern**, Workato, April 2024–present
 
@@ -43,7 +31,6 @@ CSS, Confluence, Docs as Code, Git, GitHub, Google developer documentation style
 - Wrote a template and user guide on user stories, following technical writing best practices.
 - Provided constructive feedback during community reviews, improving project documentation quality by suggesting ways to address formatting, style, consistency, and grammar issues
 - Used Vale to enforce style guidelines and maintain a standard for clear, concise prose.
-
 
 <br/>
 
