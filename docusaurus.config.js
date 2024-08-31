@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Enrique Martinez III',
   tagline: 'Technical Writer',
-  favicon: 'https://github.com/theiiienrique.png',
+  favicon: 'img/favicon.ico',
   staticDirectories: ['public', 'static'],
 
   // Set the production url of your site here
