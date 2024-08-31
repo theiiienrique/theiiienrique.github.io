@@ -4,19 +4,19 @@ description: About
 hide_table_of_contents: true
 ---
 
-# About
+# 👋 About {#about}
 
 Hello! I’m Enrique, a dedicated technical writer seeking opportunities to write and enhance product documentation. Be it internships, entry-level positions, or freelance projects, I’m eager to contribute my skills to real-world endeavors and gain valuable hands-on experience. Let’s create impactful documentation that stands out.
 
 <br/>
 
-## Tools and technology
+## 🧰 Tools and technology {#tools-and-technology}
 
 Confluence, CSS, Docs as Code, Docusaurus, Git, GitHub, Google developer documentation style guide, HTML, Hugo, Jekyll, Jira, Markdown, Postman, Slack, Snagit, Visual Studio Code, VuePress
 
 <br/>
 
-## Experience
+## 💼 Experience {#experience}
 
 **Technical Writing Intern**, Workato, April 2024–present
 
@@ -34,7 +34,7 @@ Confluence, CSS, Docs as Code, Docusaurus, Git, GitHub, Google developer documen
 
 <br/>
 
-## Education
+## 🎓 Education {#education}
 
 **Master of Arts in Literary Editing and Publishing**, University of Southern California
 
