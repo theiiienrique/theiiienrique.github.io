@@ -44,6 +44,7 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           showLastUpdateTime: true,
+          breadcrumbs: false,
         },
         blog: {
           showReadingTime: true,
