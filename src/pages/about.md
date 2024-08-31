@@ -6,13 +6,13 @@ hide_table_of_contents: true
 
 # About
 
-Hello! I’m Enrique, a dedicated technical writer seeking opportunities to write and enhance project documentation. Be it internships, entry-level positions, or freelance projects, I’m eager to contribute my skills to real-world endeavors and gain valuable hands-on experience. Let’s create impactful documentation that stands out.
+Hello! I’m Enrique, a dedicated technical writer seeking opportunities to write and enhance product documentation. Be it internships, entry-level positions, or freelance projects, I’m eager to contribute my skills to real-world endeavors and gain valuable hands-on experience. Let’s create impactful documentation that stands out.
 
 <br/>
 
 ## Tools and technology
 
-CSS, Confluence, Docs as Code, Git, GitHub, Google developer documentation style guide, HTML, Jira, Linux, Markdown, Postman, Slack, Snagit, static site generators like Docusaurus, VuePress, Hugo, and Jekyll, Visual Studio Code
+Confluence, CSS, Docs as Code, Docusaurus, Git, GitHub, Google developer documentation style guide, HTML, Hugo, Jekyll, Jira, Markdown, Postman, Slack, Snagit, Visual Studio Code, VuePress
 
 <br/>
 
