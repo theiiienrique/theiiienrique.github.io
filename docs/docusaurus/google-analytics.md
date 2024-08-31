@@ -5,7 +5,7 @@ tags:
   - how-to
 ---
 
-# Add Google Analytics to your Docusaurus site
+# Google Analytics
 
 In this how-to guide, you'll learn how to add Google Analytics to your Docusaurus site.
 
