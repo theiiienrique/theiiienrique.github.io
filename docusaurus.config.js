@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Enrique Martinez III',
   tagline: 'Technical Writer',
-  favicon: 'https://github.com/theiiienrique.png',
+  favicon: 'img/favicon.ico',
   staticDirectories: ['public', 'static'],
 
   // Set the production url of your site here
@@ -44,6 +44,7 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           showLastUpdateTime: true,
+          breadcrumbs: true,
         },
         blog: {
           showReadingTime: true,
@@ -54,6 +55,9 @@ const config = {
         gtag: {
           trackingID: 'G-2WFMMZTEFB',
           anonymizeIP: true,
+        },
+        googleTagManager: {
+          containerId: 'GTM-T5D7VXBZ',
         },
       }),
     ],

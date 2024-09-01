@@ -13,17 +13,22 @@ import Step from '@site/src/components/Step';
 
 # Add Vale to your repository
 
-In this how-to guide, you will learn how to install [Vale](https://vale.sh/) and the [Vale VS Code extension](https://marketplace.visualstudio.com/items?itemName=ChrisChinchilla.vale-vscode) to use in your repository.
+This guide walks you through the steps to install [Vale](https://vale.sh/) and the [Vale VS Code extension](https://marketplace.visualstudio.com/items?itemName=ChrisChinchilla.vale-vscode) for your repository.
 
 ## Prerequisites
 
-Before proceeding, ensure you have the following:
+Before you begin, ensure you have the following:
 
 - A Git repository where you plan to install Vale.
 - [Visual Studio Code](https://code.visualstudio.com/download) installed on your machine.
 - A basic understanding of terminal commands.
 
-## Install Vale
+## Installation
+
+1. [Install Vale](#install-vale)
+1. [Install the Vale VS Code extension](#install-the-vale-vs-code-extension)
+
+### Install Vale
 
 Complete the following steps to install Vale:
 
@@ -37,7 +42,7 @@ Open a new terminal window.
 
 <Step>
 
-Navigate to the repository in which you plan to install Vale.
+Navigate to your project directory:
 
 ```shell
 cd your-project
@@ -47,23 +52,23 @@ cd your-project
 
 <Step>
 
-Install Vale.
+Install Vale for your operating system:
 
 <Tabs>
 <TabItem value="windows" label="Windows" default>
-```shell title="your-project"
+```shell
 choco install vale
 ```
 See [Chocolatey](https://community.chocolatey.org/packages/vale) for more information.
 </TabItem>
 <TabItem value="macos" label="macOS">
-```shell title="your-project"
+```shell
 brew install vale
 ```
 See [Homebrew](https://formulae.brew.sh/formula/vale) for more information.
 </TabItem>
 <TabItem value="linux" label="Linux">
-```shell title="your-project"
+```shell
 sudo snap install vale
 ```
 See [Snapcraft](https://github.com/errata-ai/vale-snap) for more information.
@@ -74,9 +79,9 @@ See [Snapcraft](https://github.com/errata-ai/vale-snap) for more information.
 
 <Step>
 
-Create the `.vale.ini` file:
+Create a configuration file for Vale:
 
-```shell title="your-project"
+```shell
 touch .vale.ini
 ```
 
@@ -86,7 +91,7 @@ touch .vale.ini
 
 Open the `.vale.ini` file:
 
-```shell title="your-project"
+```shell
 nano .vale.ini
 ```
 
@@ -94,7 +99,7 @@ nano .vale.ini
 
 <Step>
 
-Navigate to the [Vale Config Generator](https://vale.sh/generator) to generate your Vale configuration file.
+Visit the [Vale Config Generator](https://vale.sh/generator) to generate your configuration.
 
 ![Vale Config Generator page](/img/vale/config-generator.png)_Vale Config Generator page_
 
@@ -104,22 +109,28 @@ Navigate to the [Vale Config Generator](https://vale.sh/generator) to generate y
 
 Configure the following fields:
 
-| Field | Description (from Vale) | Available options |
-| :--- | :--- | :--- |
-| Base style | A `base` style is a comprehensive style guide that serves as a starting point for an in-house style. You generally should only use one at a time. | Skip for now, Microsoft Writing Style Guide, Google Developer Documentation Style Guide, Red Hat Documentation Style Guide |
-| Supplementary styles | A `supplementary` style is a smaller, more specific style that can be used alongside a base style. | proselint, write-good, alex, Readability, Joblint |
-| Static Site Generator | These are generator-specific configurations for Vale (typically handling details like non-standard markup). | None, Hugo |
+| Field                 | Description                                                                                                                  | Available options                                                                                                          |
+| :-------------------- | :--------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------- |
+| Base style            | A comprehensive style guide that serves as a starting point for an in-house style. Vale recommends using only one at a time. | Skip for now, Microsoft Writing Style Guide, Google Developer Documentation Style Guide, Red Hat Documentation Style Guide |
+| Supplementary styles  | Smaller, more specific styles you can use alongside a base style.                                                            | proselint, write-good, alex, Readability, Joblint                                                                          |
+| Static site generator | Generator-specific configurations for Vale.                                                                                  | None, Hugo                                                                                                                 |
 
 </Step>
 
 <Step>
 
-Copy the output from the Vale Config Generator. In this example, I've selected the following options:
+Copy the output generated by the Vale Config Generator. In this example, I've selected the following options:
 
-- Google Developer Documentation Style Guide
-- proselint
-- write-good
-- None
+- `Google Developer Documentation Style Guide`
+- `proselint`
+- `write-good`
+- `None`
+
+</Step>
+
+<Step>
+
+Paste the configuration output into your `.vale.ini` file:
 
 ```text title=".vale.ini"
 StylesPath = styles
@@ -136,21 +147,15 @@ BasedOnStyles = Vale, Google, proselint, write-good
 
 <Step>
 
-Paste it in your `.vale.ini` file.
+Save and close the file by pressing `Ctrl+O` and `Return`.
 
 </Step>
 
 <Step>
 
-Press `Ctrl+O` and `Return` to save your file and close the nano editor.
+Initialize the Vale configuration:
 
-</Step>
-
-<Step>
-
-Initialize the file by running the following command:
-
-```shell title="your-project"
+```shell
 vale sync
 ```
 
@@ -158,9 +163,9 @@ vale sync
 
 <Step>
 
-The system should create the `styles` directory, with different subdirectories containing the YAML rules associated with the styles you selected when configuring the `.vale.ini` file.
+This command creates a `styles` directory with subdirectories for each selected style:
 
-```text title="your-project"
+```text
 ...
 styles/
 ├── Google/
@@ -176,7 +181,9 @@ styles/
 
 </Stepper>
 
-## Install the Vale VS Code extension
+After installing Vale, you can set up the Vale VS Code extension to highlight errors, warnings, and suggestions as you write.
+
+### Install the Vale VS Code extension
 
 Complete the following steps to install the Vale VS Code extension:
 
@@ -184,13 +191,13 @@ Complete the following steps to install the Vale VS Code extension:
 
 <Step>
 
-Open Visual Studio Code and navigate to the **Extensions** tab (`Shift+Command+X`).
+Open Visual Studio Code and go to the **Extensions** tab (`Shift+Command+X`).
 
 </Step>
 
 <Step>
 
-Search for and select `Vale VSCode` in the Marketplace.
+Search for `Vale VSCode` in the Marketplace.
 
 </Step>
 
@@ -202,7 +209,7 @@ Click **Install**.
 
 <Step>
 
-Restart VS Code.
+Restart Visual Studio Code.
 
 </Step>
 
@@ -210,14 +217,14 @@ Restart VS Code.
 
 ## Outcome
 
-You should now see Vale in your code editor.
+Vale should now be running in your text editor:
 
-- <span style={{ textDecoration: 'underline', textDecorationColor: 'red', textDecorationStyle: 'wavy' }}>Red underlines</span> show errors.
-- <span style={{ textDecoration: 'underline', textDecorationColor: 'yellow', textDecorationStyle: 'wavy' }}>Yellow underlines</span> show warnings.
-- <span style={{ textDecoration: 'underline', textDecorationColor: 'blue', textDecorationStyle: 'wavy' }}>Blue underlines</span> show suggestions.
+- <span style={{ textDecoration: 'underline', textDecorationColor: 'red', textDecorationStyle: 'wavy' }}>Red underlines</span> indicate errors.
+- <span style={{ textDecoration: 'underline', textDecorationColor: 'yellow', textDecorationStyle: 'wavy' }}>Yellow underlines</span> indicate warnings.
+- <span style={{ textDecoration: 'underline', textDecorationColor: 'blue', textDecorationStyle: 'wavy' }}>Blue underlines</span> indicate suggestions.
 
 ## Next steps
 
-- Create custom rules for the Vale linter.
-- Use GitHub Actions to create a check for Vale.
-- Use [Reviewdog](https://github.com/reviewdog/reviewdog) to automatically comment on pull requests and make suggestions based on Vale errors, warnings, and suggestions.
+- Create custom rules for Vale.
+- Use GitHub Actions to automate Vale checks.
+- Integrate [Reviewdog](https://github.com/reviewdog/reviewdog) to comment on pull requests based on Vale results.

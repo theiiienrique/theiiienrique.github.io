@@ -15,7 +15,7 @@ import Step from '@site/src/components/Step';
 
 I wrote this guide for the editors at [Palaver Arts Magazine](https://dornsife.usc.edu/palaver/), an online arts publication at the University of Southern California.
 
-When our host college initiated a website redesign project, requiring the migration of our magazine from Squarespace to WordPress, I took on the responsibility of not only migrating 270 posts from our previous website but also creating comprehensive documentation to ensure a seamless experience for the future editorial team.
+When our host college initiated a website redesign project, requiring the migration of our magazine to WordPress, I took on the responsibility of not only migrating 270 posts from our previous website but also creating comprehensive documentation to ensure a seamless experience for the future editorial team.
 
 To aid the transition, I created beginner-friendly WordPress templates for creating common post and page types. In writing this guide, I used the [Google developer documentation style guide](https://developers.google.com/style) to ensure clear and consistent instructions. Additionally, I used [Vale](https://vale.sh/) to maintain high-quality and consistent content that adheres to the style guide.
 
@@ -180,23 +180,23 @@ Configure the **Image gallery** or **Rich text** block, depending on your select
    Go to **Add media > Create gallery**.
 
    </Step>
-   
+
    <Step>
-   
+
    Select the images you plan to insert.
-   
+
    </Step>
-   
+
    <Step>
-   
+
    Configure the following **Gallery settings**:
 
-   - **Link to**: `Attachment Page`
-   - **Columns**: `1`
-   - **Size**: `Full Size`
-   
+  - **Link to**: `Attachment Page`
+  - **Columns**: `1`
+  - **Size**: `Full Size`
+
    </Step>
-   
+
    </Stepper>
 
 - For other instances, use the **Rich text** block.
@@ -246,10 +246,6 @@ Insert the contributor's bio, making sure to write their name in bold, in the th
 </TabItem>
 </Tabs>
 
-
-
-
-
 ## Edit post metadata and publish
 
 Complete the following steps to modify the post metadata and publish the post:
@@ -266,13 +262,13 @@ Select **Settings** (next to **Publish**) if it’s not already open.
 
 Configure the following fields:
 
-| Field | Description |
-| ----- | ----------- |
-| Publish | Set to launch date and time. |
-| URL | Keep the permalink as a hyphenated title, unless the piece is untitled. In that case, name the permalink as `untitled-lastname`. |
-| Pending review | Select the **Pending review** checkbox to allow you to review posts after you have uploaded the entire issue to WordPress. |
-| Categories | Clear the **Template** checkbox and select the category you created from [Create a new category](#create-a-new-category). |
-| Tags | Select the **Art**, **Media**, **Prose**, or **Poetry** tag. |
+| Field          | Description                                                                                                                      |
+| :------------- | :------------------------------------------------------------------------------------------------------------------------------- |
+| Publish        | Set to launch date and time.                                                                                                     |
+| URL            | Keep the permalink as a hyphenated title, unless the piece is untitled. In that case, name the permalink as `untitled-lastname`. |
+| Pending review | Select the **Pending review** checkbox to allow you to review posts after you have uploaded the entire issue to WordPress.       |
+| Categories     | Clear the **Template** checkbox and select the category you created from [Create a new category](#create-a-new-category).        |
+| Tags           | Select the **Art**, **Media**, **Prose**, or **Poetry** tag.                                                                     |
 
 </Step>
 
@@ -290,7 +286,7 @@ Click **Preview** to view your post.
 
 <Step>
 
-Click **Publish** to publish your post. (**Schedule** if you scheduled the post to publish later).
+Click **Publish** to publish your post (**Schedule** if you scheduled the post to publish later).
 
 </Step>
 
@@ -350,10 +346,10 @@ Add a 750×1000 px cover image to the **Rich text** block.
 
 Configure the following fields in the **Rich text** block:
 
-| Field | Description |
-| ----- | ----------- |
-| Align | Select `Center`. |
-| Size | Select `Full Size`. |
+| Field   | Description              |
+| :------ | :----------------------- |
+| Align   | Select `Center`.         |
+| Size    | Select `Full Size`.      |
 | Link to | Select `Attachment Page` |
 
 </Step>
@@ -428,10 +424,10 @@ Complete the following steps to modify the page metadata and publish the page:
 
 Configure the following fields:
 
-| Field | Description |
-| ----- | ----------- |
-| Publish | Select the launch date. |
-| URL | Enter `issue-#-semester-year`. |
+| Field           | Description                                                                    |
+| :-------------- | :----------------------------------------------------------------------------- |
+| Publish         | Select the launch date.                                                        |
+| URL             | Enter `issue-#-semester-year`.                                                 |
 | Page attributes | Select `Remove` for the **Parent page** field and `0` for the **Order** field. |
 
 </Step>
@@ -512,10 +508,10 @@ Hover over the previous issue and click **Quick edit**.
 
 Configure the following fields:
 
-| Field | Description |
-| ----- | ----------- |
+| Field  | Description           |
+| :----- | :-------------------- |
 | Parent | Select `Past issues`. |
-| Order | Select `1`. |
+| Order  | Select `1`.           |
 
 </Step>
 
@@ -573,7 +569,7 @@ To ensure your image is displayed correctly, complete the following steps:
 
 <Step>
 
-Determine the specific height and width required for the photo layout. The dimensions for an image in a stacking card block is `900×506 px`.
+Determine the specific height and width required for the photo layout. The dimensions for an image in a stacking card block is 900×506 px.
 
 </Step>
 
