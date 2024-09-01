@@ -347,7 +347,7 @@ Add a 750×1000 px cover image to the **Rich text** block.
 Configure the following fields in the **Rich text** block:
 
 | Field   | Description              |
-| ------- | ------------------------ |
+| :------ | :----------------------- |
 | Align   | Select `Center`.         |
 | Size    | Select `Full Size`.      |
 | Link to | Select `Attachment Page` |
@@ -425,7 +425,7 @@ Complete the following steps to modify the page metadata and publish the page:
 Configure the following fields:
 
 | Field           | Description                                                                    |
-| --------------- | ------------------------------------------------------------------------------ |
+| :-------------- | :----------------------------------------------------------------------------- |
 | Publish         | Select the launch date.                                                        |
 | URL             | Enter `issue-#-semester-year`.                                                 |
 | Page attributes | Select `Remove` for the **Parent page** field and `0` for the **Order** field. |
@@ -509,7 +509,7 @@ Hover over the previous issue and click **Quick edit**.
 Configure the following fields:
 
 | Field  | Description           |
-| ------ | --------------------- |
+| :----- | :-------------------- |
 | Parent | Select `Past issues`. |
 | Order  | Select `1`.           |
 
