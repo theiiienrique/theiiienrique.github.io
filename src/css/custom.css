@@ -75,11 +75,14 @@
 body, h1, h2, h3, h4, h5, h6 {
   font-family: 'Mulish', sans-serif;
 }
-.MuiStepIcon-text {
-  fill: #1b1b1d !important;
+[data-theme='dark'] .MuiStepIcon-text {
+  fill: #1b1b1d;
+}
+[data-theme='light'] .MuiStepIcon-text {
+  fill: white;
 }
 circle {
-  color: #b7c2d6;
+  color: var(--ifm-color-primary) !important;
 }
 .language-shell .token-line {
   position: relative;
