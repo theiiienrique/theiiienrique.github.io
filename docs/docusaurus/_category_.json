@@ -3,6 +3,7 @@
   "position": 4,
   "link": {
     "type": "generated-index",
-    "title": "Set up analytics and user consent in Docusaurus"
+    "title": "Set up analytics and user consent in Docusaurus",
+    "description": "Learn how to set up analytics and user consent in Docusaurus."
   }
 }
