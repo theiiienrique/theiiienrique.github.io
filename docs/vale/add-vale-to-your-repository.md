@@ -6,18 +6,13 @@ tags:
   - how-to
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-import Stepper from '@site/src/components/Stepper';
-import Step from '@site/src/components/Step';
-
 # Add Vale to your repository
 
-In this how-to guide, you will learn how to install [Vale](https://vale.sh/) and the [Vale VS Code extension](https://marketplace.visualstudio.com/items?itemName=ChrisChinchilla.vale-vscode) to use in your repository.
+In this how-to guide, you'll learn how to install [Vale](https://vale.sh/) and the [Vale VS Code extension](https://marketplace.visualstudio.com/items?itemName=ChrisChinchilla.vale-vscode) to use in your repository.
 
 ## Prerequisites
 
-Before proceeding, ensure you have the following:
+Before you begin, make sure you have:
 
 - A Git repository where you plan to install Vale.
 - [Visual Studio Code](https://code.visualstudio.com/download) installed on your machine.
