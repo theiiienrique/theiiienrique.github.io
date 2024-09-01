@@ -107,7 +107,7 @@ Visit the [Vale Config Generator](https://vale.sh/generator) to generate your co
 
 <Step>
 
-Fill in the following fields:
+Configure the following fields:
 
 | Field                 | Description                                                                                                                  | Available options                                                                                                          |
 | :-------------------- | :--------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------- |
