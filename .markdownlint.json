@@ -1,0 +1,5 @@
+{
+    "MD033": {
+        "allowed_elements": ["Stepper", "Tabs", "TabItem", "Step"]
+    }
+}
