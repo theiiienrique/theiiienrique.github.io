@@ -15,7 +15,7 @@
   --ifm-color-primary-light: #0ba57e;
   --ifm-color-primary-lighter: #33b993;
   --ifm-color-primary-lightest: #66d4b3;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docusaurus-highlighted-code-line-bg: #66d4b349;
 }
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
@@ -26,7 +26,7 @@
   --ifm-color-primary-light: #69d6bc;
   --ifm-color-primary-lighter: #87e4c9;
   --ifm-color-primary-lightest: #a8f1dc;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --docusaurus-highlighted-code-line-bg: #3da58b89;
 }
 .mdx-wrapper .container {
   max-width: 800px;
@@ -86,16 +86,6 @@ h2, h3, h4, h5, h6 {
 circle {
   color: var(--ifm-color-primary) !important;
 }
-.language-shell .token-line {
-  position: relative;
-  padding-left: 1.25em;
-}
-.language-shell .token-line::before {
-  content: "$";
-  position: absolute;
-  left: 0;
-  color: #6a737d; /* You can adjust this color to match your theme */
-}
 .markdown img + em {
   display: block;
   font-size: 0.85em;
@@ -115,4 +105,18 @@ article > ul {
 }
 .features_src-components-HomepageFeatures-styles-module .col {
   margin: 1em 0;
+}
+/* Styling for the definition list */
+dl {
+  margin: 20px 0;
+}
+dt {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+dd {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }

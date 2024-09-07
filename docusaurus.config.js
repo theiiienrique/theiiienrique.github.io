@@ -5,6 +5,7 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
+import remarkDefList from 'remark-deflist';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -45,9 +46,14 @@ const config = {
           sidebarPath: './sidebars.js',
           showLastUpdateTime: true,
           breadcrumbs: true,
+          remarkPlugins: [
+            remarkDefList,
+          ],
         },
-        blog: {
-          showReadingTime: true,
+        pages: {
+          remarkPlugins: [
+            remarkDefList,
+          ],
         },
         theme: {
           customCss: './src/css/custom.css',
