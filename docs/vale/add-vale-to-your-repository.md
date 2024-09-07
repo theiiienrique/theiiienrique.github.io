@@ -1,15 +1,10 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 description: Learn how to add Vale to your repository.
 tags:
   - vale
   - how-to
 ---
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-import Stepper from '@site/src/components/Stepper';
-import Step from '@site/src/components/Step';
 
 # Add Vale to your repository
 

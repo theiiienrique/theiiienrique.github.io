@@ -6,11 +6,6 @@ tags:
    - wordpress
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-import Stepper from '@site/src/components/Stepper';
-import Step from '@site/src/components/Step';
-
 # WordPress uploading guide
 
 I wrote this guide for the editors at [Palaver Arts Magazine](https://dornsife.usc.edu/palaver/), an online arts publication at the University of Southern California.
