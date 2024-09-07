@@ -34,7 +34,7 @@
   padding: 0 2em;
 }
 .hero__title {
-  font-size: 2.5em;
+  font-size: 2.5rem;
 }
 .hero--primary {
   --ifm-hero-background-color: none;
@@ -43,18 +43,18 @@
   padding: 0 !important;
 }
 #__docusaurus_skipToContent_fallback > main > section {
-  padding: 0px 0px 5em;
+  padding: 0px 0px 5rem;
 }
 @media screen and (max-width: 996px) {
   .hero__title {
-    font-size: 2em;
+    font-size: 2rem;
   }
   .hero {
     padding: 0 !important;
   }
 }
 .main-wrapper main {
-  padding: 1em;
+  padding: 1rem;
 }
 .title_node_modules-\@docusaurus-theme-classic-lib-theme-DocCategoryGeneratedIndexPage-styles-module, .title_kItE {
   --ifm-h1-font-size: 2rem !important;
@@ -95,7 +95,7 @@ circle {
 }
 .markdown img + em {
   display: block;
-  font-size: 0.85em;
+  font-size: 0.85rem;
   text-align: center;
   margin-top: 0.25rem;
 }
@@ -111,7 +111,7 @@ article > ul {
   margin-bottom: 30px;
 }
 .features_src-components-HomepageFeatures-styles-module .col {
-  margin: 1em 0;
+  margin: 0 0 1rem;
 }
 /* Styling for the definition list */
 dl {
