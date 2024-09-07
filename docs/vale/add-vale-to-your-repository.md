@@ -21,11 +21,12 @@ Before you begin, ensure you have the following:
 ## Installation
 
 1. [Install Vale](#install-vale)
+1. [Test your configuration](#test-your-configuration)
 1. [Install the Vale VS Code extension](#install-the-vale-vs-code-extension)
 
 ### Install Vale
 
-Complete the following steps to install Vale:
+To install Vale, follow these steps:
 
 <Stepper>
 
@@ -104,11 +105,17 @@ Visit the [Vale Config Generator](https://vale.sh/generator) to generate your co
 
 Configure the following fields:
 
-| Field                 | Description                                                                                                                  | Available options                                                                                                          |
-| :-------------------- | :--------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------- |
-| Base style            | A comprehensive style guide that serves as a starting point for an in-house style. Vale recommends using only one at a time. | Skip for now, Microsoft Writing Style Guide, Google Developer Documentation Style Guide, Red Hat Documentation Style Guide |
-| Supplementary styles  | Smaller, more specific styles you can use alongside a base style.                                                            | proselint, write-good, alex, Readability, Joblint                                                                          |
-| Static site generator | Generator-specific configurations for Vale.                                                                                  | None, Hugo                                                                                                                 |
+Base style
+: A comprehensive style guide that serves as a starting point for an in-house style.
+: **Options**: `Skip for now`, `Microsoft Writing Style Guide`, `Google Developer Documentation Style Guide`, `Red Hat Documentation Style Guide`
+
+Supplementary styles
+: Smaller, more specific styles you can use alongside a base style.
+: **Options**: `proselint`, `write-good`, `alex`, `Readability`, `Joblint`
+
+Static site generator
+: Generator-specific configurations for Vale.
+: **Options**: `None`, `Hugo`
 
 </Step>
 
@@ -142,6 +149,25 @@ BasedOnStyles = Vale, Google, proselint, write-good
 
 <Step>
 
+To configure Vale to lint only files with specific extensions, such as `.md` files, modify the target pattern:
+
+```text title=".vale.ini"
+StylesPath = styles
+
+MinAlertLevel = suggestion
+
+Packages = Google, proselint, write-good
+
+<!-- highlight-start -->
+[*.md]
+<!-- highlight-end -->
+BasedOnStyles = Vale, Google, proselint, write-good
+```
+
+</Step>
+
+<Step>
+
 Save and close the file by pressing `Ctrl+O` and `Return`.
 
 </Step>
@@ -153,10 +179,6 @@ Initialize the Vale configuration:
 ```shell
 vale sync
 ```
-
-</Step>
-
-<Step>
 
 This command creates a `styles` directory with subdirectories for each selected style:
 
@@ -176,11 +198,47 @@ styles/
 
 </Stepper>
 
-After installing Vale, you can set up the Vale VS Code extension to highlight errors, warnings, and suggestions as you write.
+### Test your configuration
+
+To test your Vale configuration, follow these steps:
+
+<Stepper>
+
+<Step>
+
+Run the following command to run the linter against all the files in your repository:
+
+```shell
+vale .
+```
+
+</Step>
+
+<Step>
+
+To lint files in a specific directory or file, you can provide the path to it in the command:
+
+```shell
+vale docs/
+```
+
+This command lints all the Markdown files in the `docs` directory.
+
+</Step>
+
+<Step>
+
+You should see the different Vale responses in your terminal:
+
+![Vale in terminal](/img/vale/vale-response.png)_Vale in terminal_
+
+</Step>
+
+</Stepper>
 
 ### Install the Vale VS Code extension
 
-Complete the following steps to install the Vale VS Code extension:
+To install the Vale VS Code extension, follow these steps:
 
 <Stepper>
 
