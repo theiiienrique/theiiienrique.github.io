@@ -1,0 +1,10 @@
+choco
+sudo
+Config
+alex
+Joblint
+textDecoration
+Reviewdog
+px
+Photoshop
+proselint
