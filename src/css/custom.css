@@ -8,25 +8,24 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #3b4252;
-  --ifm-color-primary-dark: #353b4a;
-  --ifm-color-primary-darker: #323846;
-  --ifm-color-primary-darkest: #292e39;
-  --ifm-color-primary-light: #41495a;
-  --ifm-color-primary-lighter: #444c5e;
-  --ifm-color-primary-lightest: #4d566b;
-  --ifm-code-font-size: 95%;
+  --ifm-color-primary: #097969;
+  --ifm-color-primary-dark: #086a5c;
+  --ifm-color-primary-darker: #06584c;
+  --ifm-color-primary-darkest: #034137;
+  --ifm-color-primary-light: #0ba57e;
+  --ifm-color-primary-lighter: #33b993;
+  --ifm-color-primary-lightest: #66d4b3;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #b7c2d6;
-  --ifm-color-primary-dark: #9eadc8;
-  --ifm-color-primary-darker: #91a2c0;
-  --ifm-color-primary-darkest: #6b82ab;
-  --ifm-color-primary-light: 	#d0d7e4;
-  --ifm-color-primary-lighter: #dde2ec;
-  --ifm-color-primary-lightest: #ffffff;
+  --ifm-color-primary: #48c0a5;
+  --ifm-color-primary-dark: #3da58b;
+  --ifm-color-primary-darker: #328d73;
+  --ifm-color-primary-darkest: #276e5a;
+  --ifm-color-primary-light: #69d6bc;
+  --ifm-color-primary-lighter: #87e4c9;
+  --ifm-color-primary-lightest: #a8f1dc;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 .mdx-wrapper .container {
@@ -40,7 +39,7 @@
 .hero--primary {
   --ifm-hero-background-color: none;
   --ifm-hero-text-color: none;
-  height: 48vh;
+  height: 46vh;
   padding: 0 !important;
 }
 #__docusaurus_skipToContent_fallback > main > section {
@@ -75,13 +74,14 @@
 body, h1, h2, h3, h4, h5, h6 {
   font-family: 'Mulish', sans-serif;
 }
+h2, h3, h4, h5, h6 {
+  margin-top: 2rem;
+}
 [data-theme='dark'] .MuiStepIcon-text {
   fill: #1b1b1d;
-  font-weight: 800;
 }
 [data-theme='light'] .MuiStepIcon-text {
   fill: white;
-  font-weight: 800;
 }
 circle {
   color: var(--ifm-color-primary) !important;
@@ -107,12 +107,12 @@ circle {
   border-radius: 0.5rem;
   height: auto;
 }
-.markdown a:not(.hash-link) {
-    text-decoration: underline;
-}
 article > ul > li {
   margin-bottom: 10px;
 }
 article > ul {
   margin-bottom: 30px;
+}
+.features_src-components-HomepageFeatures-styles-module .col {
+  margin: 1em 0;
 }
