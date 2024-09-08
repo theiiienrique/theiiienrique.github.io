@@ -145,13 +145,3 @@ dd {
   white-space: nowrap;
   overflow-wrap: break-word;
 }
-[data-theme="dark"] .navbar {
-  background-color: #242526c4;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-}
-[data-theme="light"] .navbar {
-  background-color: #ffffffb3;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-}
