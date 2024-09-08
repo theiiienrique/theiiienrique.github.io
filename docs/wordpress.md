@@ -10,17 +10,17 @@ tags:
 
 I wrote this guide for the editors at [Palaver Arts Magazine](https://dornsife.usc.edu/palaver/), an online arts publication at the University of Southern California.
 
-When our host college initiated a website redesign project, requiring the migration of our magazine to WordPress, I took on the responsibility of not only migrating 270 posts from our previous website but also creating comprehensive documentation to ensure a seamless experience for the future editorial team.
+When our host college initiated a website redesign project that required migrating our magazine to WordPress, I not only migrated 270 posts from our previous website but also created comprehensive documentation to ensure a seamless experience for the future editorial team.
 
-To aid the transition, I created beginner-friendly WordPress templates for creating common post and page types. In writing this guide, I used the [Google developer documentation style guide](https://developers.google.com/style) to ensure clear and consistent instructions. Additionally, I used [Vale](https://vale.sh/) to maintain high-quality and consistent content that adheres to the style guide.
+To aid the transition, I created beginner-friendly WordPress templates for creating common post and page types. To write this guide, I used the [Google developer documentation style guide](https://developers.google.com/style) to ensure clear and consistent instructions. Additionally, I used [Vale](https://vale.sh/) to maintain high-quality and consistent content that adheres to the style guide.
 
 :::note
 This guide assumes the user is signed in to the site and can access the dashboard.
 :::
 
-## Upload photos and media files
+## Upload photo and media files
 
-Complete the following steps to upload new photo and media files:
+To upload new photo and media files, follow these steps:
 
 <Stepper>
 
@@ -51,7 +51,7 @@ Select the thumbnail of the file you uploaded to modify it.
 Edit the **Alternative text** field.
 
 :::tip ALT TEXT
-Refer to this [guide](https://developers.google.com/style/images#alt-text) to learn how to write helpful alt text for images.
+For information on how to write helpful alt text, refer to the [Google developer documentation style guide](https://developers.google.com/style/images#alt-text).
 :::
 
 </Step>
@@ -60,13 +60,13 @@ Refer to this [guide](https://developers.google.com/style/images#alt-text) to le
 
 Use the following naming conventions when editing the **Title** field:
 
-- For image, audio, and PDF files: `title-lastname`.
+- For image, audio, and PDF files, use `title-lastname`.
 
 :::info NAMING CONVENTION
-If the artwork includes a series of images, add a number to the end of the title (for example, `fractured-goodrum-1`, `fractured-goodrum-2`, `fractured-goodrum-n`).
+If the artwork includes a series of images, add a number to the end of the title. For example, `fractured-goodrum-1`, `fractured-goodrum-2`, `fractured-goodrum-n`.
 :::
 
-- For issue covers: `semester-year-cover`.
+- For issue covers, use `semester-year-cover`.
 
 </Step>
 
@@ -82,7 +82,7 @@ Click **Close**.
 
 In WordPress, you can add categories to any post. Our website categorizes posts by issue.
 
-Complete the following steps to create a new category:
+To create a new category, follow these steps:
 
 <Stepper>
 
@@ -112,7 +112,7 @@ Click **Add new category**.
 
 ## Create a new post
 
-Complete the following steps to create a new post:
+To create a new post, follow these steps:
 
 <Stepper>
 
@@ -142,7 +142,7 @@ Hover over your selected template and click **New draft**.
 
 ## Edit the post
 
-Complete the following steps to edit the post you created:
+To edit the post you created, follow these steps:
 
 <Tabs>
 <TabItem value="art-and-media" label="For art and media" default>
@@ -156,7 +156,7 @@ Edit the **Article hero** block by clicking **Edit** and enter the author's name
 
 <Step>
 
-Optional: If adding an artist statement or content warning, paste it in the first **Rich text** block. Include the artist statement in quotations (`"`) and the content warning in _italic_ type. Otherwise, delete this block.
+Optional: If you plan to add an artist statement or content warning, paste it in the first **Rich text** block. Include the artist statement in quotations (`"`) and the content warning in _italic_ type. Otherwise, delete this block.
 
 </Step>
 
@@ -204,7 +204,7 @@ When embedding a video from YouTube or Vimeo, you can create a full-size embed b
 
 <Step>
 
-Insert the contributor's bio, making sure to write their name in bold, in the **Rich text** block.
+Insert the contributor bio. Write their name in bold in the **Rich text** block.
 
 </Step>
 
@@ -221,7 +221,7 @@ Edit the **Article hero** block by clicking **Edit** and enter the author's name
 
 <Step>
 
-Optional: If adding an artist statement or content warning, paste it in the first **Rich text** block. Include the artist statement in quotations (`"`) and the content warning in _italic_ type. Otherwise, delete this block.
+Optional: If you plan to add an artist statement or content warning, paste it in the first **Rich text** block. Include the artist statement in quotations (`"`) and the content warning in _italic_ type. Otherwise, delete this block.
 
 </Step>
 
@@ -233,7 +233,7 @@ Paste the prose or poem in the second **Rich text** block.
 
 <Step>
 
-Insert the contributor's bio, making sure to write their name in bold, in the third **Rich text** block.
+Insert the contributor bio. Write their name in bold in the third **Rich text** block.
 
 </Step>
 
@@ -243,7 +243,7 @@ Insert the contributor's bio, making sure to write their name in bold, in the th
 
 ## Edit post metadata and publish
 
-Complete the following steps to modify the post metadata and publish the post:
+To modify the post metadata and publish the post, follow these steps:
 
 <Stepper>
 
@@ -259,8 +259,8 @@ Configure the following fields:
 
 | Field          | Description                                                                                                                      |
 | :------------- | :------------------------------------------------------------------------------------------------------------------------------- |
-| Publish        | Set to launch date and time.                                                                                                     |
-| URL            | Keep the permalink as a hyphenated title, unless the piece is untitled. In that case, name the permalink as `untitled-lastname`. |
+| Publish        | Set to the launch date and time.                                                                                                     |
+| URL            | Keep the permalink as a hyphenated title unless the piece is untitled. If the piece is untitled, name the permalink as `untitled-lastname`. |
 | Pending review | Select the **Pending review** checkbox to allow you to review posts after you have uploaded the entire issue to WordPress.       |
 | Categories     | Clear the **Template** checkbox and select the category you created from [Create a new category](#create-a-new-category).        |
 | Tags           | Select the **Art**, **Media**, **Prose**, or **Poetry** tag.                                                                     |
@@ -281,7 +281,7 @@ Click **Preview** to view your post.
 
 <Step>
 
-Click **Publish** to publish your post (**Schedule** if you scheduled the post to publish later).
+Click **Publish** to publish your post, or **Schedule** if you scheduled the post to publish later.
 
 </Step>
 
@@ -295,7 +295,7 @@ Confirm that you want to publish or schedule the post for publishing in the pre-
 
 ## Create a new issue landing page
 
-Complete the following steps to create a new issue landing page:
+To create a new issue landing page, follow these steps:
 
 <Stepper>
 
@@ -321,7 +321,7 @@ Hover over **New issue** template and click **New draft**.
 
 ## Edit the issue landing page
 
-Complete the following steps to edit the issue landing page you created:
+To edit the issue landing page you created, follow these steps:
 
 <Stepper>
 
@@ -345,29 +345,27 @@ Configure the following fields in the **Rich text** block:
 | :------ | :----------------------- |
 | Align   | Select `Center`.         |
 | Size    | Select `Full Size`.      |
-| Link to | Select `Attachment Page` |
+| Link to | Select `Attachment Page`. |
 
 </Step>
 
 <Step>
 
-Enter in the artist's name in the `Cover artwork by [Artist Name]` placeholder. This text is always italicized and center-aligned.
+Enter the artist's name in the `Cover artwork by [Artist Name]` placeholder. This text is always italicized and center-aligned.
 
 </Step>
 
 </Stepper>
 
-Go to the next section to edit the stacking cards for each respective genre.
-
 ## Link posts to the issue landing page
 
-Complete the following steps to link posts to the issue landing page:
+To link posts to the issue landing page, follow these steps:
 
 <Stepper>
 
 <Step>
 
-Navigate to the stacking card for the genre you plan to link.
+Go to the stacking card for the genre you plan to link.
 
 </Step>
 
@@ -407,11 +405,9 @@ For art and media, click **Remove** on the placeholder image and replace it with
 
 </Stepper>
 
-After linking all the posts, go to the next section.
-
 ## Edit page metadata and publish
 
-Complete the following steps to modify the page metadata and publish the page:
+To modify the page metadata and publish the page, follow these steps:
 
 <Stepper>
 
@@ -449,7 +445,7 @@ Click **Publish** or **Schedule** and confirm your selection to publish the page
 
 ## Update the site menu
 
-Complete the following steps to update the site menu:
+To update the site menu, follow these steps:
 
 <Stepper>
 
@@ -461,7 +457,7 @@ On the sidebar, click **Appearance > Menus**.
 
 <Step>
 
-Go to **Menu structure** and click the down arrow on **Current issue**.
+Go to **Menu structure** and expand the **Current issue** section.
 
 </Step>
 
@@ -483,7 +479,7 @@ Your menu should now link to the latest issue landing page.
 
 ## Move the previous issue to the past issues page
 
-Complete the following steps to move the previous issue to the past issues page:
+To move the previous issue to the past issues page, follow these steps:
 
 <Stepper>
 
@@ -524,7 +520,7 @@ Hover over **Past issues** and click **Edit**.
 
 <Step>
 
-Navigate to the stacking cards and click **Add row**.
+Go to the stacking cards and click **Add row**.
 
 </Step>
 
@@ -564,7 +560,7 @@ To ensure your image is displayed correctly, complete the following steps:
 
 <Step>
 
-Determine the specific height and width required for the photo layout. The dimensions for an image in a stacking card block is 900×506 px.
+Determine the specific height and width required for the photo layout. The dimensions for an image in a stacking card block are 900×506 px.
 
 </Step>
 
@@ -576,16 +572,14 @@ Use an image editor like Adobe Photoshop to create a canvas with the required di
 
 <Step>
 
-Place your photo in the center of the canvas and save the file as a `.jpg` or `.png`.
+Place your photo in the center of the canvas and save the file as a `.jpg` or `.png` file.
 
 </Step>
 
 <Step>
 
-Upload the properly sized image to the **Stacking cards** block.
+Upload the correctly sized image to the **Stacking cards** block.
 
 </Step>
 
 </Stepper>
-
-By following these steps, your image will fit the exact dimensions of the block and avoid any awkward cropping.
