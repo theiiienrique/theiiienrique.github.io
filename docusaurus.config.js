@@ -69,6 +69,10 @@ const config = {
     ],
   ],
 
+  plugins: [
+    require.resolve('docusaurus-plugin-image-zoom')
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -113,6 +117,13 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+      },
+      zoom: {
+        selector: '.markdown :not(em) > img',
+        background: {
+          light: 'rgba(0, 0, 0, 0.75)',
+          dark: 'rgba(0, 0, 0, 0.75)',
+        },
       },
     }),
 };
