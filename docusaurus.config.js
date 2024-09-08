@@ -116,7 +116,7 @@ const config = {
       },
       prism: {
         theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
+        darkTheme: prismThemes.oceanicNext,
       },
       zoom: {
         selector: '.markdown :not(em) > img',
