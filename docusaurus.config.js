@@ -112,7 +112,7 @@ const config = {
         },
       },
       footer: {
-        copyright: `Copyright © ${new Date().getFullYear()} Enrique Martinez III. Built with <a href='https://docusaurus.io/' target='_blank'>Docusaurus</a>.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Enrique Martinez III. <span class='nowrap'>Built with <a href='https://docusaurus.io/' target='_blank'>Docusaurus</a>.</span>`,
       },
       prism: {
         theme: prismThemes.github,

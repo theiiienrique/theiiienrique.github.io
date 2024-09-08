@@ -141,3 +141,7 @@ dd {
   background-color: #f5f6f7; /* Light gray background */
   color: #575757; /* Slightly darker gray font */
 }
+.nowrap {
+  white-space: nowrap;
+  overflow-wrap: break-word;
+}
