@@ -24,7 +24,7 @@ Confluence, CSS, Docs as Code, Docusaurus, Git, GitHub, Google developer documen
 
 **Volunteer Technical Writer**, The Good Docs Project <span class="date">July 2023–April 2024</span>
 
-- Wrote a template and user guide on user stories, following technical writing best practices.
+- Wrote a [template](/docs/user-stories/user-story-template) and [user guide](/docs/user-stories/user-story-guide) on user stories, following technical writing best practices.
 - Provided constructive feedback during community reviews, improving project documentation quality by suggesting ways to address formatting, style, consistency, and grammar issues
 - Used Vale to enforce style guidelines and maintain a standard for clear, concise prose.
 
