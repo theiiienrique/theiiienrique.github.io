@@ -8,3 +8,9 @@ Reviewdog
 px
 Photoshop
 proselint
+Docusaurus
+Jira
+Snagit
+Workato
+Workato's
+impactful
