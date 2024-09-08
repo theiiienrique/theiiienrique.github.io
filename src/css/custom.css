@@ -125,3 +125,19 @@ dd {
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
+.date {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.9rem;
+  border-radius: 0.5rem;
+  /* font-weight: bold; */
+  white-space: nowrap;
+  overflow-wrap: break-word;
+}
+[data-theme="dark"] .date {
+  background-color: #333333; /* Dark gray background */
+  color: #e0e0e0; /* Light gray font */
+}
+[data-theme="light"] .date {
+  background-color: #f0f0f0; /* Light gray background */
+  color: #575757; /* Slightly darker gray font */
+}
