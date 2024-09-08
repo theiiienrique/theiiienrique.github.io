@@ -138,6 +138,6 @@ dd {
   color: #e0e0e0; /* Light gray font */
 }
 [data-theme="light"] .date {
-  background-color: #f0f0f0; /* Light gray background */
+  background-color: #f5f6f7; /* Light gray background */
   color: #575757; /* Slightly darker gray font */
 }
