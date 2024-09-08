@@ -35,9 +35,9 @@ User stories involve the user throughout the software development life cycle. Th
 
 While user stories benefit your users, they can also help your team achieve the following:
 
-* *Prioritize urgent tasks*: User stories are based on user feedback. Therefore, if there’s a demand for a specific feature or a repeated issue in your ticketing system, user stories can help you decide which tasks are most urgent.  
-* *Break down large tasks*: User stories allow you to break down large tasks into the smallest possible units of work. With small and self-contained user stories, you can develop and release features incrementally and more efficiently.  
-* *Clarify broad tasks*: User stories play a crucial role in refining epics and creating tasks that pave the way for successful outcomes. An epic, essentially a broad user story, consists of smaller user stories. Understanding these smaller stories is essential for effective work. User stories help assess task size and dependencies, which is vital in Agile environments for achieving sprint goals.
+- **Prioritize urgent tasks**: User stories are based on user feedback. Therefore, if there’s a demand for a specific feature or a repeated issue in your ticketing system, user stories can help you decide which tasks are most urgent.  
+- **Break down large tasks**: User stories allow you to break down large tasks into the smallest possible units of work. With small and self-contained user stories, you can develop and release features incrementally and more efficiently.  
+- **Clarify broad tasks**: User stories play a crucial role in refining epics and creating tasks that pave the way for successful outcomes. An epic, essentially a broad user story, consists of smaller user stories. Understanding these smaller stories is essential for effective work. User stories help assess task size and dependencies, which is vital in Agile environments for achieving sprint goals.
 
 ## User story best practices
 
@@ -47,19 +47,24 @@ Although user stories follow a simple formula, there are many ways to write a lo
 
 A good user story follows the INVEST acronym:
 
-* **I**ndependent
-  * Doesn’t depend on the completion of other features to be released.  
-* **N**egotiable
-  * Captures what the user wants and why, not how to build the feature.
-  * Generates conversation on how to meet the user's needs effectively.  
-* **V**aluable
-  * Delivers value to your users and company.  
-* **E**stimable
-  * Can estimate the time and effort required to complete the user story.  
-* **S**mall
-  * Able to be completed in a single sprint.  
-* **T**estable
-  * Has specific criteria to determine when the user story is complete.
+Independent
+: Doesn’t depend on the completion of other features to be released.  
+
+Negotiable
+: Captures what the user wants and why, not how to build the feature.
+: Generates conversation on how to meet the user's needs effectively.  
+
+Valuable
+: Delivers value to your users and company.  
+
+Estimable
+: Can estimate the time and effort required to complete the user story.  
+
+Small
+: Able to be completed in a single sprint.  
+
+Testable
+: Has specific criteria to determine when the user story is complete.
 
 ### Avoid user interface details
 
@@ -109,9 +114,16 @@ Acceptance criteria often take the form of bullet points that list observable ou
 
 Consider the following example when writing acceptance criteria for your user stories:
 
-| User story | Acceptance criteria |
-| :---- | :---- |
-| As a student, I want to see my class assignments based on when they’re due so that I can prioritize what I need to get done. | The student can view their assignments in ascending order, with the assignments with the earliest due date at the top. The student can view the assignment due date in a clear and consistent format. The student can remove or hide an assignment from the upcoming assignments view. The student can see when an assignment is overdue. Past-due assignments are visually marked with a specific indicator, such as a different color or an 'overdue' label, to alert students about overdue work and prevent missed deadlines. |
+User story
+: As a student, I want to see my class assignments based on when they’re due so that I can prioritize what I need to get done.
+
+Acceptance criteria
+: - The student can view their assignments in ascending order, with the assignments with the earliest due date at the top.
+: - The student can view the assignment due date in a clear and consistent format.
+: - The student can remove or hide an assignment from the upcoming assignments view.
+: - The student can see when an assignment is overdue.
+: - Past-due assignments are visually marked with a specific indicator, such as a different color or an 'overdue' label, to alert students about overdue work and prevent missed deadlines.
+
 
 ### About the “Story points” section
 
