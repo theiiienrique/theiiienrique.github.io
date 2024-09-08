@@ -7,8 +7,6 @@ description: Write a user story.
 
 If you need more information about how to fill in this template, read the accompanying [user story guide](user-story-guide.md).
 
-This template includes writing instructions and boilerplate text that you can customize, use as-is, or completely replace with your own text. This text is indicated in curly brackets. Make sure you replace the placeholders with your own text.
-
 ## Title
 
 Write a short, descriptive title for the user story. For example, `Add to library button`.
@@ -36,5 +34,3 @@ You can designate priority levels using tags such as `Critical`, `High`, `Medium
 ## Optional: Story points
 
 Use story points to estimate the time and effort required to complete this user story. Use relative sizing, such as selecting a number from the Fibonacci sequence or shirt size, rather than absolute sizing, such as measuring in days or weeks.
-
-Explore other templates from [The Good Docs Project](https://gitlab.com/tgdp/templates). Use our [feedback form](https://thegooddocsproject.dev/feedback/) to give feedback on this template.

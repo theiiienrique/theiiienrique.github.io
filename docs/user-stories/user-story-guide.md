@@ -5,15 +5,13 @@ description: Learn how to complete the user story template.
 
 # User story guide
 
-Thank you for downloading this template from The Good Docs Project! Before using the template, read this template guide for information about how to complete each section. Want to explore more templates? Check them out in our [templates](https://gitlab.com/tgdp/templates) GitLab repository.
-
 ## What is a user story?
 
 A user story is a short description of a software feature written from the user's perspective. It captures who the user is, what the feature would allow the user to do, and why they want it.
 
 User stories follow a simple formula:
 
-> As a <u>user persona</u>, I want to <u>do some task</u> so that I can <u>achieve some goal</u>.
+> As a user persona, I want to do some task so that I can achieve some goal.
 
 Despite their brevity, user stories are powerful. They allow you to translate user feedback into concise stories that communicate what your users want and why. With user stories, teams become better equipped to develop features users will love.
 
@@ -93,15 +91,13 @@ Example: View assignments by due date
 
 Use the formula to write your user story:
 
-> As a <u>user persona</u>, I want to <u>do some task</u> so that I can <u>achieve some goal</u>.
+> As a user persona, I want to do some task so that I can achieve some goal.
 
 Example: As a student, I want to see my class assignments based on when they’re due so that I can prioritize what I need to get done.
 
 #### What is a user persona?
 
 A user persona is a model that represents a sub-group of product users. User personas reflect the key attributes and needs of actual users, including ways of thinking, behavior motivations, goals, challenges, or roles. The more clearly you understand your user personas, the more accurately you can address their goals and challenges.
-
-See our user persona [template](https://docs.google.com/document/u/0/d/18nLwLIVAkqd7nRic16FDTOd3Gagu6FermRM9QNGXC4w/edit) and [template guide](https://docs.google.com/document/u/0/d/19mxlL5ATpMEcMfDE4Cf3iwElePgwEUJD218jWZvP4vk/edit) for more guidance on creating user personas.
 
 ### About the “Acceptance criteria” section
 
@@ -134,7 +130,3 @@ With story points, teams typically use numbers from the Fibonacci sequence or sh
 Assigning a priority level to a user story is optional but recommended. You can designate priority levels using tags such as Critical, High, Medium, and Low.
 
 You may assign priority based on quantitative data collected from user research. For example, if a customer satisfaction score is low with a particular feature or an issue repeatedly appears in your ticketing system, this may be a common issue that users are experiencing and, therefore, should take a higher priority level.
-
-See our user story process document to learn more about user research and how it relates to user story writing.
-
-Explore other templates from [The Good Docs Project](https://gitlab.com/tgdp/templates). Use our [feedback form](https://thegooddocsproject.dev/feedback/) to give feedback on this template.
