@@ -17,4 +17,4 @@ jobs:
       - name: Run lychee to check links
         uses: lycheeverse/lychee-action@v1
         with:
-          args: --verbose
+          args: --verbose docs/**/*.md
