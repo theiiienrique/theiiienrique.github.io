@@ -1,9 +1,9 @@
-name: Check external links
+name: Check links
 
 on:
   push:
     branches:
-      - main # Replace with your default branch
+      - main
   pull_request:
 
 jobs:
