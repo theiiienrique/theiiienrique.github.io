@@ -148,6 +148,10 @@ dd {
   overflow-wrap: break-word;
 }
 .main-wrapper {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('/img/stardust.png') repeat;
-  background-size: 200px;
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+    url('/img/stardust.png') repeat,
+    url('/img/stardust.png') repeat,
+    url('/img/stardust.png') repeat;
+  background-size: 200px, 220px, 240px;
 }
