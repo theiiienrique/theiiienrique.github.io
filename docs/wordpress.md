@@ -2,8 +2,8 @@
 sidebar_position: 3
 description: Learn how to use WordPress to upload new content.
 tags:
-   - how-to
-   - wordpress
+  - how-to
+  - wordpress
 ---
 
 # WordPress uploading guide
@@ -172,19 +172,19 @@ Configure the **Image gallery** or **Rich text** block, depending on your select
 
    <Step>
 
-   Go to **Add media > Create gallery**.
+  Go to **Add media > Create gallery**.
 
    </Step>
 
    <Step>
 
-   Select the images you plan to insert.
+  Select the images you plan to insert.
 
    </Step>
 
    <Step>
 
-   Configure the following **Gallery settings**:
+  Configure the following **Gallery settings**:
 
   - **Link to**: `Attachment Page`
   - **Columns**: `1`
@@ -257,13 +257,13 @@ Select **Settings** (next to **Publish**) if it’s not already open.
 
 Configure the following fields:
 
-| Field          | Description                                                                                                                      |
-| :------------- | :------------------------------------------------------------------------------------------------------------------------------- |
-| Publish        | Set to the launch date and time.                                                                                                     |
+| Field          | Description                                                                                                                                 |
+| :------------- | :------------------------------------------------------------------------------------------------------------------------------------------ |
+| Publish        | Set to the launch date and time.                                                                                                            |
 | URL            | Keep the permalink as a hyphenated title unless the piece is untitled. If the piece is untitled, name the permalink as `untitled-lastname`. |
-| Pending review | Select the **Pending review** checkbox to allow you to review posts after you have uploaded the entire issue to WordPress.       |
-| Categories     | Clear the **Template** checkbox and select the category you created from [Create a new category](#create-a-new-category).        |
-| Tags           | Select the **Art**, **Media**, **Prose**, or **Poetry** tag.                                                                     |
+| Pending review | Select the **Pending review** checkbox to allow you to review posts after you have uploaded the entire issue to WordPress.                  |
+| Categories     | Clear the **Template** checkbox and select the category you created from [Create a new category](#create-a-new-category).                   |
+| Tags           | Select the **Art**, **Media**, **Prose**, or **Poetry** tag.                                                                                |
 
 </Step>
 
@@ -341,10 +341,10 @@ Add a 750×1000 px cover image to the **Rich text** block.
 
 Configure the following fields in the **Rich text** block:
 
-| Field   | Description              |
-| :------ | :----------------------- |
-| Align   | Select `Center`.         |
-| Size    | Select `Full Size`.      |
+| Field   | Description               |
+| :------ | :------------------------ |
+| Align   | Select `Center`.          |
+| Size    | Select `Full Size`.       |
 | Link to | Select `Attachment Page`. |
 
 </Step>
@@ -548,7 +548,7 @@ Click **Update** to save your changes.
 
 </Step>
 
-</Stepper>  
+</Stepper>
 
 ## Edit images to fit size-specific blocks
 
