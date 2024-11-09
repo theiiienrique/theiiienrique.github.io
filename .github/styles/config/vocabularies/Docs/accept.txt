@@ -14,3 +14,4 @@ Snagit
 Workato
 Workato's
 impactful
+Algolia
