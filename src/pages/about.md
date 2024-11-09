@@ -10,7 +10,7 @@ Hello! I’m Enrique, a dedicated technical writer seeking opportunities to writ
 
 ## Tools and technology {#tools-and-technology}
 
-Confluence, CSS, Docs as Code, Docusaurus, Git, GitHub, Google developer documentation style guide, HTML, Hugo, Jekyll, Jira, Markdown, Postman, Slack, Snagit, Vale, Visual Studio Code, VuePress
+Algolia, Confluence, CSS, Docs as Code, Docusaurus, Git, GitHub, GitHub Actions, Google Analytics, Google developer documentation style guide, Google Tag Manager, HTML, Hugo, Jekyll, Jira, Markdown, Postman, Slack, Snagit, Vale, Visual Studio Code, VuePress
 
 ## Experience {#experience}
 
