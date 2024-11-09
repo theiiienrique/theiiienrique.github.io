@@ -8,9 +8,9 @@ tags:
 
 # WordPress uploading guide
 
-I wrote this this guide for the editors at [Palaver Arts Magazine](https://dornsife.usc.edu/palaver/), an online arts publication at the University of Southern California.
+I wrote this guide for the editors at [Palaver Arts Magazine](https://dornsife.usc.edu/palaver/), an online arts publication at the University of Southern California.
 
-When our host host college initiated a website redesign project that required migrating our magazine to WordPress, I not only migrated 270 posts from our previous website but also created comprehensive documentation to ensure a seamless experience for the future editorial team.
+When our host college initiated a website redesign project that required migrating our magazine to WordPress, I not only migrated 270 posts from our previous website but also created comprehensive documentation to ensure a seamless experience for the future editorial team.
 
 To aid the transition, I created beginner-friendly WordPress templates for creating common post and page types. To write this guide, I used the [Google developer documentation style guide](https://developers.google.com/style) to ensure clear and consistent instructions. Additionally, I used [Vale](https://vale.sh/) to maintain high-quality and consistent content that adheres to the style guide.
 
