@@ -12,4 +12,4 @@ jobs:
           reporter: github-pr-review
           fail_on_error: true
           filter_mode: added
-          token: ${{ secrets.VALE_GITHUB_TOKEN}}
+          token: ${{ secrets.GITHUB_TOKEN}}
