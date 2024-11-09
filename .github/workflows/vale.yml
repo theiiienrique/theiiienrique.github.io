@@ -5,6 +5,9 @@ jobs:
   vale:
     name: runner / vale
     runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+      contents: read
     steps:
       - uses: actions/checkout@v4
       - uses: errata-ai/vale-action@v2.1.1
