@@ -10,3 +10,6 @@ jobs:
       - uses: errata-ai/vale-action@v2.1.1
         with:
           reporter: github-pr-review
+          fail_on_error: true
+          filter_mode: added
+          token: ${{ secrets.VALE_GITHUB_TOKEN}}
