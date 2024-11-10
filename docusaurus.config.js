@@ -78,7 +78,7 @@ const config = {
     ({
       colorMode: {
         defaultMode: 'dark',
-        disableSwitch: true,
+        // disableSwitch: true,
       },
       navbar: {
         title: 'Enrique Martinez III',

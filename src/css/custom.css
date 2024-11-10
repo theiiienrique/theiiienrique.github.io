@@ -12,8 +12,8 @@
   --ifm-color-primary-darkest: #034137;
   --ifm-color-primary-light: #0ba57e;
   --ifm-color-primary-lighter: #33b993;
-  --ifm-color-primary-lightest: #66d4b3;
-  --docusaurus-highlighted-code-line-bg: #66d4b349; */
+  --ifm-color-primary-lightest: #66d4b3; */
+  --docusaurus-highlighted-code-line-bg: #dddfe1;
 }
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
@@ -24,8 +24,8 @@
   --ifm-color-primary-darkest: #276e5a;
   --ifm-color-primary-light: #69d6bc;
   --ifm-color-primary-lighter: #87e4c9;
-  --ifm-color-primary-lightest: #a8f1dc;
-  --docusaurus-highlighted-code-line-bg: #3da58b89; */
+  --ifm-color-primary-lightest: #a8f1dc; */
+  --docusaurus-highlighted-code-line-bg: #1c1e24;
 }
 .mdx-wrapper .container {
   max-width: 1000px;
@@ -135,7 +135,7 @@ dd {
   padding: 0.25rem 0.5rem;
   font-size: 0.9rem;
   border-radius: 0.5rem;
-  font-weight: 600;
+  font-weight: 500;
   white-space: nowrap;
   overflow-wrap: break-word;
 }
@@ -145,7 +145,7 @@ dd {
 }
 [data-theme="light"] .date {
   background-color: #f5f6f7; /* Light gray background */
-  color: #575757; /* Slightly darker gray font */
+  color: #4d5366ef; /* Slightly darker gray font */
 }
 .nowrap {
   white-space: nowrap;
