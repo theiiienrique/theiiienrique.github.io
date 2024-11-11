@@ -78,8 +78,8 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       algolia: {
-        appId: process.env.ALGOLIA_APP_ID,
-        apiKey: process.env.ALGOLIA_API_KEY,
+        appId: '749TA7V8JC',
+        apiKey: '228b1afe8e2f2f99875d6a9c4471252d',
         indexName: 'theiiienriqueio',
       },
       colorMode: {
