@@ -6,6 +6,7 @@
 
 import {themes as prismThemes} from 'prism-react-renderer';
 import remarkDefList from 'remark-deflist';
+require('dotenv').config();
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -70,12 +71,17 @@ const config = {
   ],
 
   plugins: [
-    require.resolve('docusaurus-plugin-image-zoom')
+    require.resolve('docusaurus-plugin-image-zoom'),
   ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      algolia: {
+        appId: process.env.ALGOLIA_APP_ID,
+        apiKey: process.env.ALGOLIA_API_KEY,
+        indexName: 'theiiienriqueio',
+      },
       colorMode: {
         defaultMode: 'dark',
         // disableSwitch: true,
