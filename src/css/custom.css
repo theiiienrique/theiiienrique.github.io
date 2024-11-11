@@ -4,7 +4,7 @@
  * work well for content-centric websites.
  */
 
- @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Mulish:wght@300..700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Space+Grotesk:wght@300..700&display=swap');
 /* You can override the default Infima variables here. */
 :root {
   /* --ifm-color-primary-dark: #086a5c;
@@ -16,7 +16,7 @@
   --docusaurus-highlighted-code-line-bg: #dddfe1;
 }
 .DocSearch-Button-Placeholder, .DocSearch-Button-Key {
-  font-family: 'Mulish', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
 }
 [data-theme='light'] .DocSearch {
   /* --docsearch-primary-color: var(--ifm-color-primary); */
@@ -115,7 +115,7 @@
   --ifm-h4-font-size: 1rem !important;
 }
 body, h1, h2, h3, h4, h5, h6 {
-  font-family: 'Mulish', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
 }
 code {
   font-family: 'Source Code Pro';
@@ -132,12 +132,12 @@ h2, h3, h4, h5, h6 {
 }
 [data-theme='dark'] .MuiStepIcon-text {
   fill: #1b1b1d;
-  font-family: 'Mulish', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   font-weight: 600;
 }
 [data-theme='light'] .MuiStepIcon-text {
   fill: white;
-  font-family: 'Mulish', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   font-weight: 600;
 }
 circle {
