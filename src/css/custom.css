@@ -15,6 +15,9 @@
   --ifm-color-primary-lightest: #66d4b3; */
   --docusaurus-highlighted-code-line-bg: #dddfe1;
 }
+.DocSearch-Button-Placeholder, .DocSearch-Button-Key {
+  font-family: 'Mulish', sans-serif;
+}
 [data-theme='light'] .DocSearch {
   /* --docsearch-primary-color: var(--ifm-color-primary); */
   /* --docsearch-text-color: var(--ifm-font-color-base); */
