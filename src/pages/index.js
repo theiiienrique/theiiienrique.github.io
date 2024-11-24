@@ -34,10 +34,12 @@ export default function Home() {
     <Layout
       title={`Home`}
       description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-      <main>
-        {/* <HomepageFeatures /> */}
-      </main>
+      <div className='homepage'>
+        <HomepageHeader />
+        <main>
+          { <HomepageFeatures /> }
+        </main>
+      </div>
     </Layout>
   );
 }

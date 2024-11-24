@@ -6,6 +6,12 @@
 
  @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Mulish:wght@300..700&display=swap');
 /* You can override the default Infima variables here. */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
 :root {
   /* --ifm-color-primary-dark: #086a5c;
   --ifm-color-primary-darker: #06584c;
@@ -81,9 +87,9 @@
 .hero--primary {
   --ifm-hero-background-color: none;
   --ifm-hero-text-color: none;
-  min-height: 65vh;
+  min-height: 20vh;
   padding: 0 !important;
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 #__docusaurus_skipToContent_fallback > main > section {
   /* padding: 0px 0px 5rem; */
@@ -195,10 +201,17 @@ dd {
   overflow-wrap: break-word;
 }
 /* .main-wrapper {
-  background: 
-    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
-    url('/img/stardust.png') repeat,
-    url('/img/stardust.png') repeat,
-    url('/img/stardust.png') repeat;
-  background-size: 200px, 220px, 240px;
-} */
+   */
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.homepage {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 0;
+}
