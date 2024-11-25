@@ -94,13 +94,11 @@ html, body {
 #__docusaurus_skipToContent_fallback > main > section {
   /* padding: 0px 0px 5rem; */
 }
-@media screen and (max-width: 996px) {
-  .hero__title {
-    font-size: 2rem;
-  }
-  .hero {
-    padding: 0 !important;
-  }
+.hero__title {
+  font-size: 2rem;
+}
+.hero {
+  padding: 0 !important;
 }
 .main-wrapper main {
   padding: 1rem;
