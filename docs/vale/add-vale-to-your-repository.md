@@ -18,13 +18,7 @@ Before you begin, ensure you have the following:
 - [Visual Studio Code](https://code.visualstudio.com/download) installed on your machine.
 - A basic understanding of terminal commands.
 
-## Installation
-
-1. [Install Vale](#install-vale)
-1. [Test your configuration](#test-your-configuration)
-1. [Install the Vale VS Code extension](#install-the-vale-vs-code-extension)
-
-### Install Vale
+## Install Vale
 
 To install Vale, follow these steps:
 
@@ -206,7 +200,7 @@ styles/
 
 </Stepper>
 
-### Test your configuration
+## Test your configuration
 
 To test your Vale configuration, follow these steps:
 
@@ -238,7 +232,7 @@ You should see the different Vale responses in your terminal:
 
 </Stepper>
 
-### Install the Vale VS Code extension
+## Install the Vale VS Code extension
 
 To install the Vale VS Code extension, follow these steps:
 
