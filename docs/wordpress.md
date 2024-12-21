@@ -10,17 +10,17 @@ tags:
 
 I wrote this guide for the editors at [Palaver Arts Magazine](https://dornsife.usc.edu/palaver/), an online arts publication at the University of Southern California.
 
-When our host college initiated a website redesign project that required migrating our magazine to WordPress, I not only migrated 270 posts from our previous website but also created comprehensive documentation to ensure a seamless experience for the future editorial team.
+When migrating our magazine to WordPress, I not only migrated 270 posts from our previous website but also wrote documentation to ensure a seamless experience for the future editorial team.
 
-To aid the transition, I created beginner-friendly WordPress templates for creating common post and page types. To write this guide, I used the [Google developer documentation style guide](https://developers.google.com/style) to ensure clear and consistent instructions. Additionally, I used [Vale](https://vale.sh/) to maintain high-quality and consistent content that adheres to the style guide.
+To aid the transition, I created reusable WordPress templates for creating common post and page types. To write this guide, I used the [Google developer documentation style guide](https://developers.google.com/style). I also used [Vale](https://vale.sh/) to adhere the content to the style guide.
 
 :::note
 This guide assumes the user is signed in to the site and can access the dashboard.
 :::
 
-## Upload photo and media files
+## Upload image and media files
 
-To upload new photo and media files, follow these steps:
+To upload new image and media files, follow these steps:
 
 <Stepper>
 
@@ -60,13 +60,13 @@ For information on how to write helpful alt text, refer to the [Google developer
 
 Use the following naming conventions when editing the **Title** field:
 
-- For image, audio, and PDF files, use `title-lastname`.
+- For image, audio, and PDF files, use the `title-lastname` naming convention.
 
 :::info NAMING CONVENTION
 If the artwork includes a series of images, add a number to the end of the title. For example, `fractured-goodrum-1`, `fractured-goodrum-2`, `fractured-goodrum-n`.
 :::
 
-- For issue covers, use `semester-year-cover`.
+- For issue covers, use the `semester-year-cover` naming convention.
 
 </Step>
 
@@ -126,15 +126,15 @@ On the sidebar, click **Posts**.
 
 Determine the post type you need to create:
 
-- For art and media, choose from the available templates: `Single image`, `Several images`, and `Audio/Video`.
+- For art and media, select the `Single image`, `Several images`, or `Audio/Video` template.
 
-- For prose and poetry, choose the `Text` template.
+- For prose and poetry, select the `Text` template.
 
 </Step>
 
 <Step>
 
-Hover over your selected template and click **New draft**.
+Hover over the template and click **New draft**.
 
 </Step>
 
@@ -150,13 +150,13 @@ To edit the post you created, follow these steps:
 
 <Step>
 
-Edit the **Article hero** block by clicking **Edit** and enter the author's name in the **Author** field.
+Click **Edit**, then enter the author's name in the **Author** field.
 
 </Step>
 
 <Step>
 
-Optional: If you plan to add an artist statement or content warning, paste it in the first **Rich text** block. Include the artist statement in quotations (`"`) and the content warning in _italic_ type. Otherwise, delete this block.
+Optional: To add an artist statement or content warning, paste it in the first **Rich text** block. Style the artist statement using quotations and the content warning using _italic_ type. Otherwise, delete this block.
 
 </Step>
 
@@ -204,7 +204,7 @@ When embedding a video from YouTube or Vimeo, you can create a full-size embed b
 
 <Step>
 
-Insert the contributor bio. Write their name in bold in the **Rich text** block.
+Insert the contributor bio in the **Rich text** block. Style their name using bold type.
 
 </Step>
 
@@ -215,13 +215,13 @@ Insert the contributor bio. Write their name in bold in the **Rich text** block.
 
 <Step>
 
-Edit the **Article hero** block by clicking **Edit** and enter the author's name in the **Author** field.
+Click **Edit**, then enter the author's name in the **Author** field.
 
 </Step>
 
 <Step>
 
-Optional: If you plan to add an artist statement or content warning, paste it in the first **Rich text** block. Include the artist statement in quotations (`"`) and the content warning in _italic_ type. Otherwise, delete this block.
+Optional: To add an artist statement or content warning, paste it in the first **Rich text** block. Style the artist statement using quotations and the content warning using _italic_ type. Otherwise, delete this block.
 
 </Step>
 
@@ -233,7 +233,7 @@ Paste the prose or poem in the second **Rich text** block.
 
 <Step>
 
-Insert the contributor bio. Write their name in bold in the third **Rich text** block.
+Insert the contributor bio in the third **Rich text** block. Style their name using bold type.
 
 </Step>
 
@@ -249,7 +249,7 @@ To modify the post metadata and publish the post, follow these steps:
 
 <Step>
 
-Select **Settings** (next to **Publish**) if it’s not already open.
+Select **Settings**.
 
 </Step>
 
@@ -281,13 +281,13 @@ Click **Preview** to view your post.
 
 <Step>
 
-Click **Publish** to publish your post, or **Schedule** if you scheduled the post to publish later.
+Click **Publish** to publish your post, or click **Schedule** if you scheduled the post to publish later.
 
 </Step>
 
 <Step>
 
-Confirm that you want to publish or schedule the post for publishing in the pre-publish checks.
+Confirm that you want to publish or schedule the post for publishing.
 
 </Step>
 
@@ -477,7 +477,7 @@ Click **Save menu**.
 
 Your menu should now link to the latest issue landing page.
 
-## Move the previous issue to the past issues page
+## Relocate the previous issue
 
 To move the previous issue to the past issues page, follow these steps:
 
@@ -550,7 +550,7 @@ Click **Update** to save your changes.
 
 </Stepper>
 
-## Edit images to fit size-specific blocks
+## Resize images
 
 With the site's custom WordPress blocks, you may need to modify your photo to fit within the block's dimensions. For example, on the **Meet the editors** page, the **Stacking cards** block contains editor bios and photos.
 
@@ -572,7 +572,7 @@ Use an image editor like Adobe Photoshop to create a canvas with the required di
 
 <Step>
 
-Place your photo in the center of the canvas and save the file as a `.jpg` or `.png` file.
+Place your photo in the center of the canvas and save the file as a JPEG or PNG file.
 
 </Step>
 
