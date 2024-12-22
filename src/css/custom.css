@@ -351,4 +351,13 @@ img {
 
 .MuiStepContent-root {
   padding-left: 1.5rem !important;
+  border-left: 1px solid var(--ifm-toc-border-color) !important;
+}
+
+.MuiStepConnector-line {
+  border-left: 1px solid var(--ifm-toc-border-color) !important;
+}
+
+.MuiStepContent-last {
+  border: none !important;
 }
