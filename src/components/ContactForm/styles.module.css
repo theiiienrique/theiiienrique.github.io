@@ -1,0 +1,65 @@
+.contactForm {
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+.formGroup {
+  margin-bottom: 1.5rem;
+}
+
+.formGroup label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: var(--ifm-text-primary);
+}
+
+.formGroup input,
+.formGroup textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid var(--ifm-toc-border-color);
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  font-family: inherit;
+  color: inherit;
+}
+
+.formGroup input:focus,
+.formGroup textarea:focus {
+  border-color: #007acc;
+  outline: none;
+}
+
+.formGroup textarea {
+  resize: vertical;
+  max-height: 300px;
+  min-height: 125px;
+}
+
+.submitButton {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: var(--ifm-color-primary);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: inherit;
+}
+
+.submitButton:hover {
+  background-color: var(--ifm-color-primary-dark);
+}
+
+html[data-theme="dark"] .submitButton {
+  background-color: var(--ifm-color-primary-dark);
+}
+
+html[data-theme="dark"] .submitButton:hover {
+  background-color: var(--ifm-color-primary-darker);
+}
