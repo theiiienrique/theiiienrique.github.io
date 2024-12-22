@@ -66,6 +66,6 @@ html[data-theme="dark"] .submitButton:hover {
 
 html[data-theme="dark"] .formGroup input,
 html[data-theme="dark"] .formGroup textarea {
-  background-color: var(--ifm-color-gray-1000);
+  background-color: #0f0f10;
   color: var(--ifm-dark-color-primary);
 }
