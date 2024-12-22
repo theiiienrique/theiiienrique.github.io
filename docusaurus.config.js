@@ -12,7 +12,7 @@ require("dotenv").config();
 const config = {
   title: "Enrique Martinez III",
   tagline: "Technical Writer",
-  favicon: "img/favicon.ico",
+  favicon: "img/android-chrome-512x512.png",
   staticDirectories: ["public", "static"],
 
   // Set the production url of your site here
