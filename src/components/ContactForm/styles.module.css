@@ -23,6 +23,7 @@
   font-size: 1rem;
   font-family: inherit;
   color: inherit;
+  background-color: var(--ifm-color-gray-100);
 }
 
 .formGroup input:focus,
@@ -48,6 +49,7 @@
   border-radius: 8px;
   cursor: pointer;
   font-family: inherit;
+  transition: background-color 0.2s;
 }
 
 .submitButton:hover {
