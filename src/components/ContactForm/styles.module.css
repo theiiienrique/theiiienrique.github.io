@@ -21,7 +21,6 @@
   border: 1px solid var(--ifm-toc-border-color);
   border-radius: 4px;
   font-size: 1rem;
-  transition: border-color 0.3s ease;
   font-family: inherit;
   color: inherit;
 }
@@ -48,7 +47,6 @@
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
   font-family: inherit;
 }
 
