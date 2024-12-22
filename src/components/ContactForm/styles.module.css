@@ -28,7 +28,7 @@
 
 .formGroup input:focus,
 .formGroup textarea:focus {
-  border-color: #007acc;
+  border-color: var(--ifm-color-primary);
   outline: none;
 }
 
@@ -62,4 +62,10 @@ html[data-theme="dark"] .submitButton {
 
 html[data-theme="dark"] .submitButton:hover {
   background-color: var(--ifm-color-primary-darker);
+}
+
+html[data-theme="dark"] .formGroup input,
+html[data-theme="dark"] .formGroup textarea {
+  background-color: var(--ifm-color-gray-1000);
+  color: var(--ifm-dark-color-primary);
 }
