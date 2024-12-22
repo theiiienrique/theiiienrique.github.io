@@ -335,3 +335,20 @@ html[data-theme="dark"] .navbar--github-link:before {
   background-size: contain;
   /* Ensure the SVG scales properly */
 }
+img {
+  max-width: 600px; /* Adjust this value as needed */
+  width: 100%; /* Ensures responsiveness */
+  margin: 0 auto;
+  display: block; /* Centers images */
+}
+
+@media (min-width: 1440px) {
+  .theme-doc-toc-desktop,
+  .main-wrapper main {
+    margin-left: 5em;
+  }
+}
+
+.MuiStepContent-root {
+  padding-left: 2em !important;
+}
