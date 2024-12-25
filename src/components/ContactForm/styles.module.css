@@ -35,7 +35,7 @@
 .formGroup textarea {
   resize: vertical;
   max-height: 300px;
-  min-height: 125px;
+  min-height: 130px;
 }
 
 .submitButton {
@@ -68,4 +68,10 @@ html[data-theme="dark"] .formGroup input,
 html[data-theme="dark"] .formGroup textarea {
   background-color: #0f0f10;
   color: var(--ifm-dark-color-primary);
+}
+
+.requiredAsterisk {
+  color: red;
+  margin-left: 2px; /* Optional spacing for better alignment */
+  font-weight: bold; /* Optional for emphasis */
 }

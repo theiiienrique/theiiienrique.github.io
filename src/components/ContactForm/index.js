@@ -14,17 +14,23 @@ function ContactForm() {
   return (
     <form onSubmit={handleSubmit} className={styles.contactForm}>
       <div className={styles.formGroup}>
-        <label htmlFor="name">Name</label>
+        <label htmlFor="name">
+          Name<span className={styles.requiredAsterisk}>*</span>
+        </label>
         <input id="name" type="text" name="name" required />
         <ValidationError prefix="Name" field="name" errors={state.errors} />
       </div>
       <div className={styles.formGroup}>
-        <label htmlFor="email">Email address</label>
+        <label htmlFor="email">
+          Email address<span className={styles.requiredAsterisk}>*</span>
+        </label>
         <input id="email" type="email" name="email" required />
         <ValidationError prefix="Email" field="email" errors={state.errors} />
       </div>
       <div className={styles.formGroup}>
-        <label htmlFor="message">Message</label>
+        <label htmlFor="message">
+          Message<span className={styles.requiredAsterisk}>*</span>
+        </label>
         <textarea id="message" name="message" rows="5" required />
         <ValidationError
           prefix="Message"
