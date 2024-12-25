@@ -12,34 +12,46 @@ function ContactForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className={styles.contactForm}>
-      <div className={styles.formGroup}>
-        <label htmlFor="name">Name</label>
-        <input id="name" type="text" name="name" required />
-        <ValidationError prefix="Name" field="name" errors={state.errors} />
-      </div>
-      <div className={styles.formGroup}>
-        <label htmlFor="email">Email address</label>
-        <input id="email" type="email" name="email" required />
-        <ValidationError prefix="Email" field="email" errors={state.errors} />
-      </div>
-      <div className={styles.formGroup}>
-        <label htmlFor="message">Message</label>
-        <textarea id="message" name="message" rows="5" required />
-        <ValidationError
-          prefix="Message"
-          field="message"
-          errors={state.errors}
-        />
-      </div>
-      <button
-        type="submit"
-        className={styles.submitButton}
-        disabled={state.submitting}
-      >
-        Send
-      </button>
-    </form>
+    <>
+      <p className={styles.formIntro}>
+        Have a question or want to work together? Fill out the form below, and
+        I'll get back to you as soon as possible.
+      </p>
+      <form onSubmit={handleSubmit} className={styles.contactForm}>
+        <div className={styles.formGroup}>
+          <label htmlFor="name">
+            Name<span className={styles.requiredAsterisk}>*</span>
+          </label>
+          <input id="name" type="text" name="name" required />
+          <ValidationError prefix="Name" field="name" errors={state.errors} />
+        </div>
+        <div className={styles.formGroup}>
+          <label htmlFor="email">
+            Email address<span className={styles.requiredAsterisk}>*</span>
+          </label>
+          <input id="email" type="email" name="email" required />
+          <ValidationError prefix="Email" field="email" errors={state.errors} />
+        </div>
+        <div className={styles.formGroup}>
+          <label htmlFor="message">
+            Message<span className={styles.requiredAsterisk}>*</span>
+          </label>
+          <textarea id="message" name="message" rows="5" required />
+          <ValidationError
+            prefix="Message"
+            field="message"
+            errors={state.errors}
+          />
+        </div>
+        <button
+          type="submit"
+          className={styles.submitButton}
+          disabled={state.submitting}
+        >
+          Send
+        </button>
+      </form>
+    </>
   );
 }
 
