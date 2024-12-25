@@ -34,7 +34,7 @@
 
 .formGroup textarea {
   resize: vertical;
-  max-height: 300px;
+  max-height: 250px;
   min-height: 130px;
 }
 
@@ -74,4 +74,8 @@ html[data-theme="dark"] .formGroup textarea {
   color: red;
   margin-left: 2px; /* Optional spacing for better alignment */
   font-weight: bold; /* Optional for emphasis */
+}
+
+.formIntro {
+  line-height: 1.5;
 }
