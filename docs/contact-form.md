@@ -148,6 +148,9 @@ In the **Integration** tab, go to the **Code examples** section and select **Rea
 
 Copy the code from Formspree. It should resemble the following code snippet, with your actual form ID in the `<YOUR_FORM_ID>` part:
 
+<Tabs>
+<TabItem value="Formspree">
+
 ```js
 // Make sure to run npm install @formspree/react
 // For more help visit https://formspr.ee/react-help
@@ -155,19 +158,84 @@ import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 
 function ContactForm() {
-  const [state, handleSubmit] = useForm(<YOUR_FORM_ID>);  // Replace <YOUR_FORM_ID> with your actual Formspree form ID.
+const [state, handleSubmit] = useForm(<YOUR_FORM_ID>); // Replace <YOUR_FORM_ID> with your actual Formspree form ID.
+if (state.succeeded) {
+return <p>Thanks for joining!</p>;
+}
+return (
+
+<form onSubmit={handleSubmit}>
+<label htmlFor="email">Email Address</label>
+<input id="email" type="email" name="email" />
+<ValidationError prefix="Email" field="email" errors={state.errors} />
+<textarea id="message" name="message" />
+<ValidationError prefix="Message" field="message" errors={state.errors} />
+<button type="submit" disabled={state.submitting}>
+Submit
+</button>
+</form>
+);
+}
+
+function App() {
+return <ContactForm />;
+}
+
+export default App;
+
+```
+
+</TabItem>
+
+<TabItem value="Modified">
+
+```js
+// Make sure to run npm install @formspree/react
+// For more help visit https://formspr.ee/react-help
+import React from "react";
+import { useForm, ValidationError } from "@formspree/react";
+import styles from "/src/components/ContactForm/styles.module.css";
+
+function ContactForm() {
+  const [state, handleSubmit] = useForm("xrbbzjej");
+
   if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+    return <p>Thanks for your message!</p>;
   }
+
   return (
-    <form onSubmit={handleSubmit}>
-      <label htmlFor="email">Email Address</label>
-      <input id="email" type="email" name="email" />
-      <ValidationError prefix="Email" field="email" errors={state.errors} />
-      <textarea id="message" name="message" />
-      <ValidationError prefix="Message" field="message" errors={state.errors} />
-      <button type="submit" disabled={state.submitting}>
-        Submit
+    <form onSubmit={handleSubmit} className={styles.contactForm}>
+      <div className={styles.formGroup}>
+        <label htmlFor="name">
+          Name<span className={styles.requiredAsterisk}>*</span>
+        </label>
+        <input id="name" type="text" name="name" required />
+        <ValidationError prefix="Name" field="name" errors={state.errors} />
+      </div>
+      <div className={styles.formGroup}>
+        <label htmlFor="email">
+          Email address<span className={styles.requiredAsterisk}>*</span>
+        </label>
+        <input id="email" type="email" name="email" required />
+        <ValidationError prefix="Email" field="email" errors={state.errors} />
+      </div>
+      <div className={styles.formGroup}>
+        <label htmlFor="message">
+          Message<span className={styles.requiredAsterisk}>*</span>
+        </label>
+        <textarea id="message" name="message" rows="5" required />
+        <ValidationError
+          prefix="Message"
+          field="message"
+          errors={state.errors}
+        />
+      </div>
+      <button
+        type="submit"
+        className={styles.submitButton}
+        disabled={state.submitting}
+      >
+        Send
       </button>
     </form>
   );
@@ -180,6 +248,10 @@ function App() {
 export default App;
 ```
 
+</TabItem>
+
+</Tabs>
+
 </Step>
 
 </Stepper>
@@ -187,3 +259,9 @@ export default App;
 ## Style the `ContactForm` React component
 
 ## Create the contact form page
+
+## Outcome
+
+You should be able to access your contact page on your Docusaurus website. This contact form is styled and uses validation to ensure that the user fills in all required fields and provides a valid email address in the submission.
+
+## Next steps
