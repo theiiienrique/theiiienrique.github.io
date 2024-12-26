@@ -146,7 +146,7 @@ In the **Integration** tab, go to the **Code examples** section and select **Rea
 
 <Step>
 
-Copy the code from Formspree. It should resemble the following code snippet, with your actual form endpoint in the `<YOUR_FORM_ENDPOINT>` part:
+Copy the code from Formspree. It should resemble the following code snippet, with your actual form ID in the `<YOUR_FORM_ID>` part:
 
 ```js
 // Make sure to run npm install @formspree/react
@@ -155,7 +155,7 @@ import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 
 function ContactForm() {
-  const [state, handleSubmit] = useForm(<YOUR_FORM_ENDPOINT>);
+  const [state, handleSubmit] = useForm(<YOUR_FORM_ID>);
   if (state.succeeded) {
     return <p>Thanks for joining!</p>;
   }
