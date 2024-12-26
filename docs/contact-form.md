@@ -8,7 +8,7 @@ tags:
 
 # Create a contact form with React and Formspree
 
-This guide explains how to create a simple contact form for your Docusaurus website using [React](https://react.dev/) and [Formspree](https://formspree.io/).
+Learn how to create a simple contact form for your Docusaurus website using [React](https://react.dev/) and [Formspree](https://formspree.io/).
 
 :::tip
 To see the finished outcome, visit the [Contact](/contact) page on this website.
