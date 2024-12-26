@@ -155,7 +155,7 @@ import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 
 function ContactForm() {
-  const [state, handleSubmit] = useForm(<YOUR_FORM_ID>);
+  const [state, handleSubmit] = useForm(<YOUR_FORM_ID>);  // Replace <YOUR_FORM_ID> with your actual Formspree form ID.
   if (state.succeeded) {
     return <p>Thanks for joining!</p>;
   }
