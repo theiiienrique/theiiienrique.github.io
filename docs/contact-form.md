@@ -22,7 +22,7 @@ Before you begin, ensure you have the following:
 
 ## Create a Formspree account
 
-To get started, let's first create a Formspree account:
+Follow these steps to create a Formspree account:
 
 <Stepper>
 
@@ -97,3 +97,93 @@ Click **Save** after configuring each field.
 </Stepper>
 
 ## Create a new form
+
+<Stepper>
+
+<Step>
+
+Click **+** to create a new form.
+
+</Step>
+
+<Step>
+
+Enter a name in the **Form name** field, such as `Contact form`.
+
+</Step>
+
+<Step>
+
+Select the project you configured from the **Project** drop-down menu.
+
+</Step>
+
+<Step>
+
+Select an email address from the **Send emails to** drop-down menu.
+
+To select a different email address, go to **Account** and locate the **Linked emails** section. You can add up to two linked email addresses on the free plan.
+
+</Step>
+
+<Step>
+
+Click **Create form**.
+
+</Step>
+
+</Stepper>
+
+## Create the `ContactForm` React component
+
+<Stepper>
+
+<Step>
+
+In the **Integration** tab, go to the **Code examples** section and select **React**.
+
+</Step>
+
+<Step>
+
+Copy the code from Formspree. It should resemble the following code snippet, with your actual form endpoint in the `<YOUR_FORM_ENDPOINT>` part:
+
+```js
+// Make sure to run npm install @formspree/react
+// For more help visit https://formspr.ee/react-help
+import React from "react";
+import { useForm, ValidationError } from "@formspree/react";
+
+function ContactForm() {
+  const [state, handleSubmit] = useForm(<YOUR_FORM_ENDPOINT>);
+  if (state.succeeded) {
+    return <p>Thanks for joining!</p>;
+  }
+  return (
+    <form onSubmit={handleSubmit}>
+      <label htmlFor="email">Email Address</label>
+      <input id="email" type="email" name="email" />
+      <ValidationError prefix="Email" field="email" errors={state.errors} />
+      <textarea id="message" name="message" />
+      <ValidationError prefix="Message" field="message" errors={state.errors} />
+      <button type="submit" disabled={state.submitting}>
+        Submit
+      </button>
+    </form>
+  );
+}
+
+function App() {
+  return <ContactForm />;
+}
+
+export default App;
+```
+
+</Step>
+
+</Stepper>
+
+## Style the `ContactForm` React component
+
+## Create the contact form page
