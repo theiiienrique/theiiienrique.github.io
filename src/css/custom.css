@@ -341,16 +341,6 @@ img {
   display: block; /* Centers images */
 }
 
-@media (min-width: 1440px) {
-  article:has(.theme-doc-markdown) {
-    padding: 0 8rem 0 0;
-  }
-
-  .main-wrapper main {
-    margin: 0 4rem;
-  }
-}
-
 .MuiStepContent-root {
   padding-left: 1.5rem !important;
   border-left: 1px solid var(--ifm-toc-border-color) !important;
