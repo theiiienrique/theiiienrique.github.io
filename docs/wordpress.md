@@ -12,7 +12,7 @@ I wrote this guide for the editors at [Palaver Arts Magazine](https://dornsife.u
 
 When migrating our magazine to WordPress, I not only migrated 270 posts from our previous website but also wrote documentation to ensure a seamless experience for the future editorial team.
 
-To aid the transition, I created reusable WordPress templates for creating common post and page types. To write this guide, I used the [Google developer documentation style guide](https://developers.google.com/style). I also used [Vale](https://vale.sh/) to adhere the content to the style guide.
+To aid the transition, I created reusable WordPress templates for common post types and page types. To write this guide, I used the [Google developer documentation style guide](https://developers.google.com/style). I also used [Vale](https://vale.sh/) to adhere the content to the style guide.
 
 :::note
 This guide assumes the user is signed in to the site and can access the dashboard.
