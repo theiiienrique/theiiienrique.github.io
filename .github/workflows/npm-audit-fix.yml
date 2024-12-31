@@ -19,15 +19,20 @@ jobs:
         git config user.email "github-actions[bot]@users.noreply.github.com"
 
     - name: Install Dependencies
-      run: npm ci # Installs dependencies based on package-lock.json for a clean environment
+      run: npm ci # Ensures dependencies are cleanly installed
 
     - name: Display Outdated Packages
       id: outdated-packages
       run: |
         echo "Checking for outdated packages..."
-        OUTDATED=$(npm outdated || echo "No outdated packages found.")
+        OUTDATED=$(npm outdated || true)
         echo "$OUTDATED"
-        echo "::set-output name=outdated::${OUTDATED}"
+        if [ -z "$OUTDATED" ]; then
+          echo "No outdated packages found."
+          echo "OUTDATED_PACKAGES=No outdated packages found" >> $GITHUB_ENV
+        else
+          echo "OUTDATED_PACKAGES=$OUTDATED" >> $GITHUB_ENV
+        fi
 
     - name: Run npm audit fix
       id: audit-fix
@@ -40,14 +45,13 @@ jobs:
       run: |
         if git diff --quiet; then
           echo "No changes detected after npm audit fix."
-          echo "::set-output name=changes_detected::false"
+          echo "CHANGES_DETECTED=false" >> $GITHUB_ENV
         else
           echo "Changes detected. Preparing to create PR."
-          echo "::set-output name=changes_detected::true"
-        fi
+          echo "CHANGES_DETECTED=true" >> $GITHUB_ENV
 
     - name: Create Pull Request
-      if: steps.check-changes.outputs.changes_detected == 'true'
+      if: env.CHANGES_DETECTED == 'true'
       uses: peter-evans/create-pull-request@v5
       with:
         branch: chore/npm-audit-fix
@@ -57,6 +61,6 @@ jobs:
           
           Outdated dependencies (not updated in this PR):
           ```
-          ${{ steps.outdated-packages.outputs.outdated }}
+          ${{ env.OUTDATED_PACKAGES }}
           ```
         labels: dependencies, automation
