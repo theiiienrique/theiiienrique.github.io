@@ -1,0 +1,42 @@
+name: Run npm audit fix and create PR
+
+on:
+  schedule:
+    - cron: "0 0 * * 1" # Every Monday at midnight
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  npm-audit-fix:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16" # Use your project's Node.js version
+
+      - name: Clean up existing branch
+        run: |
+          if git show-ref --verify --quiet refs/heads/chore/npm-audit-fix; then
+            git branch -D chore/npm-audit-fix
+          fi
+
+      - name: Run npm audit fix
+        run: |
+          git checkout -b chore/npm-audit-fix
+          npm install
+          npm audit fix
+          git add package.json package-lock.json
+          git commit -m "chore: run npm audit fix"
+
+      - name: Push changes and create PR
+        uses: peter-evans/create-pull-request@v5
+        with:
+          branch: chore/npm-audit-fix
+          title: "chore: run npm audit fix"
+          body: |
+            Automated PR to address vulnerabilities reported by `npm audit fix`. Changes have been applied automatically.
+          labels: dependencies, automation
