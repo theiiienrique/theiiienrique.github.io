@@ -25,15 +25,8 @@ jobs:
       id: outdated-packages
       run: |
         echo "Checking for outdated packages..."
-        OUTDATED=$(npm outdated || true)
-        echo "$OUTDATED"
-        if [ -z "$OUTDATED" ]; then
-          echo "No outdated packages found."
-          echo "OUTDATED_PACKAGES=No outdated packages found" >> $GITHUB_ENV
-        else
-          ENCODED=$(echo "$OUTDATED" | base64)
-          echo "OUTDATED_PACKAGES=$ENCODED" >> $GITHUB_ENV
-        fi
+        npm outdated > outdated-packages.txt || echo "No outdated packages found." > outdated-packages.txt
+        cat outdated-packages.txt
 
     - name: Run npm audit fix
       id: audit-fix
@@ -51,12 +44,6 @@ jobs:
           echo "Changes detected. Preparing to create PR."
           echo "CHANGES_DETECTED=true" >> $GITHUB_ENV
 
-    - name: Decode Outdated Packages
-      if: env.OUTDATED_PACKAGES != 'No outdated packages found'
-      run: |
-        echo "Decoding outdated packages for PR body..."
-        echo "$OUTDATED_PACKAGES" | base64 -d
-
     - name: Create Pull Request
       if: env.CHANGES_DETECTED == 'true'
       uses: peter-evans/create-pull-request@v5
@@ -65,10 +52,15 @@ jobs:
         title: "chore: run npm audit fix"
         body: |
           Automated PR to address non-breaking vulnerabilities reported by `npm audit fix`. Changes have been applied automatically.
-          
+
           Outdated dependencies (not updated in this PR):
           ```
           ${{ steps.outdated-packages.outputs.outdated }}
           ```
         labels: dependencies, automation
 
+    - name: Attach Outdated Packages to PR Body
+      if: env.CHANGES_DETECTED == 'true'
+      run: |
+        echo "Appending outdated packages to the PR..."
+        cat outdated-packages.txt
