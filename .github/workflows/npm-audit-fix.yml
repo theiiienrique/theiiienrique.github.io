@@ -36,6 +36,7 @@ jobs:
         else
           echo "Changes detected. Preparing to create PR."
           echo "CHANGES_DETECTED=true" >> $GITHUB_ENV
+        fi
 
     - name: Create Pull Request
       if: env.CHANGES_DETECTED == 'true'
