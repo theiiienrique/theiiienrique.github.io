@@ -14,7 +14,9 @@ Algolia, Confluence, CSS, Docs as Code, Docusaurus, Git, GitHub, GitHub Actions,
 
 ## Experience
 
-**Technical Writing Intern**, Workato <span class="date">April 2024–present</span>
+**Technical Writer**, Workato <span class="date">April 2025–present</span>
+
+**Technical Writing Intern**, Workato <span class="date">April 2024–April 2025</span>
 
 - Create clear, informative content that educates users on Workato's features and functionality.
 - Collaborate with engineers, product managers, and other team members to gather functional details and obtain technical reviews for documentation.
