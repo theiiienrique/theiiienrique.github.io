@@ -8,15 +8,19 @@ tags:
 
 # WordPress uploading guide
 
+## About this sample
+
 This guide was written for the editors of [Palaver Arts Magazine](https://dornsife.usc.edu/palaver/), an online arts publication at the University of Southern California.
 
-During Palaver's migration from Squarespace to WordPress, I migrated approximately **270 posts** and created documentation to support long-term adoption of the new platform by future editorial teams. This guide is still used by the organization several years after the migration.
+It was created during Palaver’s migration from Squarespace to WordPress, where I migrated approximately **270 posts** and documented publishing workflows to support long-term adoption by future editorial teams. The guide is still used by the organization several years after the migration.
 
-To support consistency and ease of use, I also created reusable WordPress templates for common post and page types. This guide follows the [Google developer documentation style guide](https://developers.google.com/style) and was linted using [Vale](https://vale.sh/) to ensure clarity and consistency.
+To support consistency and ease of use, I also created reusable WordPress templates for common post and page types. This documentation follows the [Google developer documentation style guide](https://developers.google.com/style) and was linted using [Vale](https://vale.sh/) to ensure clarity and consistency.
 
 ---
 
-## Upload image and media files
+## Guide
+
+### Upload image and media files
 
 To upload new image and media files, complete the following steps:
 
@@ -74,7 +78,7 @@ Click **Close**.
 
 ---
 
-## Create a new category
+### Create a new category
 
 Posts on the Palaver website are organized by issue using categories.
 
@@ -108,7 +112,7 @@ Click **Add new category**.
 
 ---
 
-## Create a new post
+### Create a new post
 
 To create a new post:
 
@@ -139,7 +143,7 @@ Hover over the template and click **New draft**.
 
 ---
 
-## Edit the post
+### Edit the post
 
 <Tabs>
 
@@ -244,7 +248,7 @@ Insert the contributor bio in the third **Rich text** block and bold the contrib
 
 ---
 
-## Edit post metadata and publish
+### Edit post metadata and publish
 
 To edit metadata and publish a post:
 
@@ -292,7 +296,7 @@ Click **Publish** or **Schedule**, then confirm your selection.
 
 ---
 
-## Create a new issue landing page
+### Create a new issue landing page
 
 To create a new issue landing page:
 
@@ -320,7 +324,7 @@ Hover over the **New issue** template and click **New draft**.
 
 ---
 
-## Edit the issue landing page
+### Edit the issue landing page
 
 To edit the issue landing page:
 
@@ -360,7 +364,7 @@ Enter the artist's name in the `Cover artwork by [Artist Name]` placeholder. Thi
 
 ---
 
-## Link posts to the issue landing page
+### Link posts to the issue landing page
 
 To link posts to the issue landing page:
 
@@ -406,7 +410,7 @@ For art and media, click **Remove** on the placeholder image and replace it with
 
 ---
 
-## Edit page metadata and publish
+### Edit page metadata and publish
 
 To modify page metadata and publish the page:
 
@@ -446,7 +450,7 @@ Click **Publish** or **Schedule** and confirm your selection to publish the page
 
 ---
 
-## Update the site menu
+### Update the site menu
 
 To update the site menu:
 
@@ -482,7 +486,7 @@ Your menu should now link to the latest issue landing page.
 
 ---
 
-## Relocate the previous issue
+### Relocate the previous issue
 
 To move the previous issue to the past issues page:
 
@@ -557,7 +561,7 @@ Click **Update** to save your changes.
 
 ---
 
-## Resize images
+### Resize images
 
 Some custom WordPress blocks require images to match specific dimensions.
 
