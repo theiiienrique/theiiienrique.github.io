@@ -6,11 +6,16 @@ hide_table_of_contents: true
 
 # About
 
-Hello! My name is Enrique, and I'm a technical writer who is passionate about creating clear, user-friendly documentation.
+I'm a technical writer who transforms complex technical concepts into clear, user-focused documentation. With experience spanning integration platforms, open-source projects, and content migrations, I specialize in creating documentation that empowers users and reduces support overhead.
 
-## Tools and technology
+Currently, I create and maintain product documentation at Workato, where I collaborate closely with engineering and product teams to deliver accurate, actionable content for developers and business users.
 
-Algolia, Confluence, CSS, Docs as Code, Docusaurus, Git, GitHub, GitHub Actions, Google Analytics, Google developer documentation style guide, Google Tag Manager, HTML, Hugo, Jekyll, Jira, Markdown, Postman, Slack, Snagit, Vale, Visual Studio Code, VuePress
+## Core competencies
+
+- **Documentation types**: Product documentation, API documentation, process documentation, user guides, conceptual documentation, technical how-tos
+- **Technical skills**: Docs-as-code workflows, Markdown, Git/GitHub, HTML/CSS, REST APIs, Docusaurus, Vale, Visual Studio Code
+- **Tools & platforms**: Confluence, Jira, Postman, Snagit, Google Analytics, Google Tag Manager, Algolia, GitHub Actions
+- **Style guides**: Google developer documentation style guide, Vale linting
 
 ## Experience
 
@@ -18,20 +23,24 @@ Algolia, Confluence, CSS, Docs as Code, Docusaurus, Git, GitHub, GitHub Actions,
 
 **Technical Writing Intern**, Workato <span class="date">April 2024–April 2025</span>
 
-- Create clear, informative content that educates users on Workato's features and functionality.
-- Collaborate with engineers, product managers, and other team members to gather functional details and obtain technical reviews for documentation.
-- Contribute to the improvement of existing documentation by providing valuable feedback and recommendations.
-- Participate in team initiatives to establish style and process guidelines for documentation creation.
-- Occasionally contribute to internal documentation and provide input into tool and usability decisions.
+- Create and maintain comprehensive product documentation for Workato's integration platform, covering features, workflows, and use cases
+- Partner with engineering and product teams to gather technical requirements and ensure documentation accuracy through collaborative reviews
+- Drive documentation quality improvements by auditing existing content and implementing best practices for clarity, consistency, and user experience
+- Contribute to documentation standards and style guide development, establishing consistent patterns across the documentation site
+- Support internal documentation initiatives and provide strategic input on documentation tooling and workflows
 
 **Volunteer Technical Writer**, The Good Docs Project <span class="date">July 2023–April 2024</span>
 
-- Wrote a [template](/docs/user-stories/user-story-template) and [user guide](/docs/user-stories/user-story-guide) on user stories, following technical writing best practices.
-- Provided constructive feedback during community reviews, improving project documentation quality by suggesting ways to address formatting, style, consistency, and grammar issues
-- Used Vale to enforce style guidelines and maintain a standard for clear, concise prose.
+- Authored a comprehensive [user story template](/docs/user-stories/user-story-template) and [implementation guide](/docs/user-stories/user-story-guide) following industry best practices and agile documentation standards
+- Provided detailed technical reviews for community contributions, focusing on structure, clarity, style consistency, and adherence to documentation standards
+- Implemented Vale linting workflows to automate style enforcement and maintain documentation quality at scale
 
 ## Education
 
 **Master of Arts in Literary Editing and Publishing**, University of Southern California
 
 **Bachelor of Arts in Narrative Studies**, University of Southern California
+
+## Let's connect
+
+Interested in working together? [Get in touch](/contact) or connect with me on [LinkedIn](https://www.linkedin.com/in/theiiienrique/) and [GitHub](https://github.com/theiiienrique).

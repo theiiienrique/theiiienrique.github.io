@@ -1,41 +1,43 @@
-import clsx from 'clsx';
-import Heading from '@theme/Heading';
-import styles from './styles.module.css';
+import clsx from "clsx";
+import Heading from "@theme/Heading";
+import styles from "./styles.module.css";
 
 const FeatureList = [
   {
-    title: 'High-quality documentation',
-    Svg: require('@site/static/img/undraw_programming.svg').default,
+    title: "User-focused documentation",
+    Svg: require("@site/static/img/undraw_programming.svg").default,
     description: (
       <>
-        Skilled in creating high-quality documentation for software products.
+        I create clear, comprehensive documentation that helps users
+        succeed—from product guides to API references to technical how-tos.
       </>
     ),
   },
   {
-    title: 'Proficient with technical writing tools',
-    Svg: require('@site/static/img/undraw_version_control.svg').default,
+    title: "Docs-as-code expertise",
+    Svg: require("@site/static/img/undraw_version_control.svg").default,
     description: (
       <>
-        Proficient with technical writing tools such as Markdown, Docusaurus,
-        Git, and docs-as-code workflows.
+        I build modern documentation systems with Git workflows, static site
+        generators, automated linting, and CI/CD pipelines.
       </>
     ),
   },
   {
-    title: 'API documentation',
-    Svg: require('@site/static/img/undraw_launch_day.svg').default,
+    title: "Collaborative approach",
+    Svg: require("@site/static/img/undraw_launch_day.svg").default,
     description: (
       <>
-        Experienced in writing API documentation.
+        I partner with engineering, product, and design teams to deliver
+        accurate, actionable content that drives adoption.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx("col col--4")}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
