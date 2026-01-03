@@ -4,6 +4,8 @@ description: About
 hide_table_of_contents: true
 ---
 
+import Timeline from '@site/src/components/Timeline';
+
 # About
 
 I'm a technical writer who transforms complex technical concepts into clear, user-focused documentation. With experience spanning integration platforms, open-source projects, and content migrations, I specialize in creating documentation that empowers users and reduces support overhead.
@@ -19,27 +21,60 @@ Currently, I create and maintain product documentation at Workato, where I colla
 
 ## Experience
 
-**Technical Writer**, Workato <span class="date">April 2025–present</span>
-
-**Technical Writing Intern**, Workato <span class="date">April 2024–April 2025</span>
-
-- Create and maintain comprehensive product documentation for Workato's integration platform, covering features, workflows, and use cases
-- Partner with engineering and product teams to gather technical requirements and ensure documentation accuracy through collaborative reviews
-- Drive documentation quality improvements by auditing existing content and implementing best practices for clarity, consistency, and user experience
-- Contribute to documentation standards and style guide development, establishing consistent patterns across the documentation site
-- Support internal documentation initiatives and provide strategic input on documentation tooling and workflows
-
-**Volunteer Technical Writer**, The Good Docs Project <span class="date">July 2023–April 2024</span>
-
-- Authored a comprehensive [user story template](/docs/user-stories/user-story-template) and [implementation guide](/docs/user-stories/user-story-guide) following industry best practices and agile documentation standards
-- Provided detailed technical reviews for community contributions, focusing on structure, clarity, style consistency, and adherence to documentation standards
-- Implemented Vale linting workflows to automate style enforcement and maintain documentation quality at scale
+<Timeline items={[
+{
+company: 'Workato',
+roles: [
+{
+title: 'Technical Writer',
+dateRange: 'April 2025–present'
+},
+{
+title: 'Technical Writing Intern',
+dateRange: 'April 2024–April 2025'
+}
+],
+description: [
+'Create and maintain comprehensive product documentation for Workato\'s integration platform, covering features, workflows, and use cases',
+'Partner with engineering and product teams to gather technical requirements and ensure documentation accuracy through collaborative reviews',
+'Drive documentation quality improvements by auditing existing content and implementing best practices for clarity, consistency, and user experience',
+'Contribute to documentation standards and style guide development, establishing consistent patterns across the documentation site',
+'Support internal documentation initiatives and provide strategic input on documentation tooling and workflows'
+]
+},
+{
+company: 'The Good Docs Project',
+roles: [
+{
+title: 'Volunteer Technical Writer',
+dateRange: 'July 2023–April 2024'
+}
+],
+description: [
+'Authored a comprehensive <a href="/docs/user-stories/user-story-template">user story template</a> and <a href="/docs/user-stories/user-story-guide">implementation guide</a> following industry best practices and agile documentation standards',
+'Provided detailed technical reviews for community contributions, focusing on structure, clarity, style consistency, and adherence to documentation standards',
+'Implemented Vale linting workflows to automate style enforcement and maintain documentation quality at scale'
+]
+}
+]} />
 
 ## Education
 
-**Master of Arts in Literary Editing and Publishing**, University of Southern California
-
-**Bachelor of Arts in Narrative Studies**, University of Southern California
+<Timeline items={[
+{
+company: 'University of Southern California',
+roles: [
+{
+title: 'Master of Arts in Literary Editing and Publishing',
+dateRange: '2023'
+},
+{
+title: 'Bachelor of Arts in Narrative Studies',
+dateRange: '2023'
+}
+]
+}
+]} />
 
 ## Let's connect
 
