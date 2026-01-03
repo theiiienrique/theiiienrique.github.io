@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 1
 description: Learn how to use WordPress to upload new content.
 tags:
   - how-to
@@ -16,9 +16,9 @@ It was created during Palaver’s migration from Squarespace to WordPress, where
 
 To support consistency and ease of use, I also created reusable WordPress templates for common post and page types. This documentation follows the [Google developer documentation style guide](https://developers.google.com/style) and was linted using [Vale](https://vale.sh/) to ensure clarity and consistency.
 
----
-
 ## Guide
+
+The following sections describe the standard publishing workflow for Palaver Arts Magazine.
 
 ### Upload image and media files
 
@@ -76,8 +76,6 @@ Click **Close**.
 
 </Stepper>
 
----
-
 ### Create a new category
 
 Posts on the Palaver website are organized by issue using categories.
@@ -110,8 +108,6 @@ Click **Add new category**.
 
 </Stepper>
 
----
-
 ### Create a new post
 
 To create a new post:
@@ -140,8 +136,6 @@ Hover over the template and click **New draft**.
 </Step>
 
 </Stepper>
-
----
 
 ### Edit the post
 
@@ -246,8 +240,6 @@ Insert the contributor bio in the third **Rich text** block and bold the contrib
 
 </Tabs>
 
----
-
 ### Edit post metadata and publish
 
 To edit metadata and publish a post:
@@ -294,8 +286,6 @@ Click **Publish** or **Schedule**, then confirm your selection.
 
 </Stepper>
 
----
-
 ### Create a new issue landing page
 
 To create a new issue landing page:
@@ -321,8 +311,6 @@ Hover over the **New issue** template and click **New draft**.
 </Step>
 
 </Stepper>
-
----
 
 ### Edit the issue landing page
 
@@ -361,8 +349,6 @@ Enter the artist's name in the `Cover artwork by [Artist Name]` placeholder. Thi
 </Step>
 
 </Stepper>
-
----
 
 ### Link posts to the issue landing page
 
@@ -408,8 +394,6 @@ For art and media, click **Remove** on the placeholder image and replace it with
 
 </Stepper>
 
----
-
 ### Edit page metadata and publish
 
 To modify page metadata and publish the page:
@@ -448,8 +432,6 @@ Click **Publish** or **Schedule** and confirm your selection to publish the page
 
 </Stepper>
 
----
-
 ### Update the site menu
 
 To update the site menu:
@@ -483,8 +465,6 @@ Click **Save menu**.
 </Stepper>
 
 Your menu should now link to the latest issue landing page.
-
----
 
 ### Relocate the previous issue
 
@@ -558,8 +538,6 @@ Click **Update** to save your changes.
 </Step>
 
 </Stepper>
-
----
 
 ### Resize images
 
