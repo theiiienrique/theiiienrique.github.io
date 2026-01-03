@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 1
 description: Learn how to use WordPress to upload new content.
 tags:
   - how-to
@@ -8,19 +8,21 @@ tags:
 
 # WordPress uploading guide
 
-I wrote this guide for the editors at [Palaver Arts Magazine](https://dornsife.usc.edu/palaver/), an online arts publication at the University of Southern California.
+## About this sample
 
-When migrating our magazine to WordPress, I not only migrated 270 posts from our previous website but also wrote documentation to ensure a seamless experience for the future editorial team.
+This guide was written for the editors of [Palaver Arts Magazine](https://dornsife.usc.edu/palaver/), an online arts publication at the University of Southern California.
 
-To aid the transition, I created reusable WordPress templates for common post types and page types. To write this guide, I used the [Google developer documentation style guide](https://developers.google.com/style). I also used [Vale](https://vale.sh/) to adhere the content to the style guide.
+It was created during Palaver’s migration from Squarespace to WordPress, where I migrated approximately **270 posts** and documented publishing workflows to support long-term adoption by future editorial teams. The guide is still used by the organization several years after the migration.
 
-:::note
-This guide assumes the user is signed in to the site and can access the dashboard.
-:::
+To support consistency and ease of use, I also created reusable WordPress templates for common post and page types. This documentation follows the [Google developer documentation style guide](https://developers.google.com/style) and was linted using [Vale](https://vale.sh/) to ensure clarity and consistency.
 
-## Upload image and media files
+## Guide
 
-To upload new image and media files, follow these steps:
+The following sections describe the standard publishing workflow for Palaver Arts Magazine.
+
+### Upload image and media files
+
+To upload new image and media files, complete the following steps:
 
 <Stepper>
 
@@ -38,11 +40,7 @@ Drop files to upload or click **Select files**.
 
 <Step>
 
-<Step>
-
-Select the thumbnail of the file you uploaded to modify it.
-
-</Step>
+Select the thumbnail of the uploaded file to edit its details.
 
 </Step>
 
@@ -51,22 +49,22 @@ Select the thumbnail of the file you uploaded to modify it.
 Edit the **Alternative text** field.
 
 :::tip ALT TEXT
-For information on how to write helpful alt text, refer to the [Google developer documentation style guide](https://developers.google.com/style/images#alt-text).
+Write concise, descriptive alt text that communicates the purpose of the image. For guidance, refer to the [Google developer documentation style guide](https://developers.google.com/style/images#alt-text).
 :::
 
 </Step>
 
 <Step>
 
-Use the following naming conventions when editing the **Title** field:
+Edit the **Title** field using the following naming conventions:
 
-- For image, audio, and PDF files, use the `title-lastname` naming convention.
+- For image, audio, and PDF files, use the `title-lastname` format.
 
-:::info NAMING CONVENTION
-If the artwork includes a series of images, add a number to the end of the title. For example, `fractured-goodrum-1`, `fractured-goodrum-2`, `fractured-goodrum-n`.
+:::info NAMING CONVENTIONS
+If the artwork includes a series of images, append a number to the title (for example, `fractured-goodrum-1`, `fractured-goodrum-2`). Consistent naming improves searchability and asset management.
 :::
 
-- For issue covers, use the `semester-year-cover` naming convention.
+- For issue covers, use the `semester-year-cover` format.
 
 </Step>
 
@@ -78,11 +76,11 @@ Click **Close**.
 
 </Stepper>
 
-## Create a new category
+### Create a new category
 
-In WordPress, you can add categories to any post. Our website categorizes posts by issue.
+Posts on the Palaver website are organized by issue using categories.
 
-To create a new category, follow these steps:
+To create a new category:
 
 <Stepper>
 
@@ -110,9 +108,9 @@ Click **Add new category**.
 
 </Stepper>
 
-## Create a new post
+### Create a new post
 
-To create a new post, follow these steps:
+To create a new post:
 
 <Stepper>
 
@@ -124,11 +122,10 @@ On the sidebar, click **Posts**.
 
 <Step>
 
-Determine the post type you need to create:
+Select the appropriate post template:
 
-- For art and media, select the `Single image`, `Several images`, or `Audio/Video` template.
-
-- For prose and poetry, select the `Text` template.
+- For art and media: `Single image`, `Several images`, or `Audio/Video`
+- For prose and poetry: `Text`
 
 </Step>
 
@@ -140,12 +137,12 @@ Hover over the template and click **New draft**.
 
 </Stepper>
 
-## Edit the post
-
-To edit the post you created, follow these steps:
+### Edit the post
 
 <Tabs>
+
 <TabItem value="art-and-media" label="For art and media" default>
+
 <Stepper>
 
 <Step>
@@ -156,61 +153,61 @@ Click **Edit**, then enter the author's name in the **Author** field.
 
 <Step>
 
-Optional: To add an artist statement or content warning, paste it in the first **Rich text** block. Style the artist statement using quotations and the content warning using _italic_ type. Otherwise, delete this block.
+Optional: Add an artist statement or content warning in the first **Rich text** block. Style artist statements using quotation marks and content warnings using _italic_ text. Delete this block if not needed.
 
 </Step>
 
 <Step>
 
-Configure the **Image gallery** or **Rich text** block, depending on your selected template.
+Configure the **Image gallery** or **Rich text** block based on the artwork layout:
 
-- Use the **Image gallery** block if you have several horizontal or landscape images.
+- Use **Image gallery** for multiple horizontal or landscape images.
+- Use **Rich text** for vertical, portrait, or mixed-orientation images.
 
-- Use the **Rich text** block if you have multiple vertical, portrait, or differently oriented images.
+<Stepper>
 
-   <Stepper>
+<Step>
 
-   <Step>
+Go to **Add media > Create gallery**.
 
-  Go to **Add media > Create gallery**.
+</Step>
 
-   </Step>
+<Step>
 
-   <Step>
+Select the images to insert.
 
-  Select the images you plan to insert.
+</Step>
 
-   </Step>
+<Step>
 
-   <Step>
+Configure **Gallery settings**:
 
-  Configure the following **Gallery settings**:
+- **Link to**: `Attachment Page`
+- **Columns**: `1`
+- **Size**: `Full Size`
 
-  - **Link to**: `Attachment Page`
-  - **Columns**: `1`
-  - **Size**: `Full Size`
+</Step>
 
-   </Step>
-
-   </Stepper>
-
-- For other instances, use the **Rich text** block.
+</Stepper>
 
 :::tip FULL-SIZE EMBEDS
-When embedding a video from YouTube or Vimeo, you can create a full-size embed by going to **Add media > Insert from URL**.
+To embed a full-width video from YouTube or Vimeo, go to **Add media > Insert from URL**.
 :::
 
 </Step>
 
 <Step>
 
-Insert the contributor bio in the **Rich text** block. Style their name using bold type.
+Insert the contributor bio in a **Rich text** block. Style the contributor's name using **bold** text.
 
 </Step>
 
 </Stepper>
+
 </TabItem>
-<TabItem value="prose-and-poetry" label="For prose and poetry" default>
+
+<TabItem value="prose-and-poetry" label="For prose and poetry">
+
 <Stepper>
 
 <Step>
@@ -221,35 +218,37 @@ Click **Edit**, then enter the author's name in the **Author** field.
 
 <Step>
 
-Optional: To add an artist statement or content warning, paste it in the first **Rich text** block. Style the artist statement using quotations and the content warning using _italic_ type. Otherwise, delete this block.
+Optional: Add an artist statement or content warning in the first **Rich text** block. Use quotation marks for artist statements and _italic_ text for content warnings. Delete this block if unused.
 
 </Step>
 
 <Step>
 
-Paste the prose or poem in the second **Rich text** block.
+Paste the prose or poem into the second **Rich text** block.
 
 </Step>
 
 <Step>
 
-Insert the contributor bio in the third **Rich text** block. Style their name using bold type.
+Insert the contributor bio in the third **Rich text** block and bold the contributor's name.
 
 </Step>
 
 </Stepper>
+
 </TabItem>
+
 </Tabs>
 
-## Edit post metadata and publish
+### Edit post metadata and publish
 
-To modify the post metadata and publish the post, follow these steps:
+To edit metadata and publish a post:
 
 <Stepper>
 
 <Step>
 
-Select **Settings**.
+Open **Settings**.
 
 </Step>
 
@@ -257,13 +256,13 @@ Select **Settings**.
 
 Configure the following fields:
 
-| Field          | Description                                                                                                                                 |
-| :------------- | :------------------------------------------------------------------------------------------------------------------------------------------ |
-| Publish        | Set to the launch date and time.                                                                                                            |
-| URL            | Keep the permalink as a hyphenated title unless the piece is untitled. If the piece is untitled, name the permalink as `untitled-lastname`. |
-| Pending review | Select the **Pending review** checkbox to allow you to review posts after you have uploaded the entire issue to WordPress.                  |
-| Categories     | Clear the **Template** checkbox and select the category you created from [Create a new category](#create-a-new-category).                   |
-| Tags           | Select the **Art**, **Media**, **Prose**, or **Poetry** tag.                                                                                |
+| Field          | Description                                                                                                 |
+| -------------- | ----------------------------------------------------------------------------------------------------------- |
+| Publish        | Set the launch date and time.                                                                               |
+| URL            | Keep the default hyphenated title unless the piece is untitled. Use `untitled-lastname` for untitled works. |
+| Pending review | Select to allow review after uploading the full issue.                                                      |
+| Categories     | Clear **Template** and select the issue category you created.                                               |
+| Tags           | Select **Art**, **Media**, **Prose**, or **Poetry**.                                                        |
 
 </Step>
 
@@ -275,27 +274,21 @@ Click **Save as pending**.
 
 <Step>
 
-Click **Preview** to view your post.
+Click **Preview** to review the post.
 
 </Step>
 
 <Step>
 
-Click **Publish** to publish your post, or click **Schedule** if you scheduled the post to publish later.
-
-</Step>
-
-<Step>
-
-Confirm that you want to publish or schedule the post for publishing.
+Click **Publish** or **Schedule**, then confirm your selection.
 
 </Step>
 
 </Stepper>
 
-## Create a new issue landing page
+### Create a new issue landing page
 
-To create a new issue landing page, follow these steps:
+To create a new issue landing page:
 
 <Stepper>
 
@@ -313,15 +306,15 @@ Locate the **New issue** template.
 
 <Step>
 
-Hover over **New issue** template and click **New draft**.
+Hover over the **New issue** template and click **New draft**.
 
 </Step>
 
 </Stepper>
 
-## Edit the issue landing page
+### Edit the issue landing page
 
-To edit the issue landing page you created, follow these steps:
+To edit the issue landing page:
 
 <Stepper>
 
@@ -357,9 +350,9 @@ Enter the artist's name in the `Cover artwork by [Artist Name]` placeholder. Thi
 
 </Stepper>
 
-## Link posts to the issue landing page
+### Link posts to the issue landing page
 
-To link posts to the issue landing page, follow these steps:
+To link posts to the issue landing page:
 
 <Stepper>
 
@@ -371,7 +364,7 @@ Go to the stacking card for the genre you plan to link.
 
 <Step>
 
-Replace the placeholder content. For example, `Art Title 1, Artist Name`.
+Replace the placeholder content (for example, `Art Title 1, Artist Name`).
 
 </Step>
 
@@ -384,10 +377,6 @@ Click **Select link**.
 <Step>
 
 In the dialog that appears, search for your post under **Or link to existing content**.
-
-:::note
-You must publish the post to find it in the search.
-:::
 
 </Step>
 
@@ -405,9 +394,9 @@ For art and media, click **Remove** on the placeholder image and replace it with
 
 </Stepper>
 
-## Edit page metadata and publish
+### Edit page metadata and publish
 
-To modify the page metadata and publish the page, follow these steps:
+To modify page metadata and publish the page:
 
 <Stepper>
 
@@ -443,9 +432,9 @@ Click **Publish** or **Schedule** and confirm your selection to publish the page
 
 </Stepper>
 
-## Update the site menu
+### Update the site menu
 
-To update the site menu, follow these steps:
+To update the site menu:
 
 <Stepper>
 
@@ -463,7 +452,7 @@ Go to **Menu structure** and expand the **Current issue** section.
 
 <Step>
 
-Edit the **URL** box to match the new issue landing page slug. For example, `/issue-14-fall-2023`.
+Edit the **URL** box to match the new issue landing page slug (for example, `/issue-14-fall-2023`).
 
 </Step>
 
@@ -477,15 +466,15 @@ Click **Save menu**.
 
 Your menu should now link to the latest issue landing page.
 
-## Relocate the previous issue
+### Relocate the previous issue
 
-To move the previous issue to the past issues page, follow these steps:
+To move the previous issue to the past issues page:
 
 <Stepper>
 
 <Step>
 
-On the sidebar, click **Pages** and locate the previous issue. For example, `Issue 13: Spring 2023`.
+On the sidebar, click **Pages** and locate the previous issue (for example, `Issue 13: Spring 2023`).
 
 </Step>
 
@@ -550,35 +539,37 @@ Click **Update** to save your changes.
 
 </Stepper>
 
-## Resize images
+### Resize images
 
-With the site's custom WordPress blocks, you may need to modify your photo to fit within the block's dimensions. For example, on the **Meet the editors** page, the **Stacking cards** block contains editor bios and photos.
+Some custom WordPress blocks require images to match specific dimensions.
 
-To ensure your image is displayed correctly, complete the following steps:
+For example, the **Stacking cards** block on the _Meet the editors_ page requires images sized at **900×506 px**.
+
+To resize an image:
 
 <Stepper>
 
 <Step>
 
-Determine the specific height and width required for the photo layout. The dimensions for an image in a stacking card block are 900×506 px.
+Confirm the required image dimensions.
 
 </Step>
 
 <Step>
 
-Use an image editor like Adobe Photoshop to create a canvas with the required dimensions and a transparent background.
+Create a canvas with the required dimensions and a transparent background using an image editor such as Adobe Photoshop.
 
 </Step>
 
 <Step>
 
-Place your photo in the center of the canvas and save the file as a JPEG or PNG file.
+Center the photo on the canvas and save it as a JPEG or PNG file.
 
 </Step>
 
 <Step>
 
-Upload the correctly sized image to the **Stacking cards** block.
+Upload the resized image to the appropriate block.
 
 </Step>
 

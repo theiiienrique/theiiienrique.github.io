@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 description: Learn how to add Vale to your repository.
 tags:
   - vale
