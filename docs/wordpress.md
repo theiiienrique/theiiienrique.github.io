@@ -153,7 +153,7 @@ Click **Edit**, then enter the author's name in the **Author** field.
 
 <Step>
 
-Optional: Add an artist statement or content warning in the first **Rich text** block. Style artist statements using quotation marks and content warnings using _italic_ text. Delete this block if not needed.
+Optional: Add an artist statement or content warning in the first **Rich text** block. Use quotation marks for artist statements and _italic_ text for content warnings. Delete this block if unused.
 
 </Step>
 
