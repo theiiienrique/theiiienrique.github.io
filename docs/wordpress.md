@@ -294,7 +294,7 @@ Click **Publish** or **Schedule**, then confirm your selection.
 
 ## Create a new issue landing page
 
-To create a new issue landing page, follow these steps:
+To create a new issue landing page:
 
 <Stepper>
 
@@ -312,7 +312,7 @@ Locate the **New issue** template.
 
 <Step>
 
-Hover over **New issue** template and click **New draft**.
+Hover over the **New issue** template and click **New draft**.
 
 </Step>
 
@@ -322,7 +322,7 @@ Hover over **New issue** template and click **New draft**.
 
 ## Edit the issue landing page
 
-To edit the issue landing page you created, follow these steps:
+To edit the issue landing page:
 
 <Stepper>
 
@@ -362,7 +362,7 @@ Enter the artist's name in the `Cover artwork by [Artist Name]` placeholder. Thi
 
 ## Link posts to the issue landing page
 
-To link posts to the issue landing page, follow these steps:
+To link posts to the issue landing page:
 
 <Stepper>
 
@@ -374,7 +374,7 @@ Go to the stacking card for the genre you plan to link.
 
 <Step>
 
-Replace the placeholder content. For example, `Art Title 1, Artist Name`.
+Replace the placeholder content (for example, `Art Title 1, Artist Name`).
 
 </Step>
 
@@ -387,10 +387,6 @@ Click **Select link**.
 <Step>
 
 In the dialog that appears, search for your post under **Or link to existing content**.
-
-:::note
-You must publish the post to find it in the search.
-:::
 
 </Step>
 
@@ -412,7 +408,7 @@ For art and media, click **Remove** on the placeholder image and replace it with
 
 ## Edit page metadata and publish
 
-To modify the page metadata and publish the page, follow these steps:
+To modify page metadata and publish the page:
 
 <Stepper>
 
@@ -452,7 +448,7 @@ Click **Publish** or **Schedule** and confirm your selection to publish the page
 
 ## Update the site menu
 
-To update the site menu, follow these steps:
+To update the site menu:
 
 <Stepper>
 
@@ -470,7 +466,7 @@ Go to **Menu structure** and expand the **Current issue** section.
 
 <Step>
 
-Edit the **URL** box to match the new issue landing page slug. For example, `/issue-14-fall-2023`.
+Edit the **URL** box to match the new issue landing page slug (for example, `/issue-14-fall-2023`).
 
 </Step>
 
@@ -488,13 +484,13 @@ Your menu should now link to the latest issue landing page.
 
 ## Relocate the previous issue
 
-To move the previous issue to the past issues page, follow these steps:
+To move the previous issue to the past issues page:
 
 <Stepper>
 
 <Step>
 
-On the sidebar, click **Pages** and locate the previous issue. For example, `Issue 13: Spring 2023`.
+On the sidebar, click **Pages** and locate the previous issue (for example, `Issue 13: Spring 2023`).
 
 </Step>
 
