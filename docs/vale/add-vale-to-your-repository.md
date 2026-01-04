@@ -2,8 +2,8 @@
 sidebar_position: 3
 description: Learn how to add Vale to your repository.
 tags:
-  - vale
   - how-to
+  - vale
 ---
 
 # Add Vale to your repository

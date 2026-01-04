@@ -23,11 +23,11 @@ However, user stories focus on the user’s goals rather than the technical aspe
 
 User stories serve as placeholders for future conversations. They’re informal and brief to encourage dialogue between the customer and development teams. Through these conversations, the specific details of a user story and its acceptance criteria emerge.
 
-|  | User story | Requirement |
-| :---- | :---- | :---- |
-| Content | A short description of how a feature helps a user achieve a goal. | A description of what a system should do, the services it provides, and the constraints on its operation. |
-| Purpose | Places user expectations at the center of the development process to deliver a product that serves the user effectively. | Guides the development team in designing the system by specifying its functionalities. In Waterfall development, meeting all requirements is typically a prerequisite for system implementation. |
-| Development methodology | Used in Agile development. | Used in Waterfall development. |
+|                         | User story                                                                                                               | Requirement                                                                                                                                                                                      |
+| :---------------------- | :----------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Content                 | A short description of how a feature helps a user achieve a goal.                                                        | A description of what a system should do, the services it provides, and the constraints on its operation.                                                                                        |
+| Purpose                 | Places user expectations at the center of the development process to deliver a product that serves the user effectively. | Guides the development team in designing the system by specifying its functionalities. In Waterfall development, meeting all requirements is typically a prerequisite for system implementation. |
+| Development methodology | Used in Agile development.                                                                                               | Used in Waterfall development.                                                                                                                                                                   |
 
 ## Why you should use user stories
 
@@ -35,8 +35,8 @@ User stories involve the user throughout the software development life cycle. Th
 
 While user stories benefit your users, they can also help your team
 
-- **Prioritize urgent tasks**: User stories emerge from user feedback. If there’s a demand for a specific feature or a repeated issue in your ticketing system, user stories can help you decide which tasks are most urgent.  
-- **Break down large tasks**: User stories break down large tasks into the smallest possible units of work. With small and self-contained user stories, you can develop and release features incrementally and efficiently.  
+- **Prioritize urgent tasks**: User stories emerge from user feedback. If there’s a demand for a specific feature or a repeated issue in your ticketing system, user stories can help you decide which tasks are most urgent.
+- **Break down large tasks**: User stories break down large tasks into the smallest possible units of work. With small and self-contained user stories, you can develop and release features incrementally and efficiently.
 - **Clarify broad tasks**: User stories play a crucial role in refining epics and creating tasks that pave the way for successful outcomes. An epic, essentially a broad user story, consists of smaller user stories. Understanding these smaller stories is essential for effective work. User stories help assess task size and dependencies, which is vital in Agile environments for achieving sprint goals.
 
 ## User story best practices
@@ -48,20 +48,20 @@ Although user stories follow a straightforward formula, there are many ways they
 A good user story follows the INVEST acronym:
 
 Independent
-: Doesn’t depend on the completion of other features.  
+: Doesn’t depend on the completion of other features.
 
 Negotiable
 : Captures what the user wants and why, not how to build the feature.
-: Generates conversation on how to meet the user's needs effectively.  
+: Generates conversation on how to meet the user's needs effectively.
 
 Valuable
-: Delivers value to users and the company.  
+: Delivers value to users and the company.
 
 Estimable
-: Can estimate the time and effort required to complete the user story.  
+: Can estimate the time and effort required to complete the user story.
 
 Small
-: Able to be completed in a single sprint.  
+: Able to be completed in a single sprint.
 
 Testable
 : Has specific criteria to determine when the user story is complete.
@@ -134,8 +134,8 @@ Assigning story points to a user story is optional but recommended. Story points
 
 With story points, teams typically use numbers from the Fibonacci sequence or shirt sizes to estimate a user story's time, effort, and complexity. The important things to know about story points include the following:
 
-- Teams estimate user stories, not individuals. This way, all members can deliberate on the story points before deciding on them. This also prevents one person from being responsible for them and possibly under- or over-estimating a user story.  
-- Story points aren’t absolute estimates, so avoid using estimates that measure user stories in days or weeks.  
+- Teams estimate user stories, not individuals. This way, all members can deliberate on the story points before deciding on them. This also prevents one person from being responsible for them and possibly under- or over-estimating a user story.
+- Story points aren’t absolute estimates, so avoid using estimates that measure user stories in days or weeks.
 - At the end of a sprint, you may find that a story point was inaccurate. The best thing to do is to adjust and modify your story points relative to the other user stories in the product backlog.
 
 ### About the “Priority” section

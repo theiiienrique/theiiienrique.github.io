@@ -11,7 +11,7 @@ export default function Docs() {
         "A comprehensive guide created for Palaver Arts Magazine editors during their migration from Squarespace to WordPress. Covers content publishing workflows, image optimization, and post metadata management.",
       image: "/img/wordpress.png",
       link: "/docs/wordpress",
-      tags: ["how-to", "wordpress", "content management"],
+      tags: ["how-to", "wordpress"],
     },
     {
       title: "Vale setup guide",
@@ -19,14 +19,13 @@ export default function Docs() {
         "Step-by-step instructions for installing and configuring Vale, a command-line linter for prose. Includes integration with VS Code and configuration for multiple style guides.",
       image: "/img/vale/vale-response.png",
       link: "/docs/vale/add-vale-to-your-repository",
-      tags: ["how-to", "vale", "docs-as-code"],
+      tags: ["how-to", "vale"],
     },
     {
       title: "User story template & guide",
       description:
         "An open-source template and implementation guide for writing effective user stories. Created for The Good Docs Project following agile documentation standards.",
       link: "/docs/user-stories/user-story-template",
-      tags: ["template", "agile", "best practices"],
     },
   ];
 
