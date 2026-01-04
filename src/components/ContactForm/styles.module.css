@@ -9,7 +9,7 @@
 
 .formGroup label {
   display: block;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 0.5rem;
   color: var(--ifm-text-primary);
 }

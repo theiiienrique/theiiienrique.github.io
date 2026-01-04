@@ -89,12 +89,7 @@ const config = {
         title: "Enrique Martinez III",
         items: [
           { to: "/about", label: "About", position: "left" },
-          {
-            type: "docSidebar",
-            sidebarId: "docsSidebar",
-            position: "left",
-            label: "Docs",
-          },
+          { to: "/docs", label: "Docs", position: "left" },
           { to: "/contact", label: "Contact", position: "left" },
           {
             href: "https://www.linkedin.com/in/theiiienrique/",
