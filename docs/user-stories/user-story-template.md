@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 description: Write a user story.
 ---
 
@@ -21,9 +21,9 @@ Write a short description of the feature from the user’s perspective.
 
 List the outcomes the user should observe when interacting with the feature. All statements must be true to consider the user story complete.
 
-* `Observable outcome 1`  
-* `Observable outcome 2`  
-* `Observable outcome n`
+- `Observable outcome 1`
+- `Observable outcome 2`
+- `Observable outcome n`
 
 ## Optional: Priority
 
