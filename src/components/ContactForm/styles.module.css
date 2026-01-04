@@ -1,6 +1,8 @@
 .contactForm {
-  margin: 20px auto;
+  margin: 20px 0;
   border-radius: 8px;
+  width: 100%;
+  max-width: none;
 }
 
 .formGroup {

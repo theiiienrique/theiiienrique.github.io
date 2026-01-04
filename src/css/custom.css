@@ -99,6 +99,31 @@ body {
   font-size: 2.5rem;
 }
 
+/* Override Docusaurus grid on contact page */
+.markdown .col--8 {
+  max-width: 100% !important;
+  flex: 1 1 100% !important;
+}
+
+/* Make contact form full width */
+.markdown [class*="contactForm"] {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* Align contact page header with form width */
+.markdown > h1:first-of-type {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  padding-left: 2em;
+  padding-right: 2em;
+  box-sizing: border-box;
+}
+
 .hero--primary {
   --ifm-hero-background-color: none;
   --ifm-hero-text-color: none;
