@@ -109,6 +109,12 @@ body {
   opacity: 0.9;
   max-width: 600px;
   margin: 0 auto 2rem;
+  min-height: 2.5rem;
+}
+
+.hero__subtitle .typed-cursor {
+  color: var(--ifm-color-primary);
+  font-weight: 300;
 }
 
 .hero--primary {
