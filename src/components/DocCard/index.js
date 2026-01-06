@@ -6,7 +6,14 @@ export default function DocCard({ title, description, image, link, tags }) {
   return (
     <Link to={link} className={styles.docCard}>
       <div className={styles.imageContainer}>
-        {image && <img src={image} alt={title} className={styles.image} />}
+        {image && (
+          <img
+            src={image}
+            alt={title}
+            className={styles.image}
+            loading="lazy"
+          />
+        )}
       </div>
       <div className={styles.content}>
         <h3 className={styles.title}>{title}</h3>

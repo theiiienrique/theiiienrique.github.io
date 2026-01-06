@@ -8,7 +8,7 @@ import Timeline from '@site/src/components/Timeline';
 
 # About
 
-I'm a technical writer who transforms complex technical concepts into clear, user-focused documentation. With experience spanning integration platforms, open-source projects, and content migrations, I specialize in creating documentation that empowers users and reduces support overhead.
+I help teams turn complex technical concepts into documentation that actually makes sense. My background spans integration platforms, open-source projects, and large-scale content migrations.
 
 Currently, I create and maintain product documentation at Workato, where I collaborate closely with engineering and product teams to deliver accurate, actionable content for developers and business users.
 
@@ -35,8 +35,8 @@ dateRange: 'April 2024–April 2025'
 }
 ],
 description: [
-'Create and maintain comprehensive product documentation for Workato\'s integration platform, covering features, workflows, and use cases',
-'Partner with engineering and product teams to gather technical requirements and ensure documentation accuracy through collaborative reviews',
+'Create and maintain product documentation for Workato\'s integration platform, covering features, workflows, and use cases',
+'Partner with engineering and product teams to gather technical requirements and ensure documentation accuracy through reviews',
 'Drive documentation quality improvements by auditing existing content and implementing best practices for clarity, consistency, and user experience',
 'Contribute to documentation standards and style guide development, establishing consistent patterns across the documentation site',
 'Support internal documentation initiatives and provide strategic input on documentation tooling and workflows'
@@ -51,9 +51,9 @@ dateRange: 'July 2023–April 2024'
 }
 ],
 description: [
-'Authored a comprehensive <a href="/docs/user-stories/user-story-template">user story template</a> and <a href="/docs/user-stories/user-story-guide">implementation guide</a> following industry best practices and agile documentation standards',
-'Provided detailed technical reviews for community contributions, focusing on structure, clarity, style consistency, and adherence to documentation standards',
-'Implemented Vale linting workflows to automate style enforcement and maintain documentation quality at scale'
+'Authored a <a href="/docs/user-stories/user-story-template">user story template</a> and <a href="/docs/user-stories/user-story-guide">implementation guide</a>',
+'Provided reviews for community contributions, focusing on structure, clarity, style consistency, and adherence to documentation standards',
+'Used Vale linting workflows to automate style enforcement and maintain documentation quality at scale'
 ]
 }
 ]} />
