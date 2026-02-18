@@ -11,27 +11,6 @@ import styles from "./index.module.css";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
-  const typedRef = useRef(null);
-
-  useEffect(() => {
-    const typed = new Typed(typedRef.current, {
-      strings: [
-        "Technical Writer",
-        "Docs-as-Code Enthusiast",
-        "User Documentation Specialist",
-      ],
-      typeSpeed: 70,
-      backSpeed: 50,
-      backDelay: 2000,
-      loop: true,
-      showCursor: true,
-      cursorChar: "|",
-    });
-
-    return () => {
-      typed.destroy();
-    };
-  }, []);
 
   return (
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
@@ -39,9 +18,7 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle">
-          <span ref={typedRef}></span>
-        </p>
+        <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link className="button button--secondary button--lg" to="/docs">
             View my work
