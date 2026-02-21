@@ -1,5 +1,5 @@
 .features {
-  padding: 1.2rem 0 0.2rem;
+  padding: 1.2rem 0 4.5rem;
   width: 100%;
 }
 
@@ -25,7 +25,9 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 1.2rem 1.1rem;
+  align-items: center;
+  text-align: center;
+  padding: 1.75rem 1.5rem;
   border-radius: 1rem;
   border: 1px solid var(--ifm-color-emphasis-200);
   background: linear-gradient(
@@ -33,22 +35,12 @@
     var(--ifm-background-surface-color),
     var(--ifm-background-color)
   );
-  transition:
-    transform 0.2s ease,
-    border-color 0.2s ease,
-    box-shadow 0.2s ease;
-}
-
-.featureCard:hover {
-  transform: translateY(-2px);
-  border-color: rgba(29, 78, 216, 0.45);
-  box-shadow: 0 12px 26px -20px rgba(8, 47, 73, 0.7);
 }
 
 .featureSvg {
   height: 160px;
   width: 160px;
-  margin-bottom: 0.75rem;
+  margin-bottom: 1rem;
 }
 
 .featureContent h3 {
@@ -58,6 +50,7 @@
 
 .featureContent p {
   margin: 0;
+  max-width: 34ch;
 }
 
 @media (max-width: 996px) {

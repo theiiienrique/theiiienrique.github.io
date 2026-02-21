@@ -39,22 +39,22 @@ export default function Docs() {
           <div className="col">
             <article className="mdx-wrapper">
               <div className="container">
-            <div className={styles.hero}>
-              <h1 className={styles.title}>Documentation samples</h1>
-              <p className={styles.subtitle}>
-                These samples show how I tackle different documentation
-                challenges, from helping teams publish on new platforms to
-                building tools that improve writing quality.
-              </p>
-            </div>
+                <div className={styles.hero}>
+                  <h1 className={styles.title}>Documentation samples</h1>
+                  <p className={styles.subtitle}>
+                    These samples show how I tackle different documentation
+                    challenges, from helping teams publish on new platforms to
+                    building tools that improve writing quality.
+                  </p>
+                </div>
 
-            <div className={styles.content}>
-              <div className={styles.grid}>
-                {docSamples.map((sample, index) => (
-                  <DocCard key={index} {...sample} />
-                ))}
-              </div>
-            </div>
+                <div className={styles.content}>
+                  <div className={styles.grid}>
+                    {docSamples.map((sample, index) => (
+                      <DocCard key={index} {...sample} />
+                    ))}
+                  </div>
+                </div>
               </div>
             </article>
           </div>
