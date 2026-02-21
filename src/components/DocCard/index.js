@@ -1,18 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "@docusaurus/Link";
 import styles from "./styles.module.css";
 
 export default function DocCard({ title, description, image, link, tags }) {
+  const [imageLoaded, setImageLoaded] = useState(false);
+
   return (
     <Link to={link} className={styles.docCard}>
       <div className={styles.imageContainer}>
         {image && (
-          <img
-            src={image}
-            alt={title}
-            className={styles.image}
-            loading="lazy"
-          />
+          <>
+            <img
+              src={image}
+              alt={title}
+              className={`${styles.image} ${imageLoaded ? styles.loaded : ""}`}
+              loading="lazy"
+              onLoad={() => setImageLoaded(true)}
+            />
+            {!imageLoaded && <div className={styles.skeleton} />}
+          </>
         )}
       </div>
       <div className={styles.content}>
