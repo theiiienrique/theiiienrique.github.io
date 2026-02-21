@@ -4,6 +4,14 @@ import styles from "./styles.module.css";
 
 export default function DocCard({ title, description, image, link, tags }) {
   const [imageLoaded, setImageLoaded] = useState(false);
+  const imgRef = React.useRef(null);
+
+  React.useEffect(() => {
+    if (imgRef.current && imgRef.current.complete) {
+      // image was cached and already loaded
+      setImageLoaded(true);
+    }
+  }, [image]);
 
   return (
     <Link to={link} className={styles.docCard}>
@@ -11,6 +19,7 @@ export default function DocCard({ title, description, image, link, tags }) {
         {image && (
           <>
             <img
+              ref={imgRef}
               src={image}
               alt={title}
               className={`${styles.image} ${imageLoaded ? styles.loaded : ""}`}
