@@ -34,24 +34,17 @@ export default function Docs() {
       title="Documentation samples"
       description="Portfolio of technical documentation samples showcasing my writing, process documentation, and docs-as-code expertise"
     >
-      <main>
-        <article>
-          <div
-            className="container"
-            style={{
-              maxWidth: "1000px",
-              padding: "0 2em",
-              marginTop: "2rem",
-              marginBottom: "2rem",
-            }}
-          >
+      <main className="container container--fluid margin-vert--lg">
+        <div className="row">
+          <div className="col">
+            <article className="mdx-wrapper">
+              <div className="container">
             <div className={styles.hero}>
               <h1 className={styles.title}>Documentation samples</h1>
               <p className={styles.subtitle}>
                 These samples show how I tackle different documentation
-                challenges—from helping teams publish content on new platforms
-                to building tools that catch writing issues before they reach
-                users.
+                challenges, from helping teams publish on new platforms to
+                building tools that improve writing quality.
               </p>
             </div>
 
@@ -62,8 +55,10 @@ export default function Docs() {
                 ))}
               </div>
             </div>
+              </div>
+            </article>
           </div>
-        </article>
+        </div>
       </main>
     </Layout>
   );

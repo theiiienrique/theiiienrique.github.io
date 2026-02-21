@@ -1,28 +1,40 @@
 .main {
   min-height: calc(100vh - 60px);
+  padding: 0;
+}
+
+.hero {
+  padding: 0;
+  margin-bottom: 0.3rem;
 }
 
 .main-wrapper main {
   padding: 0 !important;
 }
 
+.title {
+  margin: 0 0 0.75rem;
+}
+
 .subtitle {
   margin: 0;
+  max-width: 740px;
 }
 
 .content {
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 2rem;
-  margin-top: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
 }
 
 @media (max-width: 768px) {
   .grid {
     grid-template-columns: 1fr;
+    gap: 1rem;
   }
 }

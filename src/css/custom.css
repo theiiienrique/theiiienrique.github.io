@@ -19,15 +19,15 @@ body {
 }
 
 :root {
-  --ifm-color-primary: #8b5cf6;
-  --ifm-color-primary-dark: #7c3aed;
-  --ifm-color-primary-darker: #6d28d9;
-  --ifm-color-primary-darkest: #5b21b6;
-  --ifm-color-primary-light: #a78bfa;
-  --ifm-color-primary-lighter: #c4b5fd;
-  --ifm-color-primary-lightest: #ddd6fe;
-  --ifm-color-secondary-accent: #06b6d4;
-  --ifm-color-secondary-accent-dark: #0891b2;
+  --ifm-color-primary: #1d4ed8;
+  --ifm-color-primary-dark: #1e40af;
+  --ifm-color-primary-darker: #1e3a8a;
+  --ifm-color-primary-darkest: #172554;
+  --ifm-color-primary-light: #3b82f6;
+  --ifm-color-primary-lighter: #60a5fa;
+  --ifm-color-primary-lightest: #bfdbfe;
+  --ifm-color-secondary-accent: #0f766e;
+  --ifm-color-secondary-accent-dark: #115e59;
   --docusaurus-highlighted-code-line-bg: #dddfe1;
 }
 
@@ -37,7 +37,7 @@ body {
 }
 
 [data-theme="light"] .DocSearch {
-  --docsearch-primary-color: #8b5cf6;
+  --docsearch-primary-color: #1d4ed8;
   /* --docsearch-text-color: var(--ifm-font-color-base); */
   /* --docsearch-muted-color: var(--ifm-color-secondary-darkest); */
   --docsearch-container-background: rgba(94, 100, 112, 0.7);
@@ -56,18 +56,18 @@ body {
 }
 
 [data-theme="dark"] {
-  --ifm-color-primary: #a78bfa;
-  --ifm-color-primary-dark: #8b5cf6;
-  --ifm-color-primary-darker: #7c3aed;
-  --ifm-color-primary-darkest: #6d28d9;
-  --ifm-color-primary-light: #c4b5fd;
-  --ifm-color-primary-lighter: #ddd6fe;
-  --ifm-color-primary-lightest: #ede9fe;
+  --ifm-color-primary: #93c5fd;
+  --ifm-color-primary-dark: #60a5fa;
+  --ifm-color-primary-darker: #3b82f6;
+  --ifm-color-primary-darkest: #1d4ed8;
+  --ifm-color-primary-light: #bfdbfe;
+  --ifm-color-primary-lighter: #dbeafe;
+  --ifm-color-primary-lightest: #eff6ff;
   --docusaurus-highlighted-code-line-bg: #1c1e24;
 }
 
 [data-theme="dark"] .DocSearch {
-  --docsearch-primary-color: #a78bfa;
+  --docsearch-primary-color: #93c5fd;
   --docsearch-text-color: var(--ifm-font-color-base);
   --docsearch-muted-color: var(--ifm-color-secondary-darkest);
   --docsearch-container-background: rgba(10, 10, 11, 0.7);
@@ -89,6 +89,20 @@ body {
     var(--ifm-color-emphasis-200) 0%,
     var(--ifm-color-emphasis-100) 100%
   );
+}
+
+body {
+  background:
+    radial-gradient(circle at 0% 0%, rgba(56, 189, 248, 0.05), transparent 30%),
+    radial-gradient(circle at 100% 100%, rgba(37, 99, 235, 0.04), transparent 28%),
+    var(--ifm-background-color);
+}
+
+[data-theme="dark"] body {
+  background:
+    radial-gradient(circle at 0% 0%, rgba(14, 165, 233, 0.12), transparent 35%),
+    radial-gradient(circle at 100% 100%, rgba(29, 78, 216, 0.1), transparent 32%),
+    var(--ifm-background-color);
 }
 
 .mdx-wrapper .container {
@@ -122,7 +136,7 @@ body {
   --ifm-hero-text-color: none;
   min-height: 20vh;
   padding: 0 !important;
-  margin: 1rem 0;
+  margin: 0;
 }
 
 #__docusaurus_skipToContent_fallback > main > section {
@@ -130,7 +144,7 @@ body {
 }
 
 .hero__title {
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 
 .hero {
@@ -138,7 +152,17 @@ body {
 }
 
 .main-wrapper main {
-  padding: 1rem;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #ffffff;
+  border-bottom: 1px solid rgba(29, 78, 216, 0.15);
+}
+
+[data-theme="dark"] .navbar {
+  background-color: #0f172a;
+  border-bottom-color: rgba(147, 197, 253, 0.18);
 }
 
 .title_node_modules-\@docusaurus-theme-classic-lib-theme-DocCategoryGeneratedIndexPage-styles-module,
@@ -319,7 +343,7 @@ dd {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding: 4rem 0;
+  padding: 0;
 }
 
 /* navbar */

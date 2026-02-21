@@ -16,7 +16,7 @@ export default function DocCard({ title, description, image, link, tags }) {
   return (
     <Link to={link} className={styles.docCard}>
       <div className={styles.imageContainer}>
-        {image && (
+        {image ? (
           <>
             <img
               ref={imgRef}
@@ -28,6 +28,10 @@ export default function DocCard({ title, description, image, link, tags }) {
             />
             {!imageLoaded && <div className={styles.skeleton} />}
           </>
+        ) : (
+          <div className={styles.noImage}>
+            <span>Documentation Sample</span>
+          </div>
         )}
       </div>
       <div className={styles.content}>
@@ -42,6 +46,9 @@ export default function DocCard({ title, description, image, link, tags }) {
             ))}
           </div>
         )}
+        <div className={styles.footer}>
+          View sample
+        </div>
       </div>
     </Link>
   );

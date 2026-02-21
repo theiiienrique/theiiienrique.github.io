@@ -37,14 +37,14 @@ const FeatureList = [
 
 function Feature({ Svg, title, description }) {
   return (
-    <div className={clsx("col col--4")}>
-      <div className="text--center">
+    <div className={clsx("col col--4", styles.featureCol)}>
+      <article className={styles.featureCard}>
         <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
-      </div>
+        <div className={styles.featureContent}>
+          <Heading as="h3">{title}</Heading>
+          <p>{description}</p>
+        </div>
+      </article>
     </div>
   );
 }
@@ -53,6 +53,9 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
+        <div className={styles.sectionLead}>
+          <p>What I Bring</p>
+        </div>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
