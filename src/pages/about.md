@@ -29,19 +29,24 @@ company: 'Workato',
 roles: [
 {
 title: 'Technical Writer',
-dateRange: 'April 2025–present'
+dateRange: 'April 2025–present',
+description: [
+'Led the migration and restructuring of documentation for an acquired AI support product, transforming legacy content into a clear, goal-based user journey aligned with updated functionality and branding.',
+'Built a reusable Vue-based documentation component to surface platform limits across the docs site, enabling customers to better understand system constraints and self-troubleshoot.',
+'Identify documentation gaps through internal feedback and support questions, developing reusable FAQ content and recommending new documentation to improve self-service.',
+'Collaborate with product managers, engineers, and designers to plan and deliver user-centered documentation aligned with product releases and workflows.'
+]
 },
 {
-title: 'Technical Writing Intern',
-dateRange: 'April 2024–April 2025'
-}
-],
+title: 'Intern, Technical Writing',
+dateRange: 'Apr 2024–Apr 2025',
 description: [
-'Create and maintain product documentation for Workato\'s integration platform, covering features, workflows, and use cases',
-'Partner with engineering and product teams to gather technical requirements and ensure documentation accuracy through reviews',
-'Drive documentation quality improvements by auditing existing content and implementing best practices for clarity, consistency, and user experience',
-'Contribute to documentation standards and style guide development, establishing consistent patterns across the documentation site',
-'Support internal documentation initiatives and provide strategic input on documentation tooling and workflows'
+'Created product, API, and integration documentation including tutorials, FAQs, and feature guides for technical and non-technical users.',
+'Partnered with product managers and engineers to translate PRDs and feature updates into clear documentation.',
+'Tested features and APIs to validate procedures and ensure documentation reflected real user workflows.',
+'Reviewed and edited documentation for clarity, accuracy, and consistency across the docs site.'
+]
+}
 ]
 },
 {
