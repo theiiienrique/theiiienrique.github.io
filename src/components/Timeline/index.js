@@ -16,9 +16,7 @@ export default function Timeline({ items }) {
                     <div key={roleIndex} className={styles.role}>
                       <div className={styles.roleHeader}>
                         <span className={styles.title}>{role.title}</span>
-                        <span className={styles.dateRange}>
-                          {role.dateRange}
-                        </span>
+                        <span className={styles.dateRange}>{role.dateRange}</span>
                       </div>
                       {role.description && role.description.length > 0 && (
                         <ul className={styles.roleDescription}>

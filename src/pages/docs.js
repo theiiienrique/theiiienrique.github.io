@@ -40,6 +40,7 @@ export default function Docs() {
             <article className={`mdx-wrapper ${styles.docsPage}`}>
               <div className="container">
                 <div className={styles.hero}>
+                  <p className="section-label">Samples</p>
                   <h1 className={styles.title}>Documentation samples</h1>
                   <p className={styles.subtitle}>
                     These samples show how I tackle different documentation

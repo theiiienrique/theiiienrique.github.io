@@ -6,6 +6,8 @@ hide_table_of_contents: true
 
 import Timeline from '@site/src/components/Timeline';
 
+<p className="section-label">Profile</p>
+
 # About
 
 I help teams turn complex technical concepts into documentation that actually makes sense. My background spans integration platforms, open-source projects, and large-scale content migrations.
