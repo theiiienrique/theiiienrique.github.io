@@ -1,3 +1,8 @@
+---
+title: Contact
+description: Contact
+---
+
 import ContactForm from '@site/src/components/ContactForm/';
 import styles from './contact.module.css';
 
