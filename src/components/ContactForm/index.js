@@ -46,6 +46,20 @@ function ContactForm() {
           <ValidationError prefix="Email" field="email" errors={state.errors} />
         </div>
         <div className={styles.formGroup}>
+          <label htmlFor="company">Company</label>
+          <input
+            id="company"
+            type="text"
+            name="company"
+            autoComplete="organization"
+          />
+          <ValidationError
+            prefix="Company"
+            field="company"
+            errors={state.errors}
+          />
+        </div>
+        <div className={styles.formGroup}>
           <label htmlFor="message">
             Message<span className={styles.requiredAsterisk}>*</span>
           </label>
