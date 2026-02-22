@@ -1,6 +1,6 @@
 ---
 title: Contact
-description: Contact
+description: Contact Enrique Martinez III to discuss technical writing, documentation strategy, or collaboration opportunities.
 ---
 
 import ContactForm from '@site/src/components/ContactForm/';

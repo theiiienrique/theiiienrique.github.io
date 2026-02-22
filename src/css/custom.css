@@ -153,11 +153,6 @@ body {
   min-height: 2.5rem;
 }
 
-.hero__subtitle .typed-cursor {
-  color: var(--ifm-color-primary);
-  font-weight: 300;
-}
-
 .hero--primary {
   --ifm-hero-background-color: none;
   --ifm-hero-text-color: none;

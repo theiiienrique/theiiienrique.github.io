@@ -1,6 +1,6 @@
 ---
 title: About
-description: About
+description: Learn about Enrique Martinez III, a technical writer specializing in docs-as-code, API documentation, and user-centered product content.
 hide_table_of_contents: true
 ---
 

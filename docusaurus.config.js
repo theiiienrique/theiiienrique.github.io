@@ -78,6 +78,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      image: "img/og-homepage.png",
       algolia: {
         appId: "749TA7V8JC",
         apiKey: "228b1afe8e2f2f99875d6a9c4471252d",
