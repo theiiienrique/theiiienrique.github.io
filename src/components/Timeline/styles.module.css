@@ -184,6 +184,33 @@
   margin-bottom: 0;
 }
 
+@media (max-width: 1100px) {
+  .timeline {
+    padding: 0.7rem 0 1.1rem;
+  }
+
+  .timelineItem {
+    margin-bottom: 1.85rem;
+  }
+
+  .timelineMarker {
+    margin-right: 1.7rem;
+  }
+
+  .timelineContent {
+    padding: 1.35rem;
+  }
+
+  .company h3 {
+    font-size: 1.15rem;
+  }
+
+  .description li,
+  .roleDescription li {
+    line-height: 1.5;
+  }
+}
+
 @media (max-width: 768px) {
   .timelineItem {
     margin-bottom: 1.6rem;
@@ -211,7 +238,60 @@
     gap: 0.25rem;
   }
 
+  .description {
+    margin-top: 0.8rem;
+    padding-left: 1.25rem;
+  }
+
+  .roleDescription {
+    margin-top: 0.45rem;
+    padding-left: 1.25rem;
+  }
+
   .dateRange {
     font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .timelineItem {
+    margin-bottom: 1.3rem;
+  }
+
+  .timelineMarker {
+    width: 14px;
+    height: 14px;
+    margin-right: 1.05rem;
+    margin-top: 0.65rem;
+    box-shadow: 0 0 0 3px rgba(15, 143, 164, 0.18);
+  }
+
+  .timeline::before {
+    left: 6px;
+  }
+
+  .timelineMarker::after {
+    width: 0.75rem;
+  }
+
+  .timelineContent {
+    padding: 1.05rem;
+    border-radius: 0.72rem;
+  }
+
+  .company h3 {
+    font-size: 1.02rem;
+  }
+
+  .title,
+  .dateRange {
+    font-size: 0.9rem;
+  }
+
+  .description li,
+  .roleDescription li {
+    margin-bottom: 0.5rem;
+    font-size: 0.92rem;
+    line-height: 1.45;
   }
 }

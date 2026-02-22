@@ -1,7 +1,7 @@
 .features {
   width: 100vw;
   margin-left: calc(50% - 50vw);
-  padding: 1.8rem 0 4.5rem;
+  padding: 1.55rem 0 3.85rem;
   background: #f4f7fb;
   position: relative;
   overflow: hidden;
@@ -26,6 +26,10 @@
   z-index: 1;
 }
 
+.features :global(.row) {
+  justify-content: center;
+}
+
 [data-theme="dark"] .features {
   background: transparent;
 }
@@ -47,6 +51,8 @@
 
 .featureCol {
   display: flex;
+  flex: 0 0 33.3333%;
+  max-width: 33.3333%;
 }
 
 .featureCard {
@@ -55,7 +61,7 @@
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
-  padding: 1.75rem 1.5rem;
+  padding: 1.65rem 1.4rem;
   border-radius: 0.8rem;
   border: 1px solid rgba(15, 143, 164, 0.24);
   background: linear-gradient(
@@ -95,14 +101,14 @@
 }
 
 .iconBadge {
-  width: 2.7rem;
-  height: 2.7rem;
+  width: 2.55rem;
+  height: 2.55rem;
   display: grid;
   place-items: center;
   border-radius: 0.7rem;
   background: rgba(15, 143, 164, 0.14);
   border: 1px solid rgba(15, 143, 164, 0.3);
-  margin-bottom: 1rem;
+  margin-bottom: 0.9rem;
 }
 
 .featureCardCentered .iconBadge {
@@ -111,27 +117,131 @@
 }
 
 .featureIcon {
-  width: 1.3rem;
-  height: 1.3rem;
+  width: 1.2rem;
+  height: 1.2rem;
   color: var(--ifm-color-primary);
 }
 
 .featureContent h3 {
-  margin: 0 0 0.55rem;
-  font-size: 1.18rem;
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
 }
 
 .featureContent p {
   margin: 0;
   max-width: 36ch;
+  font-size: 0.96rem;
+  line-height: 1.55;
 }
 
 .featureCardCentered .featureContent p {
   max-width: 34ch;
 }
 
-@media (max-width: 996px) {
+@media (max-width: 1200px) {
+  .features {
+    padding: 1.35rem 0 3.3rem;
+  }
+}
+
+@media (max-width: 1100px) {
   .featureCol {
-    margin-bottom: 1rem;
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 0.9rem;
+  }
+}
+
+@media (max-width: 996px) {
+  .features {
+    padding: 1.2rem 0 2.8rem;
+  }
+
+  .sectionLead {
+    margin-bottom: 0.8rem;
+  }
+
+  .sectionLead p {
+    font-size: 0.72rem;
+    letter-spacing: 0.13em;
+  }
+
+  .featureCol {
+    margin-bottom: 0.85rem;
+  }
+
+  .featureCard {
+    padding: 1.4rem 1.2rem;
+  }
+
+  .featureContent h3 {
+    font-size: 1.04rem;
+  }
+
+  .featureContent p {
+    font-size: 0.93rem;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 700px) {
+  .features {
+    padding: 1.05rem 0 2.35rem;
+  }
+
+  .featureCol {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 0.75rem;
+  }
+
+  .featureCard {
+    padding: 1.25rem 1.05rem;
+    border-radius: 0.72rem;
+  }
+
+  .featureCard::before,
+  .featureCard::after {
+    width: 10px;
+    height: 10px;
+  }
+
+  .iconBadge {
+    width: 2.35rem;
+    height: 2.35rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .featureIcon {
+    width: 1.08rem;
+    height: 1.08rem;
+  }
+
+  .featureContent h3 {
+    font-size: 1rem;
+  }
+
+  .featureContent p {
+    max-width: 30ch;
+    font-size: 0.9rem;
+    line-height: 1.45;
+  }
+
+  .featureCardCentered .featureContent p {
+    max-width: 30ch;
+  }
+}
+
+@media (max-width: 420px) {
+  .features {
+    padding: 0.95rem 0 2.1rem;
+  }
+
+  .sectionLead p {
+    font-size: 0.69rem;
+  }
+
+  .featureCard {
+    padding: 1.08rem 0.9rem;
   }
 }

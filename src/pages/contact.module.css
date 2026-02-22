@@ -1,0 +1,26 @@
+.page {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+@media (max-width: 996px) {
+  .inner {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .inner {
+    padding: 0 1rem;
+  }
+}

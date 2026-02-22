@@ -295,6 +295,28 @@ code {
   background: rgba(15, 143, 164, 0.45);
 }
 
+@media (max-width: 996px) {
+  .mdx-wrapper .container {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .mdx-wrapper .container {
+    padding: 0 1rem;
+  }
+
+  .section-label {
+    font-size: 0.72rem;
+    letter-spacing: 0.14em;
+    gap: 0.55rem;
+  }
+
+  .section-label::after {
+    width: 56px;
+  }
+}
+
 .page-grid-motif {
   position: relative;
 }
