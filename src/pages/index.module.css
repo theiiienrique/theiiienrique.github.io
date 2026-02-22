@@ -15,12 +15,12 @@
   margin: 0 0 1.2rem;
   isolation: isolate;
   background:
-    radial-gradient(circle at 90% 10%, rgba(59, 130, 246, 0.14), transparent 48%),
-    radial-gradient(circle at 10% 90%, rgba(14, 116, 144, 0.12), transparent 52%),
+    radial-gradient(circle at 90% 10%, rgba(16, 185, 201, 0.16), transparent 48%),
+    radial-gradient(circle at 10% 90%, rgba(29, 111, 214, 0.14), transparent 52%),
     linear-gradient(
       145deg,
-      rgba(19, 56, 101, 0.93),
-      rgba(21, 42, 84, 0.92)
+      rgba(10, 27, 50, 0.96),
+      rgba(14, 35, 66, 0.95)
     );
 }
 
@@ -48,11 +48,12 @@
 
 .eyebrow {
   margin: 0 0 1rem;
-  letter-spacing: 0.18em;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 0.75rem;
-  color: rgba(207, 228, 255, 0.9);
+  color: rgba(151, 226, 236, 0.96);
+  font-family: "Source Code Pro", monospace;
 }
 
 .title {
@@ -83,13 +84,13 @@
 }
 
 .ghostButton {
-  border: 1px solid rgba(197, 218, 255, 0.55);
-  background: rgba(7, 15, 29, 0.2);
-  color: #e8f1ff;
+  border: 1px solid rgba(103, 207, 221, 0.55);
+  background: rgba(14, 29, 47, 0.25);
+  color: #def8fc;
 }
 
 .ghostButton:hover {
-  background: rgba(238, 246, 255, 0.08);
+  background: rgba(99, 211, 225, 0.12);
   color: #ffffff;
 }
 

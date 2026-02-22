@@ -6,8 +6,8 @@
     var(--ifm-background-surface-color),
     var(--ifm-background-color)
   );
-  border: 1px solid var(--ifm-color-emphasis-200);
-  border-radius: 1rem;
+  border: 1px solid rgba(15, 143, 164, 0.22);
+  border-radius: 0.8rem;
   overflow: hidden;
   transition:
     transform 0.2s ease,
@@ -21,14 +21,14 @@
 
 .docCard:hover {
   transform: translateY(-2px);
-  box-shadow: 0 14px 24px -24px rgba(11, 50, 85, 0.82);
-  border-color: rgba(29, 78, 216, 0.34);
+  box-shadow: 0 14px 24px -24px rgba(8, 43, 64, 0.72);
+  border-color: rgba(15, 143, 164, 0.42);
   text-decoration: none;
 }
 
 [data-theme="dark"] .docCard:hover {
-  border-color: rgba(147, 197, 253, 0.45);
-  box-shadow: 0 14px 24px -24px rgba(6, 30, 52, 0.95);
+  border-color: rgba(103, 207, 221, 0.5);
+  box-shadow: 0 14px 24px -24px rgba(5, 23, 36, 0.95);
 }
 
 .content {
@@ -67,6 +67,7 @@
   text-transform: uppercase;
   color: var(--ifm-color-emphasis-700);
   font-weight: 700;
+  font-family: "Source Code Pro", monospace;
 }
 
 .title {
