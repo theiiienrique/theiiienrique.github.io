@@ -17,12 +17,12 @@
   background:
     radial-gradient(
       circle at 90% 10%,
-      rgba(16, 185, 201, 0.16),
+      rgba(16, 185, 201, 0.23),
       transparent 48%
     ),
     radial-gradient(
       circle at 10% 90%,
-      rgba(29, 111, 214, 0.14),
+      rgba(29, 111, 214, 0.2),
       transparent 52%
     ),
     linear-gradient(145deg, rgba(10, 27, 50, 0.96), rgba(14, 35, 66, 0.95));
@@ -33,10 +33,10 @@
   position: absolute;
   inset: 0;
   background-image:
-    linear-gradient(to right, rgba(255, 255, 255, 0.07) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+    linear-gradient(to right, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
   background-size: 28px 28px;
-  opacity: 0.12;
+  opacity: 0.18;
   pointer-events: none;
 }
 
@@ -45,16 +45,6 @@
   position: relative;
   z-index: 1;
   margin: 0 auto;
-}
-
-.eyebrow {
-  margin: 0 0 1rem;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 0.75rem;
-  color: rgba(151, 226, 236, 0.96);
-  font-family: "Source Code Pro", monospace;
 }
 
 .title {
@@ -103,12 +93,6 @@
 
   .heroInner {
     max-width: 100%;
-  }
-
-  .eyebrow {
-    margin-bottom: 0.75rem;
-    font-size: 0.66rem;
-    letter-spacing: 0.14em;
   }
 
   .title {

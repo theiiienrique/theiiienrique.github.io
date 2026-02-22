@@ -13,7 +13,6 @@ function HomepageHeader() {
   return (
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className={clsx("container", styles.heroInner)}>
-        <p className={styles.eyebrow}>Technical Writing Portfolio</p>
         <Heading as="h1" className={clsx("hero__title", styles.title)}>
           {siteConfig.title}
         </Heading>
