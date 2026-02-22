@@ -22,7 +22,7 @@ function ContactForm() {
         marginRight: "-50vw",
       }}
     >
-      <div style={{ maxWidth: "1000px", margin: "0 auto", padding: "0 2em" }}>
+      <div style={{ maxWidth: "1120px", margin: "0 auto", padding: "0 2em" }}>
         <>
           <p className={styles.formIntro}>
             Have a question or want to work together? Fill out the form below,

@@ -4,15 +4,74 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  padding: 6.5rem 0 6rem;
+  min-height: 56vh;
   text-align: center;
   position: relative;
   overflow: hidden;
+  border-radius: 0;
+  margin: 0 0 1.2rem;
+  isolation: isolate;
+  background:
+    radial-gradient(circle at 90% 10%, rgba(16, 185, 201, 0.16), transparent 48%),
+    radial-gradient(circle at 10% 90%, rgba(29, 111, 214, 0.14), transparent 52%),
+    linear-gradient(
+      145deg,
+      rgba(10, 27, 50, 0.96),
+      rgba(14, 35, 66, 0.95)
+    );
+}
+
+.heroBanner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.07) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+  background-size: 28px 28px;
+  opacity: 0.12;
+  pointer-events: none;
+}
+
+.heroInner {
+  max-width: 900px;
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+}
+
+.eyebrow {
+  margin: 0 0 1rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.75rem;
+  color: rgba(151, 226, 236, 0.96);
+  font-family: "Source Code Pro", monospace;
+}
+
+.title {
+  margin-bottom: 0.65rem;
+  color: #f7fbff;
+  font-size: clamp(2rem, 5vw, 3rem);
+}
+
+.subtitle {
+  margin: 0 auto 1.3rem;
+  color: rgba(230, 240, 255, 0.92);
+  max-width: 660px;
 }
 
 @media screen and (max-width: 996px) {
   .heroBanner {
-    padding: 2rem;
+    min-height: 52vh;
+    padding: 4.2rem 1rem 3.8rem;
   }
 }
 
@@ -20,4 +79,74 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 0.7rem;
+  margin-top: 1.2rem;
+}
+
+.ghostButton {
+  border: 1px solid rgba(103, 207, 221, 0.55);
+  background: rgba(14, 29, 47, 0.25);
+  color: #def8fc;
+}
+
+.ghostButton:hover {
+  background: rgba(99, 211, 225, 0.12);
+  color: #ffffff;
+}
+
+@media (max-width: 640px) {
+  .heroBanner {
+    min-height: 58vh;
+    padding: 2.9rem 0.9rem 2.7rem;
+    margin-bottom: 0.9rem;
+  }
+
+  .heroInner {
+    max-width: 100%;
+  }
+
+  .eyebrow {
+    margin-bottom: 0.75rem;
+    font-size: 0.66rem;
+    letter-spacing: 0.14em;
+  }
+
+  .title {
+    font-size: clamp(2rem, 10vw, 2.6rem);
+    line-height: 1.15;
+    margin-bottom: 0.7rem;
+  }
+
+  .subtitle {
+    margin-bottom: 1.5rem;
+    font-size: 0.98rem;
+    line-height: 1.45;
+  }
+
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.65rem;
+    margin-top: 0;
+  }
+
+  .buttons :global(.button) {
+    width: auto;
+    min-width: 14rem;
+    max-width: 18rem;
+    padding: 0.72rem 1.2rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .heroBanner {
+    min-height: 56vh;
+    padding: 2.35rem 0.85rem 2.2rem;
+  }
+
+  .buttons :global(.button) {
+    min-width: 13rem;
+    max-width: 16.5rem;
+  }
 }

@@ -20,12 +20,22 @@ export default function Timeline({ items }) {
                           {role.dateRange}
                         </span>
                       </div>
+                      {role.description && role.description.length > 0 && (
+                        <ul className={styles.roleDescription}>
+                          {role.description.map((point, pointIndex) => (
+                            <li
+                              key={pointIndex}
+                              dangerouslySetInnerHTML={{ __html: point }}
+                            />
+                          ))}
+                        </ul>
+                      )}
                     </div>
                   ))}
                 </div>
               )}
             </div>
-            {item.description && (
+            {item.description && item.description.length > 0 && (
               <ul className={styles.description}>
                 {item.description.map((point, pointIndex) => (
                   <li

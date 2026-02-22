@@ -43,6 +43,8 @@ const config = {
     locales: ["en"],
   },
 
+  clientModules: [require.resolve("./src/gtag-fallback.js")],
+
   presets: [
     [
       "classic",

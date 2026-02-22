@@ -47,13 +47,13 @@ company: 'The Good Docs Project',
 roles: [
 {
 title: 'Volunteer Technical Writer',
-dateRange: 'July 2023–April 2024'
-}
-],
+dateRange: 'July 2023–April 2024',
 description: [
 'Authored a <a href="/docs/user-stories/user-story-template">user story template</a> and <a href="/docs/user-stories/user-story-guide">implementation guide</a>',
 'Provided reviews for community contributions, focusing on structure, clarity, style consistency, and adherence to documentation standards',
 'Used Vale linting workflows to automate style enforcement and maintain documentation quality at scale'
+]
+}
 ]
 }
 ]} />

@@ -19,15 +19,17 @@ body {
 }
 
 :root {
-  --ifm-color-primary: #8b5cf6;
-  --ifm-color-primary-dark: #7c3aed;
-  --ifm-color-primary-darker: #6d28d9;
-  --ifm-color-primary-darkest: #5b21b6;
-  --ifm-color-primary-light: #a78bfa;
-  --ifm-color-primary-lighter: #c4b5fd;
-  --ifm-color-primary-lightest: #ddd6fe;
-  --ifm-color-secondary-accent: #06b6d4;
-  --ifm-color-secondary-accent-dark: #0891b2;
+  --ifm-color-primary: #0f8fa4;
+  --ifm-color-primary-dark: #0d7f91;
+  --ifm-color-primary-darker: #0b6f7f;
+  --ifm-color-primary-darkest: #095b68;
+  --ifm-color-primary-light: #1ba9bf;
+  --ifm-color-primary-lighter: #4bc2d2;
+  --ifm-color-primary-lightest: #bdeaf0;
+  --ifm-color-secondary-accent: #1d6fd6;
+  --ifm-color-secondary-accent-dark: #1b5cb1;
+  --ifm-background-color: #f4f7fb;
+  --ifm-background-surface-color: #ffffff;
   --docusaurus-highlighted-code-line-bg: #dddfe1;
 }
 
@@ -37,7 +39,7 @@ body {
 }
 
 [data-theme="light"] .DocSearch {
-  --docsearch-primary-color: #8b5cf6;
+  --docsearch-primary-color: #1d4ed8;
   /* --docsearch-text-color: var(--ifm-font-color-base); */
   /* --docsearch-muted-color: var(--ifm-color-secondary-darkest); */
   --docsearch-container-background: rgba(94, 100, 112, 0.7);
@@ -56,18 +58,20 @@ body {
 }
 
 [data-theme="dark"] {
-  --ifm-color-primary: #a78bfa;
-  --ifm-color-primary-dark: #8b5cf6;
-  --ifm-color-primary-darker: #7c3aed;
-  --ifm-color-primary-darkest: #6d28d9;
-  --ifm-color-primary-light: #c4b5fd;
-  --ifm-color-primary-lighter: #ddd6fe;
-  --ifm-color-primary-lightest: #ede9fe;
+  --ifm-color-primary: #67cfdd;
+  --ifm-color-primary-dark: #36bdcf;
+  --ifm-color-primary-darker: #22a8bd;
+  --ifm-color-primary-darkest: #17879a;
+  --ifm-color-primary-light: #88dce7;
+  --ifm-color-primary-lighter: #a8e7ee;
+  --ifm-color-primary-lightest: #d4f4f8;
+  --ifm-background-color: #0b121e;
+  --ifm-background-surface-color: #111b2a;
   --docusaurus-highlighted-code-line-bg: #1c1e24;
 }
 
 [data-theme="dark"] .DocSearch {
-  --docsearch-primary-color: #a78bfa;
+  --docsearch-primary-color: #93c5fd;
   --docsearch-text-color: var(--ifm-font-color-base);
   --docsearch-muted-color: var(--ifm-color-secondary-darkest);
   --docsearch-container-background: rgba(10, 10, 11, 0.7);
@@ -91,8 +95,12 @@ body {
   );
 }
 
+body {
+  background: var(--ifm-background-color);
+}
+
 .mdx-wrapper .container {
-  max-width: 1000px;
+  max-width: 1120px;
   margin: auto;
   padding: 1em 2em;
 }
@@ -122,7 +130,7 @@ body {
   --ifm-hero-text-color: none;
   min-height: 20vh;
   padding: 0 !important;
-  margin: 1rem 0;
+  margin: 0;
 }
 
 #__docusaurus_skipToContent_fallback > main > section {
@@ -130,7 +138,7 @@ body {
 }
 
 .hero__title {
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 
 .hero {
@@ -138,12 +146,23 @@ body {
 }
 
 .main-wrapper main {
-  padding: 1rem;
+  padding: 0;
+}
+
+.navbar {
+  background-color: var(--ifm-background-surface-color);
+  border-bottom: 1px solid rgba(15, 143, 164, 0.25);
+}
+
+[data-theme="dark"] .navbar {
+  background-color: var(--ifm-background-surface-color);
+  border-bottom-color: rgba(103, 207, 221, 0.28);
 }
 
 .title_node_modules-\@docusaurus-theme-classic-lib-theme-DocCategoryGeneratedIndexPage-styles-module,
 .title_kItE {
-  --ifm-h1-font-size: 2.5rem !important;
+  --ifm-h1-font-size: 1.9rem !important;
+  font-size: 1.9rem !important;
 }
 
 .markdown h1:first-child {
@@ -164,6 +183,34 @@ body {
 .markdown > h4 {
   --ifm-h4-font-size: 1.125rem !important;
   font-weight: 500;
+}
+
+/* Tune docs article typography separately from top-level pages. */
+.theme-doc-markdown.markdown > h1:first-child {
+  --ifm-h1-font-size: 1.9rem !important;
+  font-size: 1.9rem !important;
+}
+
+.theme-doc-markdown header h1 {
+  --ifm-h1-font-size: 1.9rem !important;
+  font-size: 1.9rem !important;
+  line-height: 1.2;
+  margin-bottom: 0.75rem;
+}
+
+.theme-doc-markdown.markdown > h2 {
+  --ifm-h2-font-size: 1.6rem !important;
+  font-size: 1.6rem !important;
+}
+
+.theme-doc-markdown.markdown > h3 {
+  --ifm-h3-font-size: 1.3rem !important;
+  font-size: 1.3rem !important;
+}
+
+.theme-doc-markdown.markdown > h4 {
+  --ifm-h4-font-size: 1.05rem !important;
+  font-size: 1.05rem !important;
 }
 
 body,
@@ -319,7 +366,7 @@ dd {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding: 4rem 0;
+  padding: 0;
 }
 
 /* navbar */
