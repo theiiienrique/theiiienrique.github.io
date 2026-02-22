@@ -51,8 +51,8 @@
   border-radius: 0.55rem;
   display: grid;
   place-items: center;
-  background: rgba(59, 130, 246, 0.12);
-  border: 1px solid rgba(59, 130, 246, 0.25);
+  background: rgba(15, 143, 164, 0.14);
+  border: 1px solid rgba(15, 143, 164, 0.3);
 }
 
 .cardIcon {
@@ -95,9 +95,9 @@
 .tag {
   display: inline-block;
   padding: 0.28rem 0.56rem;
-  background: rgba(59, 130, 246, 0.12);
+  background: rgba(15, 143, 164, 0.14);
   color: var(--ifm-color-primary);
-  border: 1px solid rgba(59, 130, 246, 0.25);
+  border: 1px solid rgba(15, 143, 164, 0.3);
   border-radius: 0.55rem;
   font-size: 0.72rem;
   font-weight: 700;
@@ -105,9 +105,9 @@
 }
 
 [data-theme="dark"] .tag {
-  background: rgba(147, 197, 253, 0.16);
+  background: rgba(103, 207, 221, 0.16);
   color: var(--ifm-color-primary-light);
-  border-color: rgba(147, 197, 253, 0.35);
+  border-color: rgba(103, 207, 221, 0.35);
 }
 
 @media (max-width: 768px) {
