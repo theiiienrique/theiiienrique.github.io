@@ -34,7 +34,7 @@ export default function Docs() {
       title="Documentation samples"
       description="Portfolio of technical documentation samples showcasing my writing, process documentation, and docs-as-code expertise"
     >
-      <main className="container container--fluid margin-vert--lg">
+      <main className="container container--fluid margin-vert--lg page-grid-motif page-grid-motif--docs">
         <div className="row">
           <div className="col">
             <article className={`mdx-wrapper ${styles.docsPage}`}>

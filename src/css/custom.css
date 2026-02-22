@@ -295,6 +295,111 @@ code {
   background: rgba(15, 143, 164, 0.45);
 }
 
+.page-grid-motif {
+  position: relative;
+}
+
+.page-grid-motif::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(
+      to right,
+      rgba(15, 143, 164, 0.04) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to bottom, rgba(15, 143, 164, 0.04) 1px, transparent 1px);
+  background-size: 34px 34px;
+  pointer-events: none;
+}
+
+.page-grid-motif::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background: none;
+}
+
+.page-grid-motif > * {
+  position: relative;
+  z-index: 1;
+}
+
+[data-theme="dark"] .page-grid-motif::before {
+  background-image: linear-gradient(
+      to right,
+      rgba(103, 207, 221, 0.035) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      to bottom,
+      rgba(103, 207, 221, 0.035) 1px,
+      transparent 1px
+    );
+}
+
+.page-grid-motif--docs::after {
+  background:
+    linear-gradient(
+      to right,
+      var(--ifm-background-color) 0%,
+      transparent 10%,
+      transparent 90%,
+      var(--ifm-background-color) 100%
+    ),
+    linear-gradient(
+      to bottom,
+      var(--ifm-background-color) 0%,
+      transparent 12%,
+      transparent 90%,
+      var(--ifm-background-color) 100%
+    );
+}
+
+.page-grid-motif--about::after {
+  background:
+    radial-gradient(
+      42% 30% at 100% 0%,
+      var(--ifm-background-color) 0%,
+      transparent 75%
+    ),
+    radial-gradient(
+      34% 28% at 0% 100%,
+      var(--ifm-background-color) 0%,
+      transparent 72%
+    ),
+    linear-gradient(
+      to left,
+      transparent 0%,
+      transparent 88%,
+      var(--ifm-background-color) 100%
+    );
+}
+
+.page-grid-motif--contact::after {
+  background:
+    linear-gradient(
+      to bottom,
+      var(--ifm-background-color) 0%,
+      transparent 16%,
+      transparent 100%
+    ),
+    radial-gradient(
+      36% 26% at 100% 100%,
+      var(--ifm-background-color) 0%,
+      transparent 74%
+    ),
+    linear-gradient(
+      to right,
+      var(--ifm-background-color) 0%,
+      transparent 7%,
+      transparent 93%,
+      var(--ifm-background-color) 100%
+    );
+}
+
 h2,
 h3,
 h4,

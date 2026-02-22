@@ -6,6 +6,8 @@ hide_table_of_contents: true
 
 import Timeline from '@site/src/components/Timeline';
 
+<div className="page-grid-motif page-grid-motif--about">
+
 <p className="section-label">Profile</p>
 
 # About
@@ -86,3 +88,5 @@ dateRange: '2023'
 ## Let's connect
 
 Interested in working together? [Get in touch](/contact) or connect with me on [LinkedIn](https://www.linkedin.com/in/theiiienrique/) and [GitHub](https://github.com/theiiienrique).
+
+</div>
