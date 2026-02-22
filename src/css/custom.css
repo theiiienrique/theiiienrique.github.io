@@ -135,7 +135,7 @@ body {
 .mdx-wrapper .container {
   max-width: 1120px;
   margin: auto;
-  padding: 0em 2em;
+  padding: 0 2.75rem;
 }
 
 .hero__title {
@@ -297,13 +297,13 @@ code {
 
 @media (max-width: 996px) {
   .mdx-wrapper .container {
-    padding: 0 1.5rem;
+    padding: 0 2.5rem;
   }
 }
 
 @media (max-width: 640px) {
   .mdx-wrapper .container {
-    padding: 0 1rem;
+    padding: 0 1.75rem;
   }
 
   .section-label {

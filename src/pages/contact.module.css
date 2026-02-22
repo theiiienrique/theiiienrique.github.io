@@ -10,17 +10,17 @@
 .inner {
   max-width: 1120px;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 2.75rem;
 }
 
 @media (max-width: 996px) {
   .inner {
-    padding: 0 1.5rem;
+    padding: 0 2.5rem;
   }
 }
 
 @media (max-width: 640px) {
   .inner {
-    padding: 0 1rem;
+    padding: 0 1.75rem;
   }
 }
