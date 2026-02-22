@@ -22,14 +22,27 @@ function ContactForm() {
           <label htmlFor="name">
             Name<span className={styles.requiredAsterisk}>*</span>
           </label>
-          <input id="name" type="text" name="name" required />
+          <input
+            id="name"
+            type="text"
+            name="name"
+            autoComplete="name"
+            required
+          />
           <ValidationError prefix="Name" field="name" errors={state.errors} />
         </div>
         <div className={styles.formGroup}>
           <label htmlFor="email">
             Email address<span className={styles.requiredAsterisk}>*</span>
           </label>
-          <input id="email" type="email" name="email" required />
+          <input
+            id="email"
+            type="email"
+            name="email"
+            autoComplete="email"
+            inputMode="email"
+            required
+          />
           <ValidationError prefix="Email" field="email" errors={state.errors} />
         </div>
         <div className={styles.formGroup}>

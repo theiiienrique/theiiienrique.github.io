@@ -189,10 +189,11 @@ body {
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.06);
 }
 
-.title_node_modules-\@docusaurus-theme-classic-lib-theme-DocCategoryGeneratedIndexPage-styles-module,
-.title_kItE {
+.doc-category-generated-index-page-title {
   --ifm-h1-font-size: 1.9rem !important;
   font-size: 1.9rem !important;
+  line-height: 1.2;
+  margin-bottom: 0.75rem;
 }
 
 .markdown h1:first-child {
