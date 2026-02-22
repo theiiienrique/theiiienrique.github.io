@@ -1,6 +1,6 @@
 .section {
   scroll-margin-top: calc(var(--ifm-navbar-height) + 1.25rem);
-  margin-bottom: clamp(1.8rem, 4vw, 3rem);
+  margin-bottom: clamp(1.25rem, 3vw, 2.2rem);
 }
 
 .content {

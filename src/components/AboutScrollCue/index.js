@@ -69,7 +69,7 @@ export default function AboutScrollCue({ sectionIds = [] }) {
   return (
     <button
       type="button"
-      className={styles.scrollCue}
+      className={`${styles.scrollCue} ${isAtEnd ? styles.scrollCueToTop : ""}`}
       onClick={scrollToNextSection}
       aria-label={isAtEnd ? "Back to top" : "Scroll to next section"}
     >

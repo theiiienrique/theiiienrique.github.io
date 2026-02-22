@@ -26,6 +26,17 @@
   border-color: rgba(15, 143, 164, 0.62);
 }
 
+.scrollCueToTop {
+  color: #ffffff;
+  background: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+}
+
+.scrollCueToTop:hover {
+  background: var(--ifm-color-primary-dark);
+  border-color: var(--ifm-color-primary-dark);
+}
+
 .arrow {
   font-size: 1.15rem;
   line-height: 1;
