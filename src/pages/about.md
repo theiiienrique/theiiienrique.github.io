@@ -16,7 +16,7 @@ import AboutScrollCue from '@site/src/components/AboutScrollCue';
 
 # About
 
-I help teams turn complex technical concepts into documentation that actually makes sense. My background spans integration platforms, open-source projects, and large-scale content migrations.
+I help teams turn complex technical concepts into clear, user-focused documentation. My background spans integration platforms, open-source projects, and large-scale content migrations.
 
 Currently, I create and maintain product documentation at Workato, where I collaborate closely with engineering and product teams to deliver accurate, actionable content for developers and business users.
 </AboutSection>
