@@ -46,9 +46,6 @@ export default function DocCard({ title, description, image, link, tags }) {
             ))}
           </div>
         )}
-        <div className={styles.footer}>
-          View sample
-        </div>
       </div>
     </Link>
   );

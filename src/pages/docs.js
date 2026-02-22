@@ -37,7 +37,7 @@ export default function Docs() {
       <main className="container container--fluid margin-vert--lg">
         <div className="row">
           <div className="col">
-            <article className="mdx-wrapper">
+            <article className={`mdx-wrapper ${styles.docsPage}`}>
               <div className="container">
                 <div className={styles.hero}>
                   <h1 className={styles.title}>Documentation samples</h1>

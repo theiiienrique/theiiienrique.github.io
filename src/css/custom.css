@@ -96,7 +96,7 @@ body {
 }
 
 .mdx-wrapper .container {
-  max-width: 1000px;
+  max-width: 1120px;
   margin: auto;
   padding: 1em 2em;
 }
@@ -178,6 +178,23 @@ body {
 .markdown > h4 {
   --ifm-h4-font-size: 1.125rem !important;
   font-weight: 500;
+}
+
+/* Tune docs article typography separately from top-level pages. */
+.theme-doc-markdown > h1 {
+  --ifm-h1-font-size: 2.15rem !important;
+}
+
+.theme-doc-markdown > h2 {
+  --ifm-h2-font-size: 1.6rem !important;
+}
+
+.theme-doc-markdown > h3 {
+  --ifm-h3-font-size: 1.3rem !important;
+}
+
+.theme-doc-markdown > h4 {
+  --ifm-h4-font-size: 1.05rem !important;
 }
 
 body,

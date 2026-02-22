@@ -61,7 +61,7 @@
 }
 
 .role {
-  padding-top: 0.5rem;
+  padding-top: 0.4rem;
 }
 
 .roleHeader {
@@ -70,7 +70,7 @@
   align-items: baseline;
   flex-wrap: wrap;
   gap: 1rem;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.2rem;
 }
 
 .title {
@@ -94,6 +94,12 @@
   list-style-type: disc;
 }
 
+.roleDescription {
+  margin: 0.55rem 0 0 0;
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
+
 .description li {
   margin-bottom: 0.75rem;
   color: var(--ifm-font-color-base);
@@ -101,6 +107,16 @@
 }
 
 .description li:last-child {
+  margin-bottom: 0;
+}
+
+.roleDescription li {
+  margin-bottom: 0.6rem;
+  color: var(--ifm-font-color-base);
+  line-height: 1.55;
+}
+
+.roleDescription li:last-child {
   margin-bottom: 0;
 }
 
