@@ -42,28 +42,37 @@
 
 .submitButton {
   display: inline-block;
-  padding: 0.8rem 1.5rem;
-  font-size: 1rem;
-  font-weight: bold;
-  color: #fff;
-  background-color: var(--ifm-color-primary);
-  border: none;
-  border-radius: 8px;
+  padding: 0.78rem 1.45rem;
+  font-size: 0.98rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: var(--ifm-color-primary-darkest);
+  background: rgba(15, 143, 164, 0.12);
+  border: 1px solid rgba(15, 143, 164, 0.36);
+  border-radius: 0.6rem;
   cursor: pointer;
   font-family: inherit;
-  transition: background-color 0.2s;
+  transition:
+    background-color 0.2s,
+    border-color 0.2s,
+    transform 0.2s ease;
 }
 
 .submitButton:hover {
-  background-color: var(--ifm-color-primary-dark);
+  background: rgba(15, 143, 164, 0.2);
+  border-color: rgba(15, 143, 164, 0.55);
+  transform: translateY(-1px);
 }
 
 html[data-theme="dark"] .submitButton {
-  background-color: var(--ifm-color-primary-dark);
+  color: var(--ifm-color-primary-light);
+  background: rgba(103, 207, 221, 0.16);
+  border-color: rgba(103, 207, 221, 0.42);
 }
 
 html[data-theme="dark"] .submitButton:hover {
-  background-color: var(--ifm-color-primary-darker);
+  background: rgba(103, 207, 221, 0.24);
+  border-color: rgba(103, 207, 221, 0.56);
 }
 
 html[data-theme="dark"] .formGroup input,
