@@ -37,8 +37,8 @@ const FeatureList = [
     Icon: DocsIcon,
     description: (
       <>
-        I create clear, comprehensive documentation that helps users
-        succeed—from product guides to API references to technical how-tos.
+        I create clear, practical documentation that helps users
+        succeed, from product guides and API references to technical how-tos.
       </>
     ),
   },
@@ -47,8 +47,8 @@ const FeatureList = [
     Icon: CodeIcon,
     description: (
       <>
-        I build modern documentation systems with Git workflows, static site
-        generators, automated linting, and CI/CD pipelines.
+        I design and maintain documentation systems using Git workflows,
+        static site tooling, linting, and CI/CD-supported publishing.
       </>
     ),
   },
@@ -57,8 +57,8 @@ const FeatureList = [
     Icon: TeamIcon,
     description: (
       <>
-        I partner with engineering, product, and design teams to deliver
-        accurate, actionable content that drives adoption.
+        I partner with engineering, product, and design to deliver accurate,
+        actionable content that supports product adoption.
       </>
     ),
   },
