@@ -8,6 +8,8 @@ tags:
 
 # WordPress uploading guide
 
+<img src="/img/wordpress.png" alt="WordPress uploading guide preview" class="sample-doc-preview" loading="lazy" />
+
 ## About this sample
 
 This guide was written for the editors of [Palaver Arts Magazine](https://dornsife.usc.edu/palaver/), an online arts publication at the University of Southern California.

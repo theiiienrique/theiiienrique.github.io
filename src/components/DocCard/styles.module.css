@@ -19,6 +19,37 @@
   position: relative;
 }
 
+.thumbnailWrap {
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(15, 143, 164, 0.22);
+  background: rgba(7, 24, 37, 0.05);
+}
+
+.thumbnail {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  display: block;
+}
+
+.thumbnailLight {
+  display: block;
+}
+
+.thumbnailDark {
+  display: none;
+}
+
+:global(html[data-theme="dark"]) .thumbnailLight {
+  display: none;
+}
+
+:global(html[data-theme="dark"]) .thumbnailDark {
+  display: block;
+}
+
 .docCard::before,
 .docCard::after {
   content: "";
@@ -129,10 +160,31 @@
   letter-spacing: 0.02em;
 }
 
+.tagInteractive {
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.tagInteractive:hover,
+.tagInteractive:focus-visible {
+  background: rgba(15, 143, 164, 0.2);
+  border-color: rgba(15, 143, 164, 0.45);
+  outline: none;
+}
+
 [data-theme="dark"] .tag {
   background: rgba(103, 207, 221, 0.16);
   color: var(--ifm-color-primary-light);
   border-color: rgba(103, 207, 221, 0.35);
+}
+
+[data-theme="dark"] .tagInteractive:hover,
+[data-theme="dark"] .tagInteractive:focus-visible {
+  background: rgba(103, 207, 221, 0.24);
+  border-color: rgba(103, 207, 221, 0.5);
 }
 
 @media (max-width: 768px) {

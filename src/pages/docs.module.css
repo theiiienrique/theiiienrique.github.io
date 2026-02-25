@@ -4,7 +4,7 @@
 
 .hero {
   padding: 0;
-  margin-bottom: 0;
+  margin-bottom: 0.2rem;
 }
 
 .title {
@@ -12,12 +12,30 @@
 }
 
 .subtitle {
-  margin: 0 0 2rem;
-  max-width: 64ch;
+  margin: 0 0 1.8rem;
+  line-height: 1.6;
 }
 
 .content {
-  padding-bottom: 2rem;
+  padding-bottom: 2.1rem;
+}
+
+.content + .content {
+  padding-top: 0.2rem;
+}
+
+.sectionHeader {
+  margin-bottom: 1.05rem;
+}
+
+.sectionHeader h2 {
+  margin: 0 0 0.45rem;
+  font-size: 1.35rem;
+}
+
+.sectionHeader p {
+  margin: 0;
+  line-height: 1.55;
 }
 
 .grid {
@@ -33,7 +51,7 @@
   }
 
   .subtitle {
-    margin-bottom: 1.55rem;
+    margin-bottom: 1.5rem;
     font-size: 0.98rem;
     line-height: 1.55;
   }
@@ -50,7 +68,11 @@
   }
 
   .content {
-    padding-bottom: 1.5rem;
+    padding-bottom: 1.45rem;
+  }
+
+  .sectionHeader {
+    margin-bottom: 0.85rem;
   }
 }
 
@@ -64,7 +86,7 @@
   }
 
   .subtitle {
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.15rem;
     font-size: 0.94rem;
     line-height: 1.45;
   }
@@ -72,6 +94,10 @@
   .grid {
     grid-template-columns: 1fr;
     gap: 1.1rem;
+  }
+
+  .sectionHeader h2 {
+    font-size: 1.22rem;
   }
 }
 
