@@ -10,15 +10,8 @@ tags:
 
 # Platform limits docs system
 
-<div className="sample-page">
-
-<div className="sample-meta" aria-label="Sample metadata">
-  <span className="sample-meta-pill"><strong>Type:</strong> Docs-as-code</span>
-  <span className="sample-meta-pill"><strong>Scope:</strong> Multi-page docs system</span>
-  <span className="sample-meta-pill"><strong>Last reviewed:</strong> February 2026</span>
-</div>
-
-<img src="/samples/platform-limits-top.png" alt="Platform limits documentation preview" class="sample-doc-preview" loading="lazy" />
+![Platform limits documentation preview](/samples/platform-limits-top.png)
+_Platform limits documentation preview_
 
 ## About this sample
 
@@ -36,5 +29,3 @@ I worked with software engineers for code review and optimization, and the model
 ## Live documentation
 
 - Live doc: [Platform limits](https://docs.workato.com/en/limits.html)
-
-</div>

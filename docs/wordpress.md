@@ -8,7 +8,8 @@ tags:
 
 # WordPress uploading guide
 
-<img src="/img/wordpress.png" alt="WordPress uploading guide preview" class="sample-doc-preview" loading="lazy" />
+![WordPress uploading guide preview](/img/wordpress.png)
+_WordPress uploading guide preview_
 
 ## About this sample
 

@@ -9,15 +9,8 @@ tags:
 
 # Embedded API environment management
 
-<div className="sample-page">
-
-<div className="sample-meta" aria-label="Sample metadata">
-  <span className="sample-meta-pill"><strong>Type:</strong> API reference</span>
-  <span className="sample-meta-pill"><strong>Scope:</strong> Multi-page reference set</span>
-  <span className="sample-meta-pill"><strong>Last reviewed:</strong> February 2026</span>
-</div>
-
-<img src="/samples/embedded-api-environment-management-top.png" alt="Embedded API environment management documentation preview" class="sample-doc-preview" loading="lazy" />
+![Embedded API environment management documentation preview](/samples/embedded-api-environment-management-top.png)
+_Embedded API environment management documentation preview_
 
 ## About this sample
 
@@ -35,5 +28,3 @@ The work emphasized depth where examples were especially helpful, including acti
 
 - Live doc: [Environment management API reference](https://docs.workato.com/en/oem/oem-api/environment-management.html)
 - Related page: [Activity reference](https://docs.workato.com/en/oem/oem-api/activity-reference.html)
-
-</div>

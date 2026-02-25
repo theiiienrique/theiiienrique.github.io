@@ -8,15 +8,8 @@ tags:
 
 # Performance Copilot docs
 
-<div className="sample-page">
-
-<div className="sample-meta" aria-label="Sample metadata">
-  <span className="sample-meta-pill"><strong>Type:</strong> Feature docs</span>
-  <span className="sample-meta-pill"><strong>Scope:</strong> Feature page</span>
-  <span className="sample-meta-pill"><strong>Last reviewed:</strong> February 2026</span>
-</div>
-
-<img src="/samples/performance-copilot-top.png" alt="Performance Copilot documentation preview" class="sample-doc-preview" loading="lazy" />
+![Performance Copilot documentation preview](/samples/performance-copilot-top.png)
+_Performance Copilot documentation preview_
 
 ## About this sample
 
@@ -27,5 +20,3 @@ I focused on keeping the content clear and useful: when the feature runs, what i
 ## Live documentation
 
 - Live doc: [Performance Copilot](https://docs.workato.com/en/recipes/performance-copilot.html)
-
-</div>
