@@ -634,6 +634,73 @@ img {
   margin: 0 0 1.1rem;
 }
 
+.theme-doc-markdown .sample-page {
+  margin-top: 0.25rem;
+}
+
+.theme-doc-markdown .sample-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0 0 0.85rem;
+}
+
+.theme-doc-markdown .sample-meta-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.32rem;
+  padding: 0.24rem 0.56rem;
+  border-radius: 999px;
+  border: 1px solid rgba(15, 143, 164, 0.28);
+  background: rgba(15, 143, 164, 0.11);
+  font-size: 0.78rem;
+  line-height: 1.2;
+  color: var(--ifm-font-color-base);
+}
+
+.theme-doc-markdown .sample-meta-pill strong {
+  font-weight: 700;
+  color: var(--ifm-color-primary);
+}
+
+.theme-doc-markdown .sample-page .sample-doc-preview {
+  margin: 0 0 1.35rem;
+}
+
+.theme-doc-markdown .sample-page h2 {
+  margin-top: 1.85rem;
+  margin-bottom: 0.62rem;
+}
+
+.theme-doc-markdown .sample-page p {
+  line-height: 1.64;
+}
+
+.theme-doc-markdown .sample-page ul {
+  margin-top: 0.45rem;
+}
+
+@media (max-width: 768px) {
+  .theme-doc-markdown .sample-meta {
+    gap: 0.4rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .theme-doc-markdown .sample-meta-pill {
+    font-size: 0.73rem;
+    padding: 0.2rem 0.5rem;
+  }
+
+  .theme-doc-markdown .sample-page .sample-doc-preview {
+    margin-bottom: 1.15rem;
+  }
+
+  .theme-doc-markdown .sample-page h2 {
+    margin-top: 1.55rem;
+    margin-bottom: 0.56rem;
+  }
+}
+
 .theme-doc-markdown .sample-doc-preview--dark {
   display: none;
 }

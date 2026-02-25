@@ -9,6 +9,14 @@ tags:
 
 # AgentX Support migration
 
+<div className="sample-page">
+
+<div className="sample-meta" aria-label="Sample metadata">
+  <span className="sample-meta-pill"><strong>Type:</strong> Feature docs</span>
+  <span className="sample-meta-pill"><strong>Scope:</strong> Multi-page migration</span>
+  <span className="sample-meta-pill"><strong>Last reviewed:</strong> February 2026</span>
+</div>
+
 <img src="/samples/agentx-support-top.png" alt="AgentX Support documentation preview" class="sample-doc-preview" loading="lazy" />
 
 ## About this sample
@@ -20,3 +28,5 @@ The work required independent verification in product, careful information archi
 ## Live documentation
 
 - Live doc: [AgentX Support](https://docs.workato.com/en/agentic/agentx-support.html)
+
+</div>

@@ -8,6 +8,14 @@ tags:
 
 # Calculated column function references
 
+<div className="sample-page">
+
+<div className="sample-meta" aria-label="Sample metadata">
+  <span className="sample-meta-pill"><strong>Type:</strong> Reference docs</span>
+  <span className="sample-meta-pill"><strong>Scope:</strong> Multi-page function references</span>
+  <span className="sample-meta-pill"><strong>Last reviewed:</strong> February 2026</span>
+</div>
+
 <img src="/samples/calculated-column-functions-top.png" alt="Calculated column function documentation preview" class="sample-doc-preview" loading="lazy" />
 
 ## About this sample
@@ -20,3 +28,5 @@ I built a reusable input field component to present examples in a format that mi
 
 - Primary live doc: [String functions](https://docs.workato.com/en/insights/string-functions.html)
 - Related pages: [Datetime functions](https://docs.workato.com/en/insights/datetime-functions.html#current-date), [Math functions](https://docs.workato.com/en/insights/math-functions.html)
+
+</div>
