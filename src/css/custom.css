@@ -675,3 +675,12 @@ div[class*="tabItem"] {
   padding: 2rem !important;
   /* background-color: var(--ifm-background-color); */
 }
+
+/* Ensure zoomed images render above fixed UI like the navbar */
+.medium-zoom-overlay {
+  z-index: 2000 !important;
+}
+
+.medium-zoom-image--opened {
+  z-index: 2001 !important;
+}
