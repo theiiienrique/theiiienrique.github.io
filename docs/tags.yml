@@ -1,12 +1,32 @@
-vale:
-  label: "vale"
-  permalink: "/vale"
-  description: "Docs related to Vale"
-how-to:
-  label: "how-to"
-  permalink: "/how-to"
-  description: "How-to guides"
-wordpress:
-  label: "wordpress"
-  permalink: "/wordpress"
-  description: "WordPress"
+"migration":
+  label: Migration
+
+"feature docs":
+  label: Feature docs
+
+"api docs":
+  label: API docs
+
+"reference":
+  label: Reference
+
+"docs-as-code":
+  label: Docs-as-code
+
+"tooling":
+  label: Tooling
+
+"template":
+  label: Template
+
+"open source":
+  label: Open source
+
+"how-to":
+  label: How-to
+
+"vale":
+  label: Vale
+
+"wordpress":
+  label: WordPress

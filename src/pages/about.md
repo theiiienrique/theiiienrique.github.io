@@ -18,7 +18,7 @@ import AboutScrollCue from '@site/src/components/AboutScrollCue';
 
 I help teams turn complex technical concepts into clear, user-focused documentation. My background spans integration platforms, open-source projects, and large-scale content migrations.
 
-Currently, I create and maintain product documentation at Workato, where I collaborate closely with engineering and product teams to deliver accurate, actionable content for developers and business users.
+I create and maintain product documentation in close collaboration with engineering and product teams to deliver accurate, actionable content for developers and business users.
 </AboutSection>
 
 <AboutSection id="about-core">
@@ -41,8 +41,8 @@ roles: [
 title: 'Technical Writer',
 dateRange: 'April 2025–present',
 description: [
-'Led the migration and restructuring of documentation for an acquired AI support product, transforming legacy content into a clear, goal-based user journey aligned with updated functionality and branding.',
-'Built a reusable Vue-based documentation component to surface platform limits across the docs site, enabling customers to better understand system constraints and self-troubleshoot.',
+'Led the migration and restructuring of documentation for a major AI support product area, transforming legacy content into a clear, goal-based user journey aligned with updated functionality and branding. <a href="/docs/samples/agentx-support-migration">See sample</a>.',
+'Built a reusable Vue-based documentation component to surface platform limits across the docs site, enabling customers to better understand system constraints and self-troubleshoot. <a href="/docs/samples/platform-limits-system">See sample</a>.',
 'Identified documentation gaps through internal feedback and support questions, developing reusable FAQ content and recommending new documentation to improve self-service.',
 'Collaborate with product managers, engineers, and designers to plan and deliver user-centered documentation aligned with product releases and workflows.'
 ]
@@ -51,7 +51,7 @@ description: [
 title: 'Intern, Technical Writing',
 dateRange: 'Apr 2024–Apr 2025',
 description: [
-'Created product, API, and integration documentation including tutorials, FAQs, and feature guides for technical and non-technical users.',
+'Created product, API, and integration documentation including tutorials, FAQs, and feature guides for technical and non-technical users. <a href="/docs/samples/performance-copilot-feature-docs">Feature sample</a> and <a href="/docs/samples/embedded-api-environment-management">API sample</a>.',
 'Partnered with product managers and engineers to translate PRDs and feature updates into clear documentation.',
 'Tested features and APIs to validate procedures and ensure documentation reflected real user workflows.',
 'Reviewed and edited documentation for clarity, accuracy, and consistency across the docs site.'

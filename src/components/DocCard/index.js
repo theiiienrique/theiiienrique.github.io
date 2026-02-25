@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "@docusaurus/Link";
+import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
 
 function GuideIcon(props) {
@@ -41,7 +42,20 @@ function TemplateIcon(props) {
   );
 }
 
-function getCardMeta({ title, tags = [] }) {
+const META_BY_KIND = {
+  guide: { label: "Guide", Icon: GuideIcon },
+  reference: { label: "Reference", Icon: GuideIcon },
+  tooling: { label: "Tooling", Icon: ToolIcon },
+  template: { label: "Template", Icon: TemplateIcon },
+};
+
+function resolveCardMeta({ kind, title, tags = [] }) {
+  const normalizedKind = typeof kind === "string" ? kind.trim().toLowerCase() : null;
+
+  if (normalizedKind && META_BY_KIND[normalizedKind]) {
+    return META_BY_KIND[normalizedKind];
+  }
+
   const joined = `${title} ${tags.join(" ")}`.toLowerCase();
 
   if (joined.includes("template") || joined.includes("user story")) {
@@ -55,11 +69,47 @@ function getCardMeta({ title, tags = [] }) {
   return { label: "Guide", Icon: GuideIcon };
 }
 
-export default function DocCard({ title, description, link, tags }) {
-  const { label, Icon } = getCardMeta({ title, tags });
+export default function DocCard({
+  title,
+  description,
+  link,
+  tags,
+  thumbnail,
+  thumbnailLight,
+  thumbnailDark,
+  kind,
+  onTagClick,
+}) {
+  const { label, Icon } = resolveCardMeta({ kind, title, tags });
+  const resolvedThumbnail = thumbnail ? useBaseUrl(thumbnail) : null;
+  const resolvedThumbnailLight = thumbnailLight ? useBaseUrl(thumbnailLight) : null;
+  const resolvedThumbnailDark = thumbnailDark ? useBaseUrl(thumbnailDark) : null;
 
   return (
     <Link to={link} className={styles.docCard}>
+      {(resolvedThumbnail || resolvedThumbnailLight || resolvedThumbnailDark) && (
+        <div className={styles.thumbnailWrap} aria-hidden="true">
+          {resolvedThumbnailLight && (
+            <img
+              src={resolvedThumbnailLight}
+              alt=""
+              className={`${styles.thumbnail} ${styles.thumbnailLight}`}
+              loading="lazy"
+            />
+          )}
+          {resolvedThumbnailDark && (
+            <img
+              src={resolvedThumbnailDark}
+              alt=""
+              className={`${styles.thumbnail} ${styles.thumbnailDark}`}
+              loading="lazy"
+            />
+          )}
+          {!resolvedThumbnailLight && !resolvedThumbnailDark && resolvedThumbnail && (
+            <img src={resolvedThumbnail} alt="" className={styles.thumbnail} loading="lazy" />
+          )}
+        </div>
+      )}
       <div className={styles.content}>
         <div className={styles.cardTop}>
           <div className={styles.iconBadge} aria-hidden="true">
@@ -72,7 +122,32 @@ export default function DocCard({ title, description, link, tags }) {
         {tags && (
           <div className={styles.tags}>
             {tags.map((tag, index) => (
-              <span key={index} className={styles.tag}>
+              <span
+                key={index}
+                className={`${styles.tag} ${onTagClick ? styles.tagInteractive : ""}`}
+                onClick={
+                  onTagClick
+                    ? (event) => {
+                        event.preventDefault();
+                        event.stopPropagation();
+                        onTagClick(tag);
+                      }
+                    : undefined
+                }
+                onKeyDown={
+                  onTagClick
+                    ? (event) => {
+                        if (event.key === "Enter" || event.key === " ") {
+                          event.preventDefault();
+                          event.stopPropagation();
+                          onTagClick(tag);
+                        }
+                      }
+                    : undefined
+                }
+                role={onTagClick ? "button" : undefined}
+                tabIndex={onTagClick ? 0 : undefined}
+              >
                 {tag}
               </span>
             ))}
