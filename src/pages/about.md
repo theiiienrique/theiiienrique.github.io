@@ -42,7 +42,7 @@ title: 'Technical Writer',
 dateRange: 'April 2025–present',
 description: [
 'Led the migration and restructuring of documentation for a major AI support product area, transforming legacy content into a clear, goal-based user journey aligned with updated functionality and branding. <a href="/docs/samples/agentx-support-migration">See sample</a>.',
-'Built reusable documentation components to surface platform limits across the docs site, helping users better understand system constraints and self-serve. <a href="/docs/samples/platform-limits-system">See sample</a>.',
+'Designed and implemented reusable documentation components to surface platform limits across the docs site, using AI assistance in early prototyping and refining the solution with engineering review. <a href="/docs/samples/platform-limits-system">See sample</a>.',
 'Identified documentation gaps and developed reusable FAQ content, recommending new documentation to improve self-service.',
 'Collaborate with product managers, engineers, and designers to plan and deliver user-centered documentation aligned with product releases and workflows.'
 ]
