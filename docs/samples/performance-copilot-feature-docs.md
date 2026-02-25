@@ -8,7 +8,8 @@ tags:
 
 # Performance Copilot docs
 
-<img src="/samples/performance-copilot-top.png" alt="Performance Copilot documentation preview" class="sample-doc-preview" loading="lazy" />
+![Performance Copilot documentation preview](/samples/performance-copilot-top.png)
+_Performance Copilot documentation preview_
 
 ## About this sample
 

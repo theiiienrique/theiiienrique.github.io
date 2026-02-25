@@ -9,7 +9,8 @@ tags:
 
 # Embedded API environment management
 
-<img src="/samples/embedded-api-environment-management-top.png" alt="Embedded API environment management documentation preview" class="sample-doc-preview" loading="lazy" />
+![Embedded API environment management documentation preview](/samples/embedded-api-environment-management-top.png)
+_Embedded API environment management documentation preview_
 
 ## About this sample
 

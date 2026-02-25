@@ -463,23 +463,11 @@ circle {
   border-radius: 0.5rem;
   height: auto;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
-  transition:
-    transform 0.2s ease,
-    box-shadow 0.2s ease;
 }
 
 [data-theme="dark"] .markdown img {
   border-color: #3a3a3a;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-}
-
-.markdown img:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.06);
-}
-
-[data-theme="dark"] .markdown img:hover {
-  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.2);
 }
 
 article > ul > li {
@@ -624,28 +612,6 @@ img {
   display: block; /* Centers images */
 }
 
-.theme-doc-markdown .sample-doc-preview {
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-  object-position: top;
-  border-radius: 0.8rem;
-  border: 1px solid rgba(15, 143, 164, 0.22);
-  margin: 0 0 1.1rem;
-}
-
-.theme-doc-markdown .sample-doc-preview--dark {
-  display: none;
-}
-
-html[data-theme="dark"] .theme-doc-markdown .sample-doc-preview--light {
-  display: none;
-}
-
-html[data-theme="dark"] .theme-doc-markdown .sample-doc-preview--dark {
-  display: block;
-}
-
 .MuiStepContent-root {
   padding-left: 1.5rem !important;
   border-left: 1px solid var(--ifm-toc-border-color) !important;
@@ -708,4 +674,13 @@ html[data-theme="dark"] .theme-doc-markdown .sample-doc-preview--dark {
 div[class*="tabItem"] {
   padding: 2rem !important;
   /* background-color: var(--ifm-background-color); */
+}
+
+/* Ensure zoomed images render above fixed UI like the navbar */
+.medium-zoom-overlay {
+  z-index: 2000 !important;
+}
+
+.medium-zoom-image--opened {
+  z-index: 2001 !important;
 }

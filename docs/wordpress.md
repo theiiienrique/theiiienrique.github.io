@@ -2,13 +2,15 @@
 sidebar_position: 1
 description: Learn how to use WordPress to upload new content.
 tags:
+  - migration
   - how-to
   - wordpress
 ---
 
 # WordPress uploading guide
 
-<img src="/img/wordpress.png" alt="WordPress uploading guide preview" class="sample-doc-preview" loading="lazy" />
+![WordPress uploading guide preview](/img/wordpress.png)
+_WordPress uploading guide preview_
 
 ## About this sample
 

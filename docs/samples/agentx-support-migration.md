@@ -9,7 +9,8 @@ tags:
 
 # AgentX Support migration
 
-<img src="/samples/agentx-support-top.png" alt="AgentX Support documentation preview" class="sample-doc-preview" loading="lazy" />
+![AgentX Support documentation preview](/samples/agentx-support-top.png)
+_AgentX Support documentation preview_
 
 ## About this sample
 
