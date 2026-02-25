@@ -2,6 +2,7 @@
 sidebar_position: 1
 description: Learn how to use WordPress to upload new content.
 tags:
+  - migration
   - how-to
   - wordpress
 ---

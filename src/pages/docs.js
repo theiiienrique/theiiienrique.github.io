@@ -63,7 +63,7 @@ export default function Docs() {
       link: "/docs/wordpress",
       kind: "guide",
       thumbnail: "/img/wordpress.png",
-      tags: ["how-to", "wordpress"],
+      tags: ["migration", "how-to", "wordpress"],
     },
     {
       title: "Add Vale to your repository",
