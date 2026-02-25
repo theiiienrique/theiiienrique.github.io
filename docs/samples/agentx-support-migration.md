@@ -15,7 +15,7 @@ tags:
 
 This page covers a substantial AgentX Support documentation migration delivered during a period of product evolution. I updated and reorganized customer-facing content so terminology, workflows, and navigation matched the live experience.
 
-The work required independent verification in product, careful information architecture decisions, and consistent editorial standards across related content. It reflects how I handle complex documentation scope and produce clear guidance for a high-visibility area of a public docs site.
+The work required independent verification in product, careful information architecture decisions, and consistent editorial standards across related content. It reflects how I handle complex documentation scope and produce clear guidance for a key area of a public docs site.
 
 ## Live documentation
 
