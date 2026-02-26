@@ -78,12 +78,22 @@ export default function Docs() {
     {
       title: "User story template",
       description:
-        "An open template and guide for writing clear, usable user stories with agile documentation best practices.",
+        "A reusable user story template for writing clear, structured stories aligned with agile documentation practices.",
       link: "/docs/user-stories/user-story-template",
       kind: "template",
       thumbnailLight: "/samples/user-story-template-dark.png",
       thumbnailDark: "/samples/user-story-template-light.png",
-      tags: ["template", "open source"],
+      tags: ["template", "open source", "user stories"],
+    },
+    {
+      title: "User story guide",
+      description:
+        "A practical companion guide that explains how to use the template, write acceptance criteria, and estimate scope.",
+      link: "/docs/user-stories/user-story-guide",
+      kind: "guide",
+      thumbnailLight: "/samples/user-story-guide-light.png",
+      thumbnailDark: "/samples/user-story-guide-dark.png",
+      tags: ["guide", "open source", "user stories"],
     },
   ];
 

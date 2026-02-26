@@ -1,9 +1,17 @@
 ---
 sidebar_position: 3
 description: Learn how to complete the user story template.
+tags:
+  - guide
+  - open source
+  - user stories
 ---
 
 # User story guide
+
+## About this sample
+
+I created this guide while contributing to The Good Docs Project as a companion to the [user story template](user-story-template.md). It shows how I structure instructional documentation to help teams apply a template consistently and turn guidance into repeatable practice.
 
 ## What's a user story?
 

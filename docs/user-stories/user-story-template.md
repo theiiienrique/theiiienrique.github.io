@@ -4,13 +4,14 @@ description: Write a user story.
 tags:
   - template
   - open source
+  - user stories
 ---
 
 # User story template
 
 ## About this sample
 
-I developed this user story template and accompanying guide while contributing to The Good Docs Project. It remained an independent portfolio sample and reflects my approach to clear, reusable templates for cross-functional teams.
+I created this template while contributing to The Good Docs Project. It is paired with the [user story guide](user-story-guide.md) and shows how I design reusable documentation assets that help cross-functional teams write clear, consistent user stories.
 
 ## Template
 

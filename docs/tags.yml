@@ -19,8 +19,14 @@
 "template":
   label: Template
 
+"guide":
+  label: Guide
+
 "open source":
   label: Open source
+
+"user stories":
+  label: User stories
 
 "how-to":
   label: How-to
