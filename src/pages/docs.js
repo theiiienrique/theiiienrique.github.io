@@ -119,7 +119,17 @@ export default function Docs() {
 
                 <div className={styles.content}>
                   <div className={styles.sectionHeader}>
-                    <h2>Featured professional work</h2>
+                    <h2 id="featured-professional-work">
+                      Featured professional work
+                      <a
+                        className="hash-link"
+                        aria-label="Direct link to Featured professional work"
+                        title="Direct link to Featured professional work"
+                        href="#featured-professional-work"
+                      >
+                        &#8203;
+                      </a>
+                    </h2>
                     <p>
                       Public product documentation samples from my professional
                       work, each with its own context page.
@@ -138,7 +148,17 @@ export default function Docs() {
 
                 <div className={styles.content}>
                   <div className={styles.sectionHeader}>
-                    <h2>Additional samples</h2>
+                    <h2 id="additional-samples">
+                      Additional samples
+                      <a
+                        className="hash-link"
+                        aria-label="Direct link to Additional samples"
+                        title="Direct link to Additional samples"
+                        href="#additional-samples"
+                      >
+                        &#8203;
+                      </a>
+                    </h2>
                     <p>
                       Earlier and open-source samples that show process
                       documentation, style tooling, and template design.
