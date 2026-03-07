@@ -26,10 +26,10 @@ function HomepageHeader() {
         </p>
         <div className={styles.buttons}>
           <Link className="button button--secondary button--lg" to="/docs">
-            View my work
+            View samples
           </Link>
-          <Link className={clsx("button button--lg", styles.ghostButton)} to="/about">
-            About me
+          <Link className={clsx("button button--lg", styles.ghostButton)} to="/contact">
+            Contact me
           </Link>
         </div>
       </div>
