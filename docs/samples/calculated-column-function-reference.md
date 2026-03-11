@@ -13,7 +13,7 @@ _Calculated column function documentation preview_
 
 ## About this sample
 
-This sample covers calculated column function reference pages developed in collaboration with another writer and product manager. The content is structured so users can quickly read, compare, and reference functions across categories.
+This sample covers calculated column function reference pages developed in collaboration with a product manager. The content is structured so users can quickly read, compare, and reference functions across categories.
 
 It uses a reusable input field component pattern to present examples in a format that mirrors the product UI. After early prototyping, the structure and formatting were refined for clarity and consistency so examples and function details are easier to follow in a reference context.
 
