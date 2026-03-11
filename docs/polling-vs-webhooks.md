@@ -16,9 +16,9 @@ Integrations often need to respond when something happens in another application
 
 APIs usually expose a way for other systems to detect and process these events. Two common approaches are **polling** and **webhooks**.
 
-With polling, the receiving system checks the API on a schedule to see whether anything new or updated is available. With webhooks, the API sends an HTTP request to a configured endpoint when an event occurs.
+With polling, the client checks the API on a schedule to see whether anything new or updated is available. With webhooks, the API sends an HTTP request to a configured endpoint when an event occurs.
 
-Both approaches solve the same basic problem, but they come with different tradeoffs. The main differences show up in data freshness, efficiency, reliability, and system complexity. Understanding those tradeoffs helps when deciding how an integration should receive events.
+Both approaches solve the same basic problem, but they come with different tradeoffs in data freshness, efficiency, reliability, and system complexity. Understanding those tradeoffs helps when deciding how an integration should receive events.
 
 ## How polling works
 
