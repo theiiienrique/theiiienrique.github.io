@@ -10,13 +10,15 @@ sidebar_label: Polling vs. webhooks
 This article presents a conceptual explanation of polling and webhooks in API integrations. It is included here as a concept-writing sample focused on explaining technical tradeoffs, system behavior, and design decisions in a clear, structured way.
 :::
 
-Modern software systems often need to react when events occur in other applications. For example, a recruiting platform might notify another system when a candidate submits an application, or a payment platform might trigger a workflow when a transaction is completed.
+## Overview
 
-APIs typically provide mechanisms that allow external systems to detect and process these events. Two common approaches are **polling** and **webhooks**.
+Integrations often need to respond when something happens in another application. For example, a recruiting platform might notify another system when a candidate submits an application, or a payment platform might trigger a workflow when a transaction is completed.
 
-Polling follows a pull-based model where a client periodically checks an API for new or updated information. Webhooks use a push-based model in which the API sends an HTTP request to a configured endpoint when an event occurs.
+APIs usually expose a way for other systems to detect and process these events. Two common approaches are **polling** and **webhooks**.
 
-While both approaches enable systems to respond to events, they differ in important ways. Polling and webhooks represent tradeoffs in data freshness, efficiency, reliability, and system complexity. Understanding these tradeoffs helps developers choose the most appropriate model when designing integrations.
+With polling, the receiving system checks the API on a schedule to see whether anything new or updated is available. With webhooks, the API sends an HTTP request to a configured endpoint when an event occurs.
+
+Both approaches solve the same basic problem, but they come with different tradeoffs. The main differences show up in data freshness, efficiency, reliability, and system complexity. Understanding those tradeoffs helps when deciding how an integration should receive events.
 
 ## How polling works
 
