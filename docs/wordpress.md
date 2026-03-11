@@ -9,10 +9,6 @@ tags:
 
 # WordPress uploading guide
 
-<!--
-![WordPress uploading guide preview](/img/wordpress.png)
-_WordPress uploading guide preview_ -->
-
 :::note About this sample
 This guide was written for the editors of [Palaver Arts Magazine](https://dornsife.usc.edu/palaver/), an online arts publication at the University of Southern California.
 
@@ -20,8 +16,6 @@ It was created during Palaver's migration from Squarespace to WordPress, where I
 
 To support consistency and ease of use, I also created reusable WordPress templates for common post and page types. This documentation follows the [Google developer documentation style guide](https://developers.google.com/style) and was linted using [Vale](https://vale.sh/) to ensure clarity and consistency.
 :::
-
-The following sections describe the standard publishing workflow for Palaver Arts Magazine.
 
 ## Upload image and media files
 
