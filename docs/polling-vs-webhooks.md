@@ -1,14 +1,14 @@
 ---
 sidebar_position: 1
-title: Polling vs webhooks
-sidebar_label: Polling vs webhooks
+title: Polling vs. webhooks in API integrations
+sidebar_label: Polling vs. webhooks
 ---
 
-# Polling versus webhooks: designing event delivery in API integrations
+# Polling versus webhooks in API integrations
 
-This article explains what polling and webhooks are, how they work in API integrations, and the tradeoffs between them.
-
-## Introduction
+:::note About this sample
+This article presents a conceptual explanation of polling and webhooks in API integrations. It is included here as a concept-writing sample focused on explaining technical tradeoffs, system behavior, and design decisions in a clear, structured way.
+:::
 
 Modern software systems often need to react when events occur in other applications. For example, a recruiting platform might notify another system when a candidate submits an application, or a payment platform might trigger a workflow when a transaction is completed.
 
