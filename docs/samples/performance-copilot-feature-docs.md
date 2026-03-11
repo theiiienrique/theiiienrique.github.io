@@ -13,9 +13,9 @@ _Performance Copilot documentation preview_
 
 ## About this sample
 
-This page covers the Performance Copilot documentation. I wrote it to explain how the feature scores recipes, what the suggestions mean, and how users can apply those suggestions in practice.
+This sample covers the Performance Copilot documentation. It explains how the feature scores recipes, what the suggestions mean, and how users can apply those suggestions in practice.
 
-I focused on keeping the content clear and useful: when the feature runs, what it evaluates, and how to interpret and act on the output. It reflects my approach to writing practical feature docs that help users make decisions in the product.
+The content focuses on when the feature runs, what it evaluates, and how to interpret and act on the output.
 
 ## Live documentation
 

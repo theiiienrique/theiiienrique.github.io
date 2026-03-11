@@ -10,11 +10,11 @@ tags:
 # WordPress uploading guide
 
 :::note About this sample
-This guide was written for the editors of [Palaver Arts Magazine](https://dornsife.usc.edu/palaver/), an online arts publication at the University of Southern California.
+This guide was created for the editors of [Palaver Arts Magazine](https://dornsife.usc.edu/palaver/), an online arts publication at the University of Southern California.
 
-It was created during Palaver's migration from Squarespace to WordPress, where I migrated approximately **270 posts** and documented publishing workflows to support long-term adoption by future editorial teams. The guide is still used by the organization several years after the migration.
+It was developed during Palaver's migration from Squarespace to WordPress and documents the publishing workflow used to manage new content. The migration included approximately **270 posts**, along with reusable templates for common post and page types.
 
-To support consistency and ease of use, I also created reusable WordPress templates for common post and page types. This documentation follows the [Google developer documentation style guide](https://developers.google.com/style) and was linted using [Vale](https://vale.sh/) to ensure clarity and consistency.
+The guide is intended to support consistency for future editorial teams working in WordPress.
 :::
 
 ## Upload image and media files

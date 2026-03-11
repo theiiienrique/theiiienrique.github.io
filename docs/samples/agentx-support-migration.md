@@ -14,9 +14,9 @@ _AgentX Support documentation preview_
 
 ## About this sample
 
-This page covers a substantial AgentX Support documentation migration delivered during a period of product evolution. I updated and reorganized customer-facing content so terminology, workflows, and navigation matched the live experience.
+This sample covers an AgentX Support documentation migration completed during a period of product evolution. Customer-facing content was updated and reorganized so terminology, workflows, and navigation matched the live experience.
 
-The work required independent verification in product, careful information architecture decisions, and consistent editorial standards across related content. It reflects how I handle complex documentation scope and produce clear guidance for a key area of a public docs site.
+The work required independent verification in product, information architecture decisions across related content, and consistent editorial standards throughout the migration.
 
 ## Live documentation
 

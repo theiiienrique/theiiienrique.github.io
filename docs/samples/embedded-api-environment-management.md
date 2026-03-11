@@ -14,9 +14,9 @@ _Embedded API environment management documentation preview_
 
 ## About this sample
 
-This page covers Embedded API reference documentation across related endpoints and activity records, developed in partnership with a product manager. I authored and aligned these pages so developers could navigate key actions and understand how endpoint behavior connects across the API surface.
+This sample covers Embedded API reference documentation across related endpoints and activity records, developed in partnership with a product manager. The pages were structured to help developers move between key actions and understand how endpoint behavior connects across the API surface.
 
-The work emphasized depth where examples were especially helpful, including activity audit log use cases and tag operations. I focused on practical request and response detail while keeping terminology and structure consistent across the reference set.
+The documentation emphasizes practical request and response detail in areas where examples are especially useful, including activity audit log use cases and tag operations. Terminology and structure are kept consistent across the reference set.
 
 ## Why this worked
 

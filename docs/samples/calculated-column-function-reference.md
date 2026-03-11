@@ -13,9 +13,9 @@ _Calculated column function documentation preview_
 
 ## About this sample
 
-This page covers calculated column function reference pages developed in collaboration with my manager and a product manager. I focused on how the content is structured and presented so users can quickly read, compare, and reference functions across categories.
+This sample covers calculated column function reference pages developed in collaboration with another writer and product manager. The content is structured so users can quickly read, compare, and reference functions across categories.
 
-I implemented a reusable input field component pattern to present examples in a format that mirrors the product UI. I used AI assistance during early prototyping, then refined the structure and formatting for clarity and consistency. While example content came from PM input, I handled the documentation formatting and page-level consistency so examples and function details were easier to follow in a reference context.
+It uses a reusable input field component pattern to present examples in a format that mirrors the product UI. After early prototyping, the structure and formatting were refined for clarity and consistency so examples and function details are easier to follow in a reference context.
 
 ## Live documentation
 
