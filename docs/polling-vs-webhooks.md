@@ -76,47 +76,19 @@ Example events that might trigger webhooks include:
 - event payloads
 - near real-time workflows -->
 
-## System design tradeoffs
+## Comparing polling and webhooks
 
-### Data freshness
+The following table summarizes the main differences between polling and webhooks across common integration considerations.
 
-Polling retrieves updates based on a defined interval. This means there may be a delay between when an event occurs and when it's detected.
-
-Webhooks deliver events when they occur, allowing integrations to react more quickly.
-
-### Efficiency and API usage
-
-Polling can generate many API requests that return no new data. If the polling interval is short, this may lead to unnecessary API traffic.
-
-Webhooks avoid this problem by sending requests only when events occur.
-
-### Event volume and batching
-
-When events occur at high frequency, polling may allow systems to process multiple updates in batches rather than handling each event individually.
-
-Example:
-
-A system syncing Salesforce records into Snowflake might periodically request all records updated since the last sync rather than triggering an event for every record update.
-
-### Infrastructure requirements
-
-Webhooks require the receiving system to expose a publicly accessible endpoint that can receive HTTP requests.
-
-Polling only requires the ability to call an API endpoint.
-
-## Reliability and failure recovery
-
-Webhook-based systems must consider how events are processed when they arrive. If an event fails during processing, the receiving system may need mechanisms to retry or replay the event.
-
-Some platforms support retries or allow workflows to be re-run when failures occur.
-
-Polling can sometimes recover more naturally from transient failures. If a polling cycle fails, the next cycle may still retrieve the same records depending on how the API exposes updated data.
-
-<!-- Notes / ideas to expand:
-
-- transient failures
-- retry mechanisms
-- idempotent processing -->
+| Consideration | Polling | Webhooks |
+| --- | --- | --- |
+| Event delivery | The receiving system checks the API on a schedule. | The API sends an event when something happens. |
+| Data freshness | Updates arrive based on the polling interval, so there may be a delay. | Updates are sent when the event occurs, so they are usually available sooner. |
+| Efficiency and API usage | May generate repeated requests even when no new data is available. | Sends requests only when an event occurs. |
+| Event volume and batching | Can work well for batch processing when many records need to be retrieved together. | Often handles events one at a time as they occur. |
+| Infrastructure requirements | Only requires the ability to call an API endpoint. | Requires a reachable endpoint that can receive HTTP requests. |
+| Reliability and failure recovery | A later polling cycle may still retrieve missed records, depending on the API design. | Often depends on retry behavior, replay support, or the receiving system's error handling. |
+| Best fit | Scheduled syncs, batch updates, or systems with simpler infrastructure. | Near real-time automations and event-driven workflows. |
 
 ## Use cases
 
@@ -127,16 +99,6 @@ A recruiting platform such as Greenhouse might send webhook events when a candid
 ### Data warehouse synchronization
 
 Operational systems such as Salesforce often sync data into analytics platforms such as Snowflake. In these scenarios, you can use polling to periodically retrieve updated records and process them in batches.
-
-## Choosing the right model
-
-| Consideration    | Polling                     | Webhooks                    |
-| ---------------- | --------------------------- | --------------------------- |
-| Event delivery   | Client checks API           | API sends events            |
-| Timing           | Interval-based              | Near real-time              |
-| Efficiency       | May generate extra requests | Only triggered by events    |
-| Infrastructure   | Simple                      | Requires endpoint           |
-| Failure recovery | Often retry on next poll    | Depends on retries / replay |
 
 ## Conclusion
 
