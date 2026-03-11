@@ -9,11 +9,9 @@ tags:
 
 # Add Vale to your repository
 
-## About this sample
-
+:::note About this sample
 I created this guide as a practical writing sample focused on docs tooling. It walks through setting up Vale in a repository with clear, repeatable steps and editor integration guidance.
-
-## Guide
+:::
 
 This guide explains how to install [Vale](https://vale.sh/) and the [Vale VS Code extension](https://marketplace.visualstudio.com/items?itemName=ChrisChinchilla.vale-vscode) in your repository.
 

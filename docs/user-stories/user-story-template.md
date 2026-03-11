@@ -9,11 +9,9 @@ tags:
 
 # User story template
 
-## About this sample
-
+:::note About this sample
 I created this template while contributing to The Good Docs Project. It is paired with the [user story guide](user-story-guide.md) and shows how I design reusable documentation assets that help cross-functional teams write clear, consistent user stories.
-
-## Template
+:::
 
 If you need more information about how to fill in this template, read the accompanying [user story guide](user-story-guide.md).
 
