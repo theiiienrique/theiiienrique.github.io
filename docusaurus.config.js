@@ -28,6 +28,11 @@ const config = {
   deploymentBranch: "gh-pages",
 
   onBrokenLinks: "throw",
+  future: {
+    experimental_storage: {
+      namespace: true,
+    },
+  },
 
   markdown: {
     mermaid: true,
