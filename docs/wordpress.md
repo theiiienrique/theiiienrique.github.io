@@ -9,22 +9,15 @@ tags:
 
 # WordPress uploading guide
 
-![WordPress uploading guide preview](/img/wordpress.png)
-_WordPress uploading guide preview_
+:::note About this sample
+This guide was created for the editors of [Palaver Arts Magazine](https://dornsife.usc.edu/palaver/), an online arts publication at the University of Southern California.
 
-## About this sample
+It was developed during Palaver's migration from Squarespace to WordPress and documents the publishing workflow used to manage new content. The migration included approximately **270 posts**, along with reusable templates for common post and page types.
 
-This guide was written for the editors of [Palaver Arts Magazine](https://dornsife.usc.edu/palaver/), an online arts publication at the University of Southern California.
+The guide is intended to support consistency for future editorial teams working in WordPress.
+:::
 
-It was created during Palaver’s migration from Squarespace to WordPress, where I migrated approximately **270 posts** and documented publishing workflows to support long-term adoption by future editorial teams. The guide is still used by the organization several years after the migration.
-
-To support consistency and ease of use, I also created reusable WordPress templates for common post and page types. This documentation follows the [Google developer documentation style guide](https://developers.google.com/style) and was linted using [Vale](https://vale.sh/) to ensure clarity and consistency.
-
-## Guide
-
-The following sections describe the standard publishing workflow for Palaver Arts Magazine.
-
-### Upload image and media files
+## Upload image and media files
 
 To upload new image and media files, complete the following steps:
 
@@ -80,7 +73,7 @@ Click **Close**.
 
 </Stepper>
 
-### Create a new category
+## Create a new category
 
 Posts on the Palaver website are organized by issue using categories.
 
@@ -112,7 +105,7 @@ Click **Add new category**.
 
 </Stepper>
 
-### Create a new post
+## Create a new post
 
 To create a new post:
 

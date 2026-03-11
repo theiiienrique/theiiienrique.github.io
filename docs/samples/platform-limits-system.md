@@ -15,9 +15,9 @@ _Platform limits documentation preview_
 
 ## About this sample
 
-This page covers the platform limits documentation system, built as part of a broader effort to make limits easier to maintain and keep consistent across the docs site. I designed a single-source YAML model and implemented reusable limit components so limit values can be updated once and reused wherever they appear.
+This sample covers a platform limits documentation system built to make limits easier to maintain and keep consistent across the docs site. It uses a single-source YAML model and reusable limit components so values can be updated once and reused wherever they appear.
 
-I used AI assistance during early prototyping, then refined the implementation and content model with engineering review and optimization. The model now supports limits content used across roughly 100 pages. This reduced the risk of one-off edits drifting out of sync, and made corrections straightforward when limits change. Other writers on the team now maintain the shared data file and use the components when adding or updating limits.
+After early prototyping, the implementation and content model were refined with engineering review and optimization. The model now supports limits content used across roughly 100 pages, reduces the risk of one-off edits drifting out of sync, and makes corrections straightforward when limits change.
 
 ## Why this worked
 
