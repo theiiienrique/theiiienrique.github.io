@@ -43,7 +43,7 @@ export default function Home() {
   return (
     <Layout
       title={`Home`}
-      description="Technical writer portfolio featuring docs-as-code workflows, API and product documentation samples, and writing systems built by Enrique Martinez III."
+      description="Technical writer portfolio featuring docs-as-code workflows, public writing samples, and documentation systems built by Enrique Martinez III."
     >
       <div className="homepage">
         <HomepageHeader />

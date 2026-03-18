@@ -41,8 +41,8 @@ roles: [
 title: 'Technical Writer',
 dateRange: 'April 2025–present',
 description: [
-'Led the migration and restructuring of documentation for a major AI support product area, transforming legacy content into a clear, goal-based user journey aligned with updated functionality and branding. <a href="/docs/samples/agentx-support-migration">See sample</a>.',
-'Designed and implemented reusable documentation components to surface platform limits across the docs site, using AI assistance in early prototyping and refining the solution with engineering review. <a href="/docs/samples/platform-limits-system">See sample</a>.',
+'Led the migration and restructuring of documentation for a major AI support product area, transforming legacy content into a clear, goal-based user journey aligned with updated functionality and branding.',
+'Designed and implemented reusable documentation components to surface platform limits across the docs site, using AI assistance in early prototyping and refining the solution with engineering review.',
 'Identified documentation gaps and developed reusable FAQ content, recommending new documentation to improve self-service.',
 'Collaborate with product managers, engineers, and designers to plan and deliver user-centered documentation aligned with product releases and workflows.'
 ]
@@ -51,7 +51,7 @@ description: [
 title: 'Intern, Technical Writing',
 dateRange: 'Apr 2024–Apr 2025',
 description: [
-'Created product, API, and integration documentation including tutorials, FAQs, and feature guides for technical and non-technical users. <a href="/docs/samples/performance-copilot-feature-docs">Feature sample</a> and <a href="/docs/samples/embedded-api-environment-management">API sample</a>.',
+'Created product, API, and integration documentation including tutorials, FAQs, and feature guides for technical and non-technical users.',
 'Partnered with product managers and engineers to translate PRDs and feature updates into clear documentation.',
 'Tested features and APIs to validate procedures and ensure documentation reflected real user workflows.',
 'Reviewed and edited documentation for clarity, accuracy, and consistency across the docs site.'
